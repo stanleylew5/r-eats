@@ -4,7 +4,6 @@ import json
 from datetime import datetime, timedelta
 from urllib.parse import quote
 
-# URL Template
 BASE_URL = "https://foodpro.ucr.edu/foodpro/shortmenu.aspx?sName=University+of+California%2c+Riverside+Dining+Services&locationNum={location_num}&locationName={location_name}&naFlag=1&WeeksMenus=This+Week%27s+Menus&myaction=read&dtdate={date}"
 
 DINING_HALLS = [
@@ -25,23 +24,35 @@ def fetch_menu(location_num, location_name, date):
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-    # Check if page content is actually present
-    if not soup.find("div", class_="col-1of1"):
+    if not soup.find("div", class_="shortmenucats"):
         print(f"⚠️ Warning: No menu found for {location_name} on {date}")
         return None
 
-    meal_sections = soup.find_all("div", class_="shortmenucats")
+    # Extract all meal sections
+    columns = soup.find_all("td", class_="shortmenuMealCell")
     menu_data = {}
 
-    for section in meal_sections:
-        meal_type = section.find("div", class_="shortmenumealheader").text.strip()
+    for column in columns:
+        mealTime = column.find("h3", class_="shortmenumeals").text.strip()
+        menu_data[mealTime] = {}
+        stations = column.find_all("div", class_="shortmenucats")
+        for station in stations:
+            area = station.text.strip()
+            menu_data[mealTime][area] = {}
+
+    # Process each meal section
+    """for section in meal_sections:
+        # Extract meal type (e.g., Breakfast, Sweets & Treats)
+        meal_type = section.find_previous("h3", class_="shortmenumeals").text.strip()
         menu_data[meal_type] = {}
 
+        # Extract individual stations within the meal type
         sub_sections = section.find_all("div", class_="shortmenugroup")
         for sub_section in sub_sections:
             sub_location_name = sub_section.find("div", class_="shortmenugrouptitle").text.strip()
             menu_data[meal_type][sub_location_name] = []
 
+            # Extract food items in each station
             food_items = sub_section.find_all("tr", class_="shortmenuItemRow")
             for item in food_items:
                 food_name = item.find("a").text.strip()
@@ -49,7 +60,7 @@ def fetch_menu(location_num, location_name, date):
                 menu_data[meal_type][sub_location_name].append({
                     "name": food_name,
                     "attributes": attributes
-                })
+                }) """
 
     return menu_data
 
@@ -57,7 +68,7 @@ def fetch_menu(location_num, location_name, date):
 lothian = {}
 glasgow = {}
 
-for i in range(14):
+for i in range(4):
     date = (datetime.today() + timedelta(days=i)).strftime("%m/%d/%Y")
     lothian[date] = {}
     glasgow[date] = {}
