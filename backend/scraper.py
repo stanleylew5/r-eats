@@ -35,40 +35,30 @@ def fetch_menu(location_num, location_name, date):
     for column in columns:
         mealTime = column.find("h3", class_="shortmenumeals").text.strip()
         menu_data[mealTime] = {}
-        stations = column.find_all("div", class_="shortmenucats")
-        for station in stations:
-            area = station.text.strip()
-            menu_data[mealTime][area] = {}
 
-    # Process each meal section
-    """for section in meal_sections:
-        # Extract meal type (e.g., Breakfast, Sweets & Treats)
-        meal_type = section.find_previous("h3", class_="shortmenumeals").text.strip()
-        menu_data[meal_type] = {}
+        station = None
+        food_items = []
 
-        # Extract individual stations within the meal type
-        sub_sections = section.find_all("div", class_="shortmenugroup")
-        for sub_section in sub_sections:
-            sub_location_name = sub_section.find("div", class_="shortmenugrouptitle").text.strip()
-            menu_data[meal_type][sub_location_name] = []
-
-            # Extract food items in each station
-            food_items = sub_section.find_all("tr", class_="shortmenuItemRow")
-            for item in food_items:
-                food_name = item.find("a").text.strip()
-                attributes = [img["alt"] for img in item.find_all("img", class_="menuIcon")]
-                menu_data[meal_type][sub_location_name].append({
-                    "name": food_name,
-                    "attributes": attributes
-                }) """
+        for tr in column.find_all("tr"):
+            station_div = tr.find("div", class_="shortmenucats")
+            if station_div:
+                if station and food_items:
+                    menu_data[mealTime][station] = food_items
+                station = station_div.text.strip()
+                food_items = []
+            food_item = tr.find("a")
+            if food_item:
+                food_name = food_item.text.strip()
+                food_items.append(food_name)
+        if station and food_items:
+            menu_data[mealTime][station] = food_items
 
     return menu_data
 
-# Fetch data for the next 14 days
 lothian = {}
 glasgow = {}
 
-for i in range(4):
+for i in range(2):
     date = (datetime.today() + timedelta(days=i)).strftime("%m/%d/%Y")
     lothian[date] = {}
     glasgow[date] = {}
@@ -81,7 +71,6 @@ for i in range(4):
             if hall["num"] == "03":
                 glasgow[date][hall["name"]] = menu
 
-# Save to a JSON file
 with open("lothian.json", "w") as f:
     json.dump(lothian, f, indent=4)
 
