@@ -58,7 +58,7 @@ def fetch_menu(location_num, location_name, date):
 lothian = {}
 glasgow = {}
 
-for i in range(2):
+for i in range(14):
     date = (datetime.today() + timedelta(days=i)).strftime("%m/%d/%Y")
     lothian[date] = {}
     glasgow[date] = {}
