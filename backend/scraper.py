@@ -28,7 +28,6 @@ def fetch_menu(location_num, location_name, date):
         print(f"⚠️ Warning: No menu found for {location_name} on {date}")
         return None
 
-    # Extract all meal sections
     columns = soup.find_all("td", class_="shortmenuMealCell")
     menu_data = {}
 
