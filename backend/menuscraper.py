@@ -31,14 +31,14 @@ def fetch_menu(location_num, location_name, date):
     columns = soup.find_all("td", class_="shortmenuMealCell")
     menu_data = {}
 
-    for column in columns:
+    for column in columns: # This is for each column/meal time
         mealTime = column.find("h3", class_="shortmenumeals").text.strip()
         menu_data[mealTime] = {}
 
         station = None
         food_items = []
 
-        for tr in column.find_all("tr"):
+        for tr in column.find_all("tr"): # Each tr is a station like Wok Kitchen 
             station_div = tr.find("div", class_="shortmenucats")
             if station_div:
                 if station and food_items:
@@ -48,7 +48,19 @@ def fetch_menu(location_num, location_name, date):
             food_item = tr.find("a")
             if food_item:
                 food_name = food_item.text.strip()
-                food_items.append(food_name)
+                # Find dietary icons right after the food item
+            dietary_div = tr.find("div", class_="menuItemPieceIcons")
+            dietary_options = []
+            if dietary_div:
+                for icon in dietary_div.find_all("img", class_="menuIcon"):
+                    alt_text = icon.get("alt", "").strip()
+                    if alt_text:
+                        dietary_options.append(alt_text)
+            food_items.append({
+                "name": food_name,
+                "dietary": dietary_options
+            })
+            
         if station and food_items:
             menu_data[mealTime][station] = food_items
 
