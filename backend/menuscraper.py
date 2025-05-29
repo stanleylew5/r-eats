@@ -42,7 +42,7 @@ def fetch_menu(location_num, location_name, date):
 
         for tr in column.find_all("tr"): # Each tr is a station like Wok Kitchen 
             station_div = tr.find("div", class_="shortmenucats")
-            if station_div:
+            if station_div: # if the food station exists...
                 if station and food_items:
                     menu_data[mealTime][station] = food_items
                 station = station_div.text.strip()
@@ -107,4 +107,3 @@ with open("foodDietaryMap.json", "w") as f:
     json.dump(food_dietary_map, f, indent=4)
 
 print("Menu data for 14 days saved to lothian.json and glasgow.json")
-print("De-duplicated food dietary map saved to foodDietaryMap.json")
