@@ -4,6 +4,8 @@ import json
 from datetime import datetime, timedelta
 from urllib.parse import quote
 
+food_dietary_map = {}
+
 BASE_URL = "https://foodpro.ucr.edu/foodpro/shortmenu.aspx?sName=University+of+California%2c+Riverside+Dining+Services&locationNum={location_num}&locationName={location_name}&naFlag=1&WeeksMenus=This+Week%27s+Menus&myaction=read&dtdate={date}"
 
 DINING_HALLS = [
@@ -45,21 +47,34 @@ def fetch_menu(location_num, location_name, date):
                     menu_data[mealTime][station] = food_items
                 station = station_div.text.strip()
                 food_items = []
-            food_item = tr.find("a")
-            if food_item:
+            for wrapper in tr.find_all("div", class_="menuItemWrapper"):
+                # Get the food name
+                food_name_div = wrapper.find("div", class_="shortmenurecipes")
+                if not food_name_div:
+                    continue
+                food_item = food_name_div.find("a")
+                if not food_item:
+                    continue
                 food_name = food_item.text.strip()
-                # Find dietary icons right after the food item
-            dietary_div = tr.find("div", class_="menuItemPieceIcons")
-            dietary_options = []
-            if dietary_div:
-                for icon in dietary_div.find_all("img", class_="menuIcon"):
-                    alt_text = icon.get("alt", "").strip()
-                    if alt_text:
-                        dietary_options.append(alt_text)
-            food_items.append({
-                "name": food_name,
-                "dietary": dietary_options
-            })
+
+                # Get dietary icons
+                dietary_options = []
+                dietary_div = wrapper.find("div", class_="menuItemPieceIcons")
+                if dietary_div:
+                    for icon in dietary_div.find_all("img", class_="menuIcon"):
+                        alt_text = icon.get("alt", "").strip()
+                        if alt_text:
+                            dietary_options.append(alt_text)
+
+                # Add to menu
+                food_items.append({
+                    "name": food_name,
+                    "dietary": dietary_options
+                })
+
+                # Add to global map if not already present
+                if food_name not in food_dietary_map:
+                    food_dietary_map[food_name] = dietary_options
             
         if station and food_items:
             menu_data[mealTime][station] = food_items
@@ -88,4 +103,8 @@ with open("lothian.json", "w") as f:
 with open("glasgow.json", "w") as f:
     json.dump(glasgow, f, indent=4)
 
+with open("foodDietaryMap.json", "w") as f:
+    json.dump(food_dietary_map, f, indent=4)
+
 print("Menu data for 14 days saved to lothian.json and glasgow.json")
+print("De-duplicated food dietary map saved to foodDietaryMap.json")
