@@ -65,11 +65,29 @@ def fetch_menu(location_num, location_name, date):
                         alt_text = icon.get("alt", "").strip()
                         if alt_text:
                             dietary_options.append(alt_text)
+                # Get calorie count
+                # https://foodpro.ucr.edu/foodpro/label.aspx?locationNum={location_num}&locationName={location_name}&dtdate={date}&RecNumAndPort={recnNum_port} #//100566*1 // this is for the nut facts pg
+                # https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=6%2f4%2f2025&RecNumAndPort=102713*3 // real link 
+                label_href = food_item.get("href")
+                calories = None
+                if label_href:
+                    try:
+                        label_url = "https://foodpro.ucr.edu/foodpro/" + label_href
+                        label_page = requests.get(label_url, timeout=5)  # Added timeout
+                        if label_page.status_code == 200: 
+                            label_soup = BeautifulSoup(label_page.text, "html.parser")
+                            cal = label_soup.find("td", class_="nutfactscaloriesval")  
+                            if cal:
+                                calories = cal.text.strip()
+                    except Exception:
+                        calories = None  
+
 
                 # Add to menu
                 food_items.append({
                     "name": food_name,
-                    "dietary": dietary_options
+                    "dietary": dietary_options,
+                    "calories": calories,
                 })
 
                 # Add to global map if not already present
