@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-script:
+  update-menu:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r backend/requirements.txt
+          pip install -r requirements.txt
 
       - name: Run script
         run: |
@@ -32,3 +32,5 @@ jobs:
           git add .
           git commit -m "Automated daily update" || echo "No changes to commit"
           git push
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
