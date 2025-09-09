@@ -1,5 +1,4 @@
 {
-    "09/08/2025": {},
     "09/09/2025": {},
     "09/10/2025": {},
     "09/11/2025": {},
@@ -183,6 +182,14 @@
                         ]
                     },
                     {
+                        "name": "Roasted Vegetables",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
                         "name": "Spanish Rice",
                         "dietary": [
                             "Gluten Free"
@@ -251,13 +258,6 @@
                             "Vegan",
                             "Vegetarian",
                             "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Vegan Nacho Bar",
-                        "dietary": [
-                            "Gluten Free",
-                            "Contains Soybeans"
                         ]
                     }
                 ]
@@ -374,9 +374,15 @@
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Fish",
+                            "Contains Crustacean Shellfish",
                             "Contains Tree Nuts",
+                            "Contains Peanuts",
                             "Contains Wheat",
-                            "Contains Soybeans"
+                            "Contains Soybeans",
+                            "Contains Sesame"
                         ]
                     }
                 ],
@@ -439,17 +445,11 @@
                 ],
                 "-- The Carvery --": [
                     {
-                        "name": "Chef's Choice Vegetables",
+                        "name": "Green Beans",
                         "dietary": [
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Fish",
-                            "Contains Crustacean Shellfish",
-                            "Contains Tree Nuts",
-                            "Contains Peanuts",
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
                         ]
                     },
                     {
@@ -654,9 +654,15 @@
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Fish",
+                            "Contains Crustacean Shellfish",
                             "Contains Tree Nuts",
+                            "Contains Peanuts",
                             "Contains Wheat",
-                            "Contains Soybeans"
+                            "Contains Soybeans",
+                            "Contains Sesame"
                         ]
                     }
                 ],
@@ -763,5 +769,6 @@
                 ]
             }
         }
-    }
+    },
+    "09/22/2025": {}
 }

@@ -1,492 +1,4 @@
 {
-    "09/08/2025": {
-        "Lothian": {
-            "Breakfast": {
-                "-- Hot Cereal & Toppings --": [
-                    {
-                        "name": "Hot Cereal Breakfast Toppings",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Oatmeal",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Wheat"
-                        ]
-                    }
-                ],
-                "-- Breakfast Offerings --": [
-                    {
-                        "name": "Home Fries",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Just Egg Plant Based Scramble",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Karana Vegan Sausage Patty",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Sausage Links",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Scrambled  Eggs w/ Cheese",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Milk",
-                            "Contains Eggs"
-                        ]
-                    },
-                    {
-                        "name": "Scrambled Eggs",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Eggs"
-                        ]
-                    },
-                    {
-                        "name": "Turkey Sausage Patty",
-                        "dietary": [
-                            "Gluten Free",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ]
-            },
-            "Lunch": {
-                "-- BYOB (Build Your Own Bowl) --": [
-                    {
-                        "name": "Barbecue Soy Chicken",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "White Quinoa",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ],
-                "-- Deli Bar --": [
-                    {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Broccoli",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
-                        "name": "Fresh Seasonal Fruits & Vegetables",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Fish",
-                            "Contains Crustacean Shellfish",
-                            "Contains Tree Nuts",
-                            "Contains Peanuts",
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Mediterranean Deli Toppings",
-                        "dietary": [
-                            "Gluten Free",
-                            "Contains Milk",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Vegetarian Greek Wrap",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Spinellis --": [
-                    {
-                        "name": "Classic Cheese Pizza",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Classic Pepperoni Pizza",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Vegan Cheese Pizza",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Tree Nuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Global Sizzle --": [
-                    {
-                        "name": "Pasta Marinara and Meatballs",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Penne Marinara",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat"
-                        ]
-                    }
-                ],
-                "-- Urban Kitchen --": [
-                    {
-                        "name": "Jasmine Rice",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Korean Spicy Pork with Cabbage",
-                        "dietary": [
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    }
-                ],
-                "-- The Grill --": [
-                    {
-                        "name": "Chicken Taquitos",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "French Fry",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Guacamole",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ],
-                "-- Comfort Table --": [
-                    {
-                        "name": "Halal Grilled Chicken Breast",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Steamed Yellow Squash",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Steamed Zucchini",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ],
-                "-- Desserts --": [
-                    {
-                        "name": "Fresh Baked Assorted Cookies",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Tree Nuts",
-                            "Contains Peanuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ]
-            },
-            "Dinner": {
-                "-- BYOB (Build Your Own Bowl) --": [
-                    {
-                        "name": "Barbecue Soy Chicken",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "White Quinoa",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ],
-                "-- Deli Bar --": [
-                    {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Broccoli",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
-                        "name": "Fresh Seasonal Fruits & Vegetables",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Fish",
-                            "Contains Crustacean Shellfish",
-                            "Contains Tree Nuts",
-                            "Contains Peanuts",
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Mediterranean Deli Toppings",
-                        "dietary": [
-                            "Gluten Free",
-                            "Contains Milk",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Vegetarian Greek Wrap",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Spinellis --": [
-                    {
-                        "name": "Classic Cheese Pizza",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Classic Pepperoni Pizza",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Vegan Cheese Pizza",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Tree Nuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Global Sizzle --": [
-                    {
-                        "name": "Corn Tortillas",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian"
-                        ]
-                    },
-                    {
-                        "name": "Crispy Tofu Option",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Honey Sriracha Chicken for Tacos",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Korean Style Kim-Chee",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ],
-                "-- Urban Kitchen --": [
-                    {
-                        "name": "Fresh Baked Buttermilk Biscuit",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Homestyle Fried Chicken",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    }
-                ],
-                "-- The Grill --": [
-                    {
-                        "name": "Cuban Slider",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "French Fry",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Jackfruit Cuban",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Eggs",
-                            "Contains Tree Nuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Comfort Table --": [
-                    {
-                        "name": "Green Beans",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Halal Grilled Chicken Breast",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Zucchini & Yellow Squash",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ],
-                "-- Desserts --": [
-                    {
-                        "name": "Fresh Baked Assorted Cookies",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Tree Nuts",
-                            "Contains Peanuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ]
-            }
-        }
-    },
     "09/09/2025": {
         "Lothian": {
             "Breakfast": {
@@ -564,6 +76,16 @@
                             "Contains Soybeans"
                         ]
                     }
+                ],
+                "-- Chef's Special --": [
+                    {
+                        "name": "French Toast Sticks",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
                 ]
             },
             "Lunch": {
@@ -596,18 +118,6 @@
                 ],
                 "-- Deli Bar --": [
                     {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Broccoli",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
                             "Vegetarian",
@@ -637,6 +147,20 @@
                             "Contains Milk",
                             "Contains Wheat",
                             "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Broccoli",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -784,18 +308,6 @@
                 ],
                 "-- Deli Bar --": [
                     {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Broccoli",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
                             "Vegetarian",
@@ -825,6 +337,20 @@
                             "Contains Milk",
                             "Contains Wheat",
                             "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Broccoli",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -1031,6 +557,17 @@
                             "Contains Soybeans"
                         ]
                     }
+                ],
+                "-- Chef's Special --": [
+                    {
+                        "name": "Breakfast Burritos",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Wheat"
+                        ]
+                    }
                 ]
             },
             "Lunch": {
@@ -1062,18 +599,6 @@
                 ],
                 "-- Deli Bar --": [
                     {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Mushroom Soup",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
                             "Vegetarian",
@@ -1103,6 +628,20 @@
                             "Contains Milk",
                             "Contains Wheat",
                             "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Mushroom Soup",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -1265,18 +804,6 @@
                 ],
                 "-- Deli Bar --": [
                     {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Mushroom Soup",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
                             "Vegetarian",
@@ -1306,6 +833,20 @@
                             "Contains Milk",
                             "Contains Wheat",
                             "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Mushroom Soup",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -1504,6 +1045,18 @@
                             "Contains Soybeans"
                         ]
                     }
+                ],
+                "-- Chef's Special --": [
+                    {
+                        "name": "Banana Pancakes",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
                 ]
             },
             "Lunch": {
@@ -1518,18 +1071,6 @@
                     }
                 ],
                 "-- Deli Bar --": [
-                    {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Mushroom Soup",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
                     {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
@@ -1560,6 +1101,20 @@
                             "Contains Milk",
                             "Contains Wheat",
                             "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Mushroom Soup",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -1697,18 +1252,6 @@
                 ],
                 "-- Deli Bar --": [
                     {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Mushroom Soup",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
                             "Vegetarian",
@@ -1738,6 +1281,20 @@
                             "Contains Milk",
                             "Contains Wheat",
                             "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Mushroom Soup",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -1950,6 +1507,16 @@
                             "Contains Soybeans"
                         ]
                     }
+                ],
+                "-- Chef's Special --": [
+                    {
+                        "name": "French Toast Sticks",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
                 ]
             },
             "Lunch": {
@@ -2004,6 +1571,17 @@
                         ]
                     },
                     {
+                        "name": "Vegetarian Greek Wrap",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
                         "name": "New England Clam Chowder",
                         "dietary": [
                             "Contains Milk",
@@ -2018,15 +1596,6 @@
                             "Vegetarian",
                             "Gluten Free",
                             "Contains Milk"
-                        ]
-                    },
-                    {
-                        "name": "Vegetarian Greek Wrap",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
                         ]
                     }
                 ],
@@ -2120,8 +1689,15 @@
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Fish",
+                            "Contains Crustacean Shellfish",
+                            "Contains Tree Nuts",
+                            "Contains Peanuts",
                             "Contains Wheat",
-                            "Contains Soybeans"
+                            "Contains Soybeans",
+                            "Contains Sesame"
                         ]
                     },
                     {
@@ -2225,6 +1801,17 @@
                         ]
                     },
                     {
+                        "name": "Vegetarian Greek Wrap",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
                         "name": "New England Clam Chowder",
                         "dietary": [
                             "Contains Milk",
@@ -2239,15 +1826,6 @@
                             "Vegetarian",
                             "Gluten Free",
                             "Contains Milk"
-                        ]
-                    },
-                    {
-                        "name": "Vegetarian Greek Wrap",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
                         ]
                     }
                 ],
@@ -2636,18 +2214,6 @@
                         ]
                     },
                     {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Mushroom Soup",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
                             "Vegetarian",
@@ -2667,8 +2233,29 @@
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Fish",
+                            "Contains Crustacean Shellfish",
+                            "Contains Tree Nuts",
+                            "Contains Peanuts",
                             "Contains Wheat",
-                            "Contains Soybeans"
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Mushroom Soup",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -3043,18 +2630,6 @@
                 ],
                 "-- Deli Bar --": [
                     {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Mushroom Soup",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
                             "Vegetarian",
@@ -3084,6 +2659,20 @@
                             "Contains Milk",
                             "Contains Wheat",
                             "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Mushroom Soup",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -3287,6 +2876,18 @@
                             "Contains Soybeans"
                         ]
                     }
+                ],
+                "-- Chef's Special --": [
+                    {
+                        "name": "Strawberry Pancakes",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
                 ]
             },
             "Lunch": {
@@ -3318,18 +2919,6 @@
                     }
                 ],
                 "-- Deli Bar --": [
-                    {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Broccoli",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
                     {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
@@ -3363,6 +2952,20 @@
                             "Contains Milk",
                             "Contains Soybeans",
                             "Contains Sesame"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Broccoli",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -3578,18 +3181,6 @@
                 ],
                 "-- Deli Bar --": [
                     {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Broccoli",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
                             "Vegetarian",
@@ -3622,6 +3213,20 @@
                             "Contains Milk",
                             "Contains Soybeans",
                             "Contains Sesame"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Broccoli",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -3887,6 +3492,16 @@
                             "Contains Soybeans"
                         ]
                     }
+                ],
+                "-- Chef's Special --": [
+                    {
+                        "name": "French Toast Sticks",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
                 ]
             },
             "Lunch": {
@@ -3922,18 +3537,6 @@
                 ],
                 "-- Deli Bar --": [
                     {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Broccoli",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
                             "Vegetarian",
@@ -3966,6 +3569,20 @@
                             "Contains Milk",
                             "Contains Soybeans",
                             "Contains Sesame"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Broccoli",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -4186,18 +3803,6 @@
                 ],
                 "-- Deli Bar --": [
                     {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Broccoli",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
                             "Vegetarian",
@@ -4230,6 +3835,20 @@
                             "Contains Milk",
                             "Contains Soybeans",
                             "Contains Sesame"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Broccoli",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -4508,6 +4127,18 @@
                             "Contains Soybeans"
                         ]
                     }
+                ],
+                "-- Chef's Special --": [
+                    {
+                        "name": "Banana Pancakes",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
                 ]
             },
             "Lunch": {
@@ -4541,18 +4172,6 @@
                 ],
                 "-- Deli Bar --": [
                     {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Mushroom Soup",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
                             "Vegetarian",
@@ -4585,6 +4204,20 @@
                             "Contains Milk",
                             "Contains Soybeans",
                             "Contains Sesame"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Mushroom Soup",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -4677,8 +4310,15 @@
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Fish",
+                            "Contains Crustacean Shellfish",
+                            "Contains Tree Nuts",
+                            "Contains Peanuts",
                             "Contains Wheat",
-                            "Contains Soybeans"
+                            "Contains Soybeans",
+                            "Contains Sesame"
                         ]
                     }
                 ],
@@ -4799,18 +4439,6 @@
                 ],
                 "-- Deli Bar --": [
                     {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Mushroom Soup",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
                         "name": "Fresh Seasonal Fruits & Vegetables",
                         "dietary": [
                             "Vegetarian",
@@ -4843,6 +4471,20 @@
                             "Contains Milk",
                             "Contains Soybeans",
                             "Contains Sesame"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Mushroom Soup",
+                        "dietary": [
+                            "Contains Milk"
                         ]
                     }
                 ],
@@ -4930,8 +4572,15 @@
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Fish",
+                            "Contains Crustacean Shellfish",
+                            "Contains Tree Nuts",
+                            "Contains Peanuts",
                             "Contains Wheat",
-                            "Contains Soybeans"
+                            "Contains Soybeans",
+                            "Contains Sesame"
                         ]
                     }
                 ],
@@ -5102,6 +4751,16 @@
                             "Contains Soybeans"
                         ]
                     }
+                ],
+                "-- Chef's Special --": [
+                    {
+                        "name": "French Toast Sticks",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
                 ]
             },
             "Lunch": {
@@ -5148,15 +4807,6 @@
                         ]
                     },
                     {
-                        "name": "New England Clam Chowder",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Fish",
-                            "Contains Crustacean Shellfish",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
                         "name": "Peanut Thai Tofu Wrap",
                         "dietary": [
                             "Vegan",
@@ -5174,6 +4824,17 @@
                             "Contains Milk",
                             "Contains Soybeans",
                             "Contains Sesame"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "New England Clam Chowder",
+                        "dietary": [
+                            "Contains Milk",
+                            "Contains Fish",
+                            "Contains Crustacean Shellfish",
+                            "Contains Soybeans"
                         ]
                     },
                     {
@@ -5423,15 +5084,6 @@
                         ]
                     },
                     {
-                        "name": "New England Clam Chowder",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Fish",
-                            "Contains Crustacean Shellfish",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
                         "name": "Peanut Thai Tofu Wrap",
                         "dietary": [
                             "Vegan",
@@ -5449,6 +5101,17 @@
                             "Contains Milk",
                             "Contains Soybeans",
                             "Contains Sesame"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "New England Clam Chowder",
+                        "dietary": [
+                            "Contains Milk",
+                            "Contains Fish",
+                            "Contains Crustacean Shellfish",
+                            "Contains Soybeans"
                         ]
                     },
                     {
@@ -5891,5 +5554,6 @@
                 ]
             }
         }
-    }
+    },
+    "09/22/2025": {}
 }
