@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@theme {
+  --color-reats-blue-100: #8094c4;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
