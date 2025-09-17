@@ -8,12 +8,10 @@ const Header = () => {
   return (
     <div>
       <div className="mt-4 ml-4 flex items-center">
-        <Image src={logo} alt="logo" className="w-1/14" />
-        <p className="-translate-x-2 text-xl font-semibold text-blue-400">
-          r&apos;eats
-        </p>
+        <Image src={logo} alt="logo" className="w-[75px]" />
+        <p className="ml-2 text-xl font-semibold text-blue-400">R&apos;Eats</p>
       </div>
-      <Tabs defaultValue="account" className="w-[400px]">
+      <Tabs defaultValue="account" className="ml-4 w-[400px]">
         <TabsList>
           <TabsTrigger value="glasgow">Glasgow</TabsTrigger>
           <TabsTrigger value="lothian">Lothian</TabsTrigger>
