@@ -1,8 +1,10 @@
+import Header from "@/components/header";
+
 const Home = () => {
   return (
-    <div className="flex h-screen items-center justify-center">
-      Hello World!
-    </div>
+    <>
+      <Header />
+    </>
   );
 };
 export default Home;
