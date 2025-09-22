@@ -2,8 +2,11 @@
 @import "tw-animate-css";
 
 @theme {
-  --color-reats-blue-100: #8094c4;
-  --color-reats-blue-200: #47577d;
+  --color-reats-blue-50: #eff6ff;
+  --color-reats-blue-100: #dbeafe;
+  --color-reats-blue-150: #ebf4ff;
+  --color-reats-blue-200: #1e40af;
+  --color-reats-gray-100: #d7dde5;
 }
 
 @keyframes border-grow {
