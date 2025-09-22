@@ -3,6 +3,22 @@
 
 @theme {
   --color-reats-blue-100: #8094c4;
+  --color-reats-blue-200: #47577d;
+}
+
+@keyframes border-grow {
+  0% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+@utility animate-border-grow {
+  animation: border-grow 0.5s ease-out forwards;
 }
 
 @custom-variant dark (&:is(.dark *));
