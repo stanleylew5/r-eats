@@ -43,7 +43,6 @@ export default function Menu({ diningHall, meal, selectedDate }: Props) {
 
   const data = dataMap[diningHall];
 
-  // match against capitalized keys in the JSON
   const diningHallData =
     data[dateKey]?.[diningHall.charAt(0).toUpperCase() + diningHall.slice(1)];
   const mealData =
