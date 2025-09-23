@@ -92,9 +92,13 @@ export default function Menu({
                 <Link
                   href={item.nutrition ? item.nutrition : "/"}
                   key={idx}
-                  className="border-reats-blue-100 hover:border-reats-blue-200 mb-2 rounded-xl border-1 p-2 hover:shadow-md"
+                  className={`border-reats-blue-100 hover:border-reats-blue-200 mb-2 rounded-lg ${showDietary ? "text-left" : "flex items-center justify-center md:justify-start"} border-1 p-2 hover:shadow-md`}
                 >
-                  <div className="font-medium">{item.name}</div>
+                  <div
+                    className={`font-medium ${showDietary ? "text-left" : "text-center"}`}
+                  >
+                    {item.name}
+                  </div>
                   {showDietary && (
                     <div className="mt-1 flex flex-wrap gap-2">
                       {item.dietary.map((restriction, i) => {
