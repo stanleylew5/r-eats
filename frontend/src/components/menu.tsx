@@ -5,9 +5,11 @@ import glasgowData from "@/data/glasgow.json";
 import dietary from "@/data/dietary";
 import Image from "next/image";
 import logo from "@/public/newlogo.webp";
+import Link from "next/link";
 interface MenuItem {
   name: string;
   dietary: string[];
+  nutrition: string;
 }
 
 type Station = Record<string, MenuItem[]>;
@@ -79,9 +81,10 @@ export default function Menu({ diningHall, meal, selectedDate }: Props) {
             </p>
             <div className="grid grid-cols-1 justify-center gap-x-2 px-4 md:grid-cols-4">
               {items.map((item, idx) => (
-                <div
+                <Link
+                  href={item.nutrition ? item.nutrition : "/"}
                   key={idx}
-                  className="border-reats-blue-100 mb-2 rounded-xl border-1 p-2"
+                  className="border-reats-blue-100 hover:border-reats-blue-200 mb-2 rounded-xl border-1 p-2 hover:shadow-md"
                 >
                   <div className="font-medium">{item.name}</div>
                   <div className="mt-1 flex flex-wrap gap-2">
@@ -100,7 +103,7 @@ export default function Menu({ diningHall, meal, selectedDate }: Props) {
                       );
                     })}
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>

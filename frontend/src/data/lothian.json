@@ -1,422 +1,16 @@
 {
-  "09/22/2025": {
-    "Lothian": {
-      "Lunch": {
-        "-- BYOB (Build Your Own Bowl) --": [
-          {
-            "name": "Barbecue Soy Chicken",
-            "dietary": [
-              "Vegan",
-              "Vegetarian",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          },
-          {
-            "name": "White Quinoa",
-            "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
-          }
-        ],
-        "-- Deli Bar --": [
-          {
-            "name": "Antipasto Deli Bar (contains GF Items)",
-            "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
-          },
-          {
-            "name": "Fresh Seasonal Fruits & Vegetables",
-            "dietary": [
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Eggs",
-              "Contains Fish",
-              "Contains Crustacean Shellfish",
-              "Contains Tree Nuts",
-              "Contains Peanuts",
-              "Contains Wheat",
-              "Contains Soybeans",
-              "Contains Sesame"
-            ]
-          },
-          {
-            "name": "Plantbased Chick'n Caesar Wrap",
-            "dietary": [
-              "Vegan",
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Eggs",
-              "Contains Fish",
-              "Contains Crustacean Shellfish",
-              "Contains Tree Nuts",
-              "Contains Peanuts",
-              "Contains Wheat",
-              "Contains Soybeans",
-              "Contains Sesame"
-            ]
-          }
-        ],
-        "-- Specialty Soups --": [
-          {
-            "name": "Chicken Noodle Soup",
-            "dietary": ["Contains Wheat"]
-          },
-          {
-            "name": "Cream of Broccoli",
-            "dietary": ["Contains Milk"]
-          }
-        ],
-        "-- Spinellis --": [
-          {
-            "name": "Classic Cheese Pizza",
-            "dietary": [
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          },
-          {
-            "name": "Classic Pepperoni Pizza",
-            "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
-          },
-          {
-            "name": "Vegan Cheese Pizza",
-            "dietary": [
-              "Vegan",
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Tree Nuts",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          }
-        ],
-        "-- Global Sizzle --": [
-          {
-            "name": "Chicken Tinga Tostada",
-            "dietary": []
-          },
-          {
-            "name": "Refried Beans",
-            "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
-          }
-        ],
-        "-- Urban Kitchen --": [
-          {
-            "name": "Jasmine Rice",
-            "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
-          },
-          {
-            "name": "Teriyaki Halal Beef Top Sirloin",
-            "dietary": ["Contains Soybeans", "Contains Sesame"]
-          }
-        ],
-        "-- The Grill --": [
-          {
-            "name": "Barbecue Pulled Chicken Sandwich",
-            "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
-          },
-          {
-            "name": "Curly Fries",
-            "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
-          },
-          {
-            "name": "Vegan Barbecued Pulled Jackfruit Sandwich",
-            "dietary": [
-              "Vegan",
-              "Vegetarian",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          }
-        ],
-        "-- Comfort Table --": [
-          {
-            "name": "Halal Grilled Chicken Breast",
-            "dietary": ["Gluten Free"]
-          },
-          {
-            "name": "Roasted Butternut Squash",
-            "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
-          },
-          {
-            "name": "Steamed Zucchini",
-            "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
-          }
-        ],
-        "-- Desserts --": [
-          {
-            "name": "Fresh Baked Assorted Cookies",
-            "dietary": [
-              "Contains Milk",
-              "Contains Eggs",
-              "Contains Tree Nuts",
-              "Contains Peanuts",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          },
-          {
-            "name": "Strawberry Jello",
-            "dietary": []
-          },
-          {
-            "name": "Sugar Free Citrus Jello",
-            "dietary": []
-          },
-          {
-            "name": "Vegan Maple Pecan Cookie",
-            "dietary": [
-              "Vegan",
-              "Vegetarian",
-              "Contains Tree Nuts",
-              "Contains Wheat"
-            ]
-          },
-          {
-            "name": "Walnut Fudge Brownies",
-            "dietary": [
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Eggs",
-              "Contains Tree Nuts",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          }
-        ],
-        "-- Village Garden --": [
-          {
-            "name": "Crunchy Garlic Salmon Bowl",
-            "dietary": [
-              "Contains Fish",
-              "Contains Wheat",
-              "Contains Soybeans",
-              "Contains Sesame"
-            ]
-          },
-          {
-            "name": "Vegetable Sushi Bowl",
-            "dietary": [
-              "Vegan",
-              "Vegetarian",
-              "Contains Soybeans",
-              "Contains Sesame"
-            ]
-          }
-        ]
-      },
-      "Dinner": {
-        "-- BYOB (Build Your Own Bowl) --": [
-          {
-            "name": "Barbecue Soy Chicken",
-            "dietary": [
-              "Vegan",
-              "Vegetarian",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          },
-          {
-            "name": "White Quinoa",
-            "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
-          }
-        ],
-        "-- Deli Bar --": [
-          {
-            "name": "Antipasto Deli Bar (contains GF Items)",
-            "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
-          },
-          {
-            "name": "Fresh Seasonal Fruits & Vegetables",
-            "dietary": [
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Eggs",
-              "Contains Fish",
-              "Contains Crustacean Shellfish",
-              "Contains Tree Nuts",
-              "Contains Peanuts",
-              "Contains Wheat",
-              "Contains Soybeans",
-              "Contains Sesame"
-            ]
-          },
-          {
-            "name": "Plantbased Chick'n Caesar Wrap",
-            "dietary": [
-              "Vegan",
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Eggs",
-              "Contains Fish",
-              "Contains Crustacean Shellfish",
-              "Contains Tree Nuts",
-              "Contains Peanuts",
-              "Contains Wheat",
-              "Contains Soybeans",
-              "Contains Sesame"
-            ]
-          }
-        ],
-        "-- Specialty Soups --": [
-          {
-            "name": "Chicken Noodle Soup",
-            "dietary": ["Contains Wheat"]
-          },
-          {
-            "name": "Cream of Broccoli",
-            "dietary": ["Contains Milk"]
-          }
-        ],
-        "-- Spinellis --": [
-          {
-            "name": "Classic Cheese Pizza",
-            "dietary": [
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          },
-          {
-            "name": "Classic Pepperoni Pizza",
-            "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
-          },
-          {
-            "name": "Vegan Cheese Pizza",
-            "dietary": [
-              "Vegan",
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Tree Nuts",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          }
-        ],
-        "-- Global Sizzle --": [
-          {
-            "name": "Fire Cracker Chicken",
-            "dietary": ["Contains Wheat", "Contains Soybeans"]
-          },
-          {
-            "name": "Fire Cracker Tofu",
-            "dietary": ["Vegan", "Vegetarian", "Contains Soybeans"]
-          },
-          {
-            "name": "Jasmine Rice",
-            "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
-          }
-        ],
-        "-- Urban Kitchen --": [
-          {
-            "name": "Pork Chile Verde",
-            "dietary": []
-          },
-          {
-            "name": "Spanish Rice",
-            "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
-          }
-        ],
-        "-- The Grill --": [
-          {
-            "name": "Cheese Quesadilla",
-            "dietary": ["Vegetarian", "Contains Milk", "Contains Wheat"]
-          },
-          {
-            "name": "Curly Fries",
-            "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
-          },
-          {
-            "name": "Salsa Bar Condiments",
-            "dietary": ["Vegetarian", "Gluten Free", "Contains Milk"]
-          },
-          {
-            "name": "Soyrizo & Potato Quesadilla",
-            "dietary": [
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          }
-        ],
-        "-- Comfort Table --": [
-          {
-            "name": "Halal Grilled Chicken Breast",
-            "dietary": ["Gluten Free"]
-          },
-          {
-            "name": "Steamed Yellow Squash",
-            "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
-          },
-          {
-            "name": "Steamed Zucchini",
-            "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
-          }
-        ],
-        "-- Desserts --": [
-          {
-            "name": "Apple Pecan Crumb Bar",
-            "dietary": [
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Eggs",
-              "Contains Tree Nuts",
-              "Contains Peanuts",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          },
-          {
-            "name": "Fresh Baked Assorted Cookies",
-            "dietary": [
-              "Contains Milk",
-              "Contains Eggs",
-              "Contains Tree Nuts",
-              "Contains Peanuts",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          },
-          {
-            "name": "Vegan Blueberry Chia Pudding",
-            "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
-          }
-        ],
-        "-- Village Garden --": [
-          {
-            "name": "Crunchy Garlic Salmon Bowl",
-            "dietary": [
-              "Contains Fish",
-              "Contains Wheat",
-              "Contains Soybeans",
-              "Contains Sesame"
-            ]
-          },
-          {
-            "name": "Vegetable Sushi Bowl",
-            "dietary": [
-              "Vegan",
-              "Vegetarian",
-              "Contains Soybeans",
-              "Contains Sesame"
-            ]
-          }
-        ]
-      }
-    }
-  },
   "09/23/2025": {
     "Lothian": {
       "Lunch": {
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Basmati Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=102681*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Falafel",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=102683*3",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -426,16 +20,19 @@
           },
           {
             "name": "Green Chutney",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=102685*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Antipasto Deli Bar (contains GF Items)",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100566*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100778*6",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -451,6 +48,7 @@
           },
           {
             "name": "Plantbased Chick'n Caesar Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100653*1%2f2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -469,20 +67,24 @@
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Broccoli",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=102767*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Brazilian Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101932*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Classic Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101921*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -492,6 +94,7 @@
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -505,34 +108,36 @@
         "-- Global Sizzle --": [
           {
             "name": "Cuban Mushroom Ropa Vieja",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101235*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Jasmine Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100066*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Ropa Vieja (Cuban Beef)",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101086*4",
             "dietary": []
           }
         ],
         "-- Urban Kitchen --": [
           {
             "name": "BBQ Beans",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100188*3",
             "dietary": []
           },
           {
             "name": "BBQ Chicken Thighs",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100370*1",
             "dietary": ["Gluten Free"]
           }
         ],
         "-- The Grill --": [
           {
-            "name": "Crispy Chicken Ranch Slider",
-            "dietary": ["Contains Milk", "Contains Eggs", "Contains Wheat"]
-          },
-          {
             "name": "Gardein Crispy Chik'n Sandwich",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100356*1%2f2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -542,26 +147,36 @@
           },
           {
             "name": "Shoestring Fry Skin On",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100029*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
+          },
+          {
+            "name": "Spicy Crispy Chicken Slider",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101769*1",
+            "dietary": ["Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Roasted Carrots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100426*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Cauliflower",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100038*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Blueberry Oat Crumble Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=200016*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -571,10 +186,12 @@
           },
           {
             "name": "Coffee Pudding",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=200028*1",
             "dietary": ["Contains Milk"]
           },
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -586,10 +203,12 @@
           },
           {
             "name": "Sugar Free Berry Jello",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=200171*1",
             "dietary": []
           },
           {
             "name": "Vegan Chocolate Chip Cookie",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=200089*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -601,6 +220,7 @@
         "-- Village Garden --": [
           {
             "name": "California Sushi Roll",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101352*3",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -612,6 +232,7 @@
           },
           {
             "name": "Cucumber Sushi Roll",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101353*3",
             "dietary": ["Contains Soybeans", "Contains Sesame"]
           }
         ]
@@ -620,10 +241,12 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Basmati Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=102681*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Falafel",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=102683*3",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -633,16 +256,19 @@
           },
           {
             "name": "Green Chutney",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=102685*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Antipasto Deli Bar (contains GF Items)",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100566*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -658,6 +284,7 @@
           },
           {
             "name": "Plantbased Chick'n Caesar Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100653*1%2f2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -676,20 +303,24 @@
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Broccoli",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=102767*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Brazilian Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101932*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Classic Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101921*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -699,6 +330,7 @@
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -712,20 +344,24 @@
         "-- Global Sizzle --": [
           {
             "name": "Cavatappi Pomodoro Primavera",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100585*4",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           },
           {
             "name": "Garlic Bread Sticks",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100060*1",
             "dietary": ["Vegetarian", "Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Urban Kitchen --": [
           {
             "name": "Adobo Barbecue Halal Beef Top Sirloin",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100819*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Corn Bread",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100049*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -737,18 +373,22 @@
         "-- The Grill --": [
           {
             "name": "Al Pastor Pork",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101615*4",
             "dietary": []
           },
           {
             "name": "Corn Tortillas",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100806*2",
             "dietary": ["Vegan", "Vegetarian"]
           },
           {
             "name": "Salsa Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100153*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Soyrizo Potato Tacos",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100144*2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -758,26 +398,31 @@
           },
           {
             "name": "Tortilla Chips",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100099*1",
             "dietary": ["Vegan", "Vegetarian"]
           }
         ],
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Roasted Carrots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100426*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Broccoli",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=100622*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -789,6 +434,7 @@
           },
           {
             "name": "Funfetti Cupcakes",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=200066*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -798,12 +444,14 @@
           },
           {
             "name": "Vegan Red Velvet Cupcakes",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=200055*1",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "California Sushi Roll",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101352*3",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -815,6 +463,7 @@
           },
           {
             "name": "Cucumber Sushi Roll",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f23%2f2025&RecNumAndPort=101353*3",
             "dietary": ["Contains Soybeans", "Contains Sesame"]
           }
         ]
@@ -827,24 +476,29 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Alu Chole",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=102692*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Tomato Chutney",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=102005*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegetable Pakoras",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101775*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Antipasto Deli Bar (contains GF Items)",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100566*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -860,6 +514,7 @@
           },
           {
             "name": "Plantbased Chick'n Caesar Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100653*1%2f2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -878,20 +533,24 @@
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Mushroom Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=102768*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "BBQ Chicken Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101925*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Classic Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101921*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -901,6 +560,7 @@
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -914,6 +574,7 @@
         "-- Global Sizzle --": [
           {
             "name": "Shanghai Shrimp Udon",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100592*5",
             "dietary": [
               "Contains Crustacean Shellfish",
               "Contains Wheat",
@@ -923,6 +584,7 @@
           },
           {
             "name": "Shanghai Vegetable Udon",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101538*5",
             "dietary": [
               "Contains Wheat",
               "Contains Soybeans",
@@ -933,24 +595,29 @@
         "-- Urban Kitchen --": [
           {
             "name": "Greek Pasta Salad",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100143*4",
             "dietary": ["Vegetarian", "Contains Milk", "Contains Wheat"]
           },
           {
             "name": "Herb Whole Roasted Halal Chicken",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100065*1%2f8",
             "dietary": ["Gluten Free"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "House-made BBQ Potato Chips",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101054*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Pizza Grilled Cheese",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101137*1%2f2",
             "dietary": ["Contains Milk", "Contains Wheat"]
           },
           {
             "name": "Vegan Grilled Cheese",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100825*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -969,24 +636,29 @@
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Roasted Carrots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100426*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Roasted Corn",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101489*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Cocoa Puff Krispy Treats",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=200068*1",
             "dietary": ["Gluten Free", "Contains Milk"]
           },
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -998,20 +670,24 @@
           },
           {
             "name": "Orange Jello",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=200303*3",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Sugar Free Citrus Jello",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=200172*1",
             "dietary": []
           },
           {
             "name": "Vegan Fudge Brownie",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=200048*1",
             "dietary": ["Contains Wheat"]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "Ahi Poke Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100870*1",
             "dietary": [
               "Contains Fish",
               "Contains Wheat",
@@ -1021,6 +697,7 @@
           },
           {
             "name": "Tofu Poke Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101417*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1035,24 +712,29 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Alu Chole",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=102692*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Tomato Chutney",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=102005*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegetable Pakoras",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101775*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Antipasto Deli Bar (contains GF Items)",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100566*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1068,6 +750,7 @@
           },
           {
             "name": "Plantbased Chick'n Caesar Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100653*1%2f2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1086,20 +769,24 @@
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Mushroom Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=102768*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "BBQ Chicken Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101925*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Classic Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101921*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1109,6 +796,7 @@
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1122,38 +810,46 @@
         "-- Global Sizzle --": [
           {
             "name": "Jasmine Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100066*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Spanish Chicken and Sausage Stew",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100464*5",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Spanish Soy Chicken and  Vegetable Stew",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100842*5",
             "dietary": ["Vegan", "Vegetarian", "Contains Soybeans"]
           }
         ],
         "-- Urban Kitchen --": [
           {
             "name": "Cuban Style Black Beans",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100069*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Kalua Pork",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101444*4",
             "dietary": ["Gluten Free"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "Chicken Nuggets",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100366*4",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "House-made BBQ Potato Chips",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101054*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegan Nuggets",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100479*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1165,24 +861,29 @@
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Roasted Corn",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101489*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Broccoli",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100622*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Assorted Vegan and Gluten Friendly Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=200283*1",
             "dietary": ["Vegetarian", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Coconut Cream Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=200354*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1194,6 +895,7 @@
           },
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -1207,6 +909,7 @@
         "-- Village Garden --": [
           {
             "name": "Ahi Poke Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=100870*1",
             "dietary": [
               "Contains Fish",
               "Contains Wheat",
@@ -1216,6 +919,7 @@
           },
           {
             "name": "Tofu Poke Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f24%2f2025&RecNumAndPort=101417*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1234,16 +938,19 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Vegan Jackfruit Cuban Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=102703*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Antipasto Deli Bar (contains GF Items)",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100566*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1259,6 +966,7 @@
           },
           {
             "name": "Plantbased Chick'n Caesar Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100653*1%2f2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1277,20 +985,24 @@
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Mushroom Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=102768*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Carne Asada Mexican Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101930*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1302,6 +1014,7 @@
           },
           {
             "name": "Vegetarian Supreme Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101929*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1313,30 +1026,36 @@
         "-- Global Sizzle --": [
           {
             "name": "Grilled Chicken Nachos",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100987*1",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Urban Kitchen --": [
           {
             "name": "Ensenada Beans",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100045*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Peruvian Rotisserie Halal Chicken",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100588*1%2f8",
             "dietary": ["Gluten Free"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "Cajun Chicken Sandwich with Chipotle Aioli",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100105*1",
             "dietary": ["Contains Milk", "Contains Eggs", "Contains Wheat"]
           },
           {
             "name": "French Fry",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100031*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegan Cajun Chicken Sandwich",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100760*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1348,24 +1067,29 @@
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Roasted Zucchini",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100799*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Yellow Squash",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100040*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Coconut Pudding",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=200292*1",
             "dietary": ["Contains Milk", "Contains Soybeans"]
           },
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -1377,6 +1101,7 @@
           },
           {
             "name": "Oreo Brownie",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=200077*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1387,20 +1112,24 @@
           },
           {
             "name": "Sugar Free Berry Jello",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=200171*1",
             "dietary": []
           },
           {
             "name": "Vegan Lemon Cookie",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=200281*1",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "Cucumber Sushi Roll",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101353*3",
             "dietary": ["Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Tempura Shrimp & Avocado Sushi Roll 3pc",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101399*3",
             "dietary": [
               "Contains Crustacean Shellfish",
               "Contains Tree Nuts",
@@ -1415,16 +1144,19 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Vegan Jackfruit Cuban Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=102703*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Antipasto Deli Bar (contains GF Items)",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100566*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1440,6 +1172,7 @@
           },
           {
             "name": "Plantbased Chick'n Caesar Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100653*1%2f2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1458,20 +1191,24 @@
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Mushroom Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=102768*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Carne Asada Mexican Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101930*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1483,6 +1220,7 @@
           },
           {
             "name": "Vegetarian Supreme Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101929*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1494,6 +1232,7 @@
         "-- Global Sizzle --": [
           {
             "name": "Beef Pho Bo",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100180*6",
             "dietary": [
               "Contains Fish",
               "Contains Wheat",
@@ -1503,6 +1242,7 @@
           },
           {
             "name": "Pho Bo Bar Topping",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101214*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1513,6 +1253,7 @@
           },
           {
             "name": "Vegetable Pho Chay",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100178*6",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1524,6 +1265,7 @@
         "-- Urban Kitchen --": [
           {
             "name": "Ginger Coconut Jasmine Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100445*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1533,20 +1275,24 @@
           },
           {
             "name": "Jamican Jerk Pork",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100804*4",
             "dietary": ["Contains Soybeans"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "Chicken Strips",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100111*6",
             "dietary": ["Contains Milk", "Contains Eggs", "Contains Wheat"]
           },
           {
             "name": "French Fry",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100031*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegan Breaded Chicken Strip",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101050*2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1558,20 +1304,24 @@
         "-- Comfort Table --": [
           {
             "name": "Cut Corn",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=100390*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Peas and Carrots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101204*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -1583,6 +1333,7 @@
           },
           {
             "name": "Marble Cake",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=200347*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1593,16 +1344,19 @@
           },
           {
             "name": "Vegan Vanilla Cupcake",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=200289*1",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "Cucumber Sushi Roll",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101353*3",
             "dietary": ["Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Tempura Shrimp & Avocado Sushi Roll 3pc",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f25%2f2025&RecNumAndPort=101399*3",
             "dietary": [
               "Contains Crustacean Shellfish",
               "Contains Tree Nuts",
@@ -1621,14 +1375,17 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Brown Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=102694*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Coconut Curry Sauce",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=102684*1",
             "dietary": ["Gluten Free", "Contains Tree Nuts"]
           },
           {
             "name": "Vegan Fried Popcorn Chicken",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=102679*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1640,10 +1397,12 @@
         "-- Deli Bar --": [
           {
             "name": "Antipasto Deli Bar (contains GF Items)",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100566*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1659,6 +1418,7 @@
           },
           {
             "name": "Plantbased Chick'n Caesar Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100653*1%2f2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1677,6 +1437,7 @@
         "-- Specialty Soups --": [
           {
             "name": "New England Clam Chowder",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=102764*6",
             "dietary": [
               "Contains Milk",
               "Contains Fish",
@@ -1686,16 +1447,19 @@
           },
           {
             "name": "Tomato Bisque Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=102762*6",
             "dietary": ["Vegetarian", "Gluten Free", "Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Churro Topping Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=101091*1",
             "dietary": ["Contains Milk"]
           },
           {
             "name": "Cinnamon Churros",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=101088*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1708,10 +1472,12 @@
         "-- Global Sizzle --": [
           {
             "name": "Baked Chicken Alfredo",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100148*4",
             "dietary": ["Contains Milk", "Contains Wheat"]
           },
           {
             "name": "Garlic French Bread",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100713*1%2f16",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1723,24 +1489,29 @@
         "-- Urban Kitchen --": [
           {
             "name": "Filipino Chicken Adobo",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100853*1",
             "dietary": ["Gluten Free", "Contains Soybeans"]
           },
           {
             "name": "Jasmine Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100066*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "English Pub Style Fish",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100061*1",
             "dietary": ["Contains Eggs", "Contains Fish", "Contains Wheat"]
           },
           {
             "name": "Steak Fries",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100087*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegetarian Fish Filet",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100331*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1752,20 +1523,24 @@
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=101256*3",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Roasted Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100425*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Carrots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100408*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -1777,10 +1552,12 @@
           },
           {
             "name": "Lemon Jello",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=200239*1",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Lime Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=200293*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -1790,16 +1567,19 @@
           },
           {
             "name": "Sugar Free Citrus Jello",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=200172*1",
             "dietary": []
           },
           {
             "name": "Vegan Mocha Mousse",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=200362*1",
             "dietary": ["Vegan", "Vegetarian", "Contains Milk"]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "Spicy Tofu Sushi Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=101504*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1809,6 +1589,7 @@
           },
           {
             "name": "Sushi Bowl with Spicy Crab and Shrimp",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100388*1",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -1824,14 +1605,17 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Brown Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=102694*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Coconut Curry Sauce",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=102684*1",
             "dietary": ["Gluten Free", "Contains Tree Nuts"]
           },
           {
             "name": "Vegan Fried Popcorn Chicken",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=102679*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1843,10 +1627,12 @@
         "-- Deli Bar --": [
           {
             "name": "Antipasto Deli Bar (contains GF Items)",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100566*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1862,6 +1648,7 @@
           },
           {
             "name": "Plantbased Chick'n Caesar Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100653*1%2f2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -1880,6 +1667,7 @@
         "-- Specialty Soups --": [
           {
             "name": "New England Clam Chowder",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=102764*6",
             "dietary": [
               "Contains Milk",
               "Contains Fish",
@@ -1889,16 +1677,19 @@
           },
           {
             "name": "Tomato Bisque Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=102762*6",
             "dietary": ["Vegetarian", "Gluten Free", "Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Churro Topping Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=101091*1",
             "dietary": ["Contains Milk"]
           },
           {
             "name": "Cinnamon Churros",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=101088*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1911,10 +1702,12 @@
         "-- Global Sizzle --": [
           {
             "name": "Basil Pesto Pasta",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=101169*5",
             "dietary": ["Contains Milk", "Contains Wheat"]
           },
           {
             "name": "Garlic French Bread",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100713*1%2f16",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1926,44 +1719,53 @@
         "-- Urban Kitchen --": [
           {
             "name": "Jasmine Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100066*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Thai Chili Glazed Salmon",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100453*3",
             "dietary": ["Gluten Free", "Contains Fish"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "Cheeseburger Fries",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=101152*1",
             "dietary": ["Contains Milk", "Contains Eggs"]
           },
           {
             "name": "French Fry",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100031*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegan Farmer's Vegetable Burger",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100449*1",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           }
         ],
         "-- Comfort Table --": [
           {
             "name": "Green Beans",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100199*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Honey Roasted Brussels Sprouts",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=101128*3",
             "dietary": ["Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Dulce de Leche Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=200267*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1974,6 +1776,7 @@
           },
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -1985,6 +1788,7 @@
           },
           {
             "name": "Peanut Butter Cake",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=200278*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -1996,12 +1800,14 @@
           },
           {
             "name": "Vegan Snickerdoodle Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=200054*1",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "Spicy Tofu Sushi Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=101504*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2011,6 +1817,7 @@
           },
           {
             "name": "Sushi Bowl with Spicy Crab and Shrimp",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f26%2f2025&RecNumAndPort=100388*1",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -2030,6 +1837,7 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Barbecue Soy Chicken",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100221*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2039,12 +1847,14 @@
           },
           {
             "name": "White Quinoa",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100715*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2060,10 +1870,12 @@
           },
           {
             "name": "Mediterranean Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101701*1",
             "dietary": ["Gluten Free", "Contains Milk", "Contains Sesame"]
           },
           {
             "name": "Vegetarian Greek Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100907*1%2f2",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2075,16 +1887,19 @@
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Broccoli",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=102767*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Classic Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101921*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2094,10 +1909,12 @@
           },
           {
             "name": "Classic Pepperoni Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101920*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2111,20 +1928,24 @@
         "-- Global Sizzle --": [
           {
             "name": "Pasta Marinara and Meatballs",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100021*5",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Penne Marinara",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100237*5",
             "dietary": ["Vegetarian", "Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Urban Kitchen --": [
           {
             "name": "Jasmine Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100066*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Korean Spicy Pork with Cabbage",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100470*4",
             "dietary": [
               "Contains Wheat",
               "Contains Soybeans",
@@ -2135,34 +1956,41 @@
         "-- The Grill --": [
           {
             "name": "French Toast Sticks",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100135*2",
             "dietary": ["Vegetarian", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Tater Tots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100093*5",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Steamed Yellow Squash",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100040*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Zucchini",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100041*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Assorted Bagels",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=200222*1",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Assorted Donuts",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=200301*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2173,10 +2001,12 @@
           },
           {
             "name": "Assorted Vegan and Gluten Friendly Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=200283*1",
             "dietary": ["Vegetarian", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -2192,6 +2022,7 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Barbecue Soy Chicken",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100221*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2201,12 +2032,14 @@
           },
           {
             "name": "White Quinoa",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100715*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2222,10 +2055,12 @@
           },
           {
             "name": "Mediterranean Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101701*1",
             "dietary": ["Gluten Free", "Contains Milk", "Contains Sesame"]
           },
           {
             "name": "Vegetarian Greek Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100907*1%2f2",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2237,16 +2072,19 @@
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Broccoli",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=102767*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Classic Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101921*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2256,10 +2094,12 @@
           },
           {
             "name": "Classic Pepperoni Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101920*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2273,10 +2113,12 @@
         "-- Global Sizzle --": [
           {
             "name": "Corn Tortillas",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100806*1",
             "dietary": ["Vegan", "Vegetarian"]
           },
           {
             "name": "Crispy Tofu Option",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100230*2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2286,34 +2128,41 @@
           },
           {
             "name": "Honey Sriracha Chicken for Tacos",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101215*2",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Korean Style Kim-Chee",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100145*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Urban Kitchen --": [
           {
             "name": "Fresh Baked Buttermilk Biscuit",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101203*1",
             "dietary": ["Vegetarian", "Contains Milk", "Contains Wheat"]
           },
           {
             "name": "Homestyle Fried Chicken",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100394*5",
             "dietary": ["Contains Wheat"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "Cuban Slider",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101623*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "French Fry",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100031*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Jackfruit Cuban",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101078*1%2f2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2327,24 +2176,29 @@
         "-- Comfort Table --": [
           {
             "name": "Green Beans",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100199*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Zucchini & Yellow Squash",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=100175*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Assorted Vegan and Gluten Friendly Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=200283*1",
             "dietary": ["Vegetarian", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -2356,6 +2210,7 @@
           },
           {
             "name": "M & M Rice Krispy Treats",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f27%2f2025&RecNumAndPort=200180*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2373,12 +2228,14 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Vegan Jackfruit Cuban Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=102703*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2394,10 +2251,12 @@
           },
           {
             "name": "Mediterranean Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=101701*1",
             "dietary": ["Gluten Free", "Contains Milk", "Contains Sesame"]
           },
           {
             "name": "Vegetarian Greek Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100907*1%2f2",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2409,20 +2268,24 @@
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Mushroom Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=102768*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Carne Asada Mexican Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=101930*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2434,6 +2297,7 @@
           },
           {
             "name": "Vegetarian Supreme Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=101929*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2445,6 +2309,7 @@
         "-- Global Sizzle --": [
           {
             "name": "Esquite - Mexican Street Corn",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100584*1",
             "dietary": [
               "Vegetarian",
               "Gluten Free",
@@ -2456,16 +2321,19 @@
         "-- Urban Kitchen --": [
           {
             "name": "Mesquite Smoked Beef Brisket",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100529*4",
             "dietary": []
           },
           {
             "name": "Red Skinned Garlic Mash Potatoes",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=101414*4",
             "dietary": ["Vegetarian", "Gluten Free", "Contains Milk"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "Belgian Waffles",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100620*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2476,30 +2344,36 @@
           },
           {
             "name": "Tater Tots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100093*5",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Roasted Brussels Sprouts",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100000*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Spicy Sambal Cauliflower",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100678*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free", "Contains Sesame"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Assorted Bagels",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=200222*1",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Assorted Donuts",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=200301*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2510,10 +2384,12 @@
           },
           {
             "name": "Assorted Vegan and Gluten Friendly Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=200283*1",
             "dietary": ["Vegetarian", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -2529,12 +2405,14 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Vegan Jackfruit Cuban Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=102703*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2550,10 +2428,12 @@
           },
           {
             "name": "Mediterranean Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=101701*1",
             "dietary": ["Gluten Free", "Contains Milk", "Contains Sesame"]
           },
           {
             "name": "Vegetarian Greek Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100907*1%2f2",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2565,20 +2445,24 @@
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Mushroom Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=102768*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Carne Asada Mexican Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=101930*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2590,6 +2474,7 @@
           },
           {
             "name": "Vegetarian Supreme Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=101929*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2601,38 +2486,46 @@
         "-- Global Sizzle --": [
           {
             "name": "Basil Pesto Pasta",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=010104*5",
             "dietary": ["Vegetarian", "Contains Milk", "Contains Wheat"]
           },
           {
             "name": "Chicken and Mushroom Alfredo Pasta",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100926*5",
             "dietary": ["Contains Milk", "Contains Wheat"]
           },
           {
             "name": "Garlic Breadsticks",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100901*1",
             "dietary": ["Vegetarian", "Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Urban Kitchen --": [
           {
             "name": "Lemon Pepper Chicken",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100910*1%2f8",
             "dietary": []
           },
           {
             "name": "Roasted Potatoes",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100030*3+1%2f2",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "House-made Ranch Potato Chips",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=101063*2",
             "dietary": ["Contains Milk"]
           },
           {
             "name": "Philly Chessesteak Slider",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=102710*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Vegeterian Philly Chessesteak Slider",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=102711*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2644,24 +2537,29 @@
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Peas and Carrots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=101204*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Carrots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=100408*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Assorted Vegan and Gluten Friendly Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=200283*1",
             "dietary": ["Vegetarian", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f28%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -2681,14 +2579,17 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Chipotle Tango Bbq Sauce",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=102680*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Cilantro Lime Rice with Fire Roasted Corn",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101393*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegan Barbecue Tempeh",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=102698*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2700,6 +2601,7 @@
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2715,30 +2617,36 @@
           },
           {
             "name": "NY Style Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101700*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Turkey & Cheese Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100618*1%2f2",
             "dietary": ["Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Broccoli",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=102767*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "BBQ Chicken Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101925*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Three Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101924*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2748,6 +2656,7 @@
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2761,34 +2670,41 @@
         "-- Global Sizzle --": [
           {
             "name": "Cavatappi Pomodoro Primavera",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100585*4",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           },
           {
             "name": "Garlic Bread Sticks",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100060*1",
             "dietary": ["Vegetarian", "Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Urban Kitchen --": [
           {
             "name": "Jasmine Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100066*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Thai Barbecue Chicken with Sriracha Drizzle",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100129*4",
             "dietary": ["Gluten Free", "Contains Fish", "Contains Tree Nuts"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "Curly Fries",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100058*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Halal Beef Sloppy Joe Slider",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100001*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Vegan Grilled Cheese",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100825*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2807,20 +2723,24 @@
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Steamed Carrots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100408*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Yellow Squash",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100040*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -2832,6 +2752,7 @@
           },
           {
             "name": "Sugar Cookie Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=200169*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2842,14 +2763,17 @@
           },
           {
             "name": "Sugar Free Berry Jello",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=200171*1",
             "dietary": []
           },
           {
             "name": "Vanilla Pudding",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=200029*1",
             "dietary": ["Contains Milk"]
           },
           {
             "name": "Vegan Cookies N' Cream Cupcake",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=200091*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2861,6 +2785,7 @@
         "-- Village Garden --": [
           {
             "name": "Sushi Bowl with Spicy Crab and Shrimp",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100388*1",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -2872,6 +2797,7 @@
           },
           {
             "name": "Vegetable Sushi Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101397*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2885,14 +2811,17 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Chipotle Tango Bbq Sauce",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=102680*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Cilantro Lime Rice with Fire Roasted Corn",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101393*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegan Barbecue Tempeh",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=102698*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2904,6 +2833,7 @@
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2919,30 +2849,36 @@
           },
           {
             "name": "NY Style Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101700*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Turkey & Cheese Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100618*1%2f2",
             "dietary": ["Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Broccoli",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=102767*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "BBQ Chicken Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101925*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Three Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101924*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -2952,6 +2888,7 @@
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2965,16 +2902,19 @@
         "-- Global Sizzle --": [
           {
             "name": "Garlic Breadsticks",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100901*1",
             "dietary": ["Vegetarian", "Contains Milk", "Contains Wheat"]
           },
           {
             "name": "Quatro Fromaggio Mac",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100186*4",
             "dietary": ["Vegetarian", "Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Urban Kitchen --": [
           {
             "name": "Garlic Naan Bread",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100181*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -2985,20 +2925,24 @@
           },
           {
             "name": "Tandoori Chicken",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100673*1",
             "dietary": ["Gluten Free", "Contains Milk"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "Curly Fries",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100058*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Garlic Parmesan Chicken Nugget",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101501*4",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Vegan Nuggets",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100479*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3010,20 +2954,24 @@
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Honey Roasted Brussels Sprouts",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101128*3",
             "dietary": ["Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Yellow Squash",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100040*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -3035,6 +2983,7 @@
           },
           {
             "name": "Lemon Cheesecake Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=200148*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -3044,27 +2993,19 @@
           },
           {
             "name": "Vegan Peanut Butter Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=200090*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
               "Contains Peanuts",
               "Contains Wheat"
             ]
-          },
-          {
-            "name": "White Buttercream Cake",
-            "dietary": [
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Eggs",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "Sushi Bowl with Spicy Crab and Shrimp",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=100388*1",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -3076,6 +3017,7 @@
           },
           {
             "name": "Vegetable Sushi Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f29%2f2025&RecNumAndPort=101397*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3093,10 +3035,12 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Brown Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=102694*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Plantspired Beef Bulgogi",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=102674*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3107,6 +3051,7 @@
           },
           {
             "name": "Tofu with Black Bean Sauce",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=102697*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3119,6 +3064,7 @@
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3134,30 +3080,36 @@
           },
           {
             "name": "NY Style Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101700*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Turkey & Cheese Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100618*1%2f2",
             "dietary": ["Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Broccoli",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=102767*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Classic Pepperoni Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101920*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Pineapple Jalape\u00f1o Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101922*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3167,6 +3119,7 @@
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3180,6 +3133,7 @@
         "-- Global Sizzle --": [
           {
             "name": "Fried Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101575*4",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3189,6 +3143,7 @@
           },
           {
             "name": "Halal Chicken Fried Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101577*4",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3200,16 +3155,19 @@
         "-- Urban Kitchen --": [
           {
             "name": "Jasmine Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100066*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Raspberry Chipotle BBQ Pork",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100147*3",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "Chicken Cordon Bleu Slider",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101824*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -3219,10 +3177,12 @@
           },
           {
             "name": "French Fry",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100031*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegan Grilled Cheese",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100825*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3241,20 +3201,24 @@
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Roasted Carrots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100426*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Broccoli",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100622*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -3266,6 +3230,7 @@
           },
           {
             "name": "Peach Crumb Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=200178*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3276,24 +3241,29 @@
           },
           {
             "name": "Strawberries N' Cream Jello",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=200079*1",
             "dietary": ["Contains Milk"]
           },
           {
             "name": "Sugar Free Citrus Jello",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=200172*1",
             "dietary": []
           },
           {
             "name": "Vegan Sugar Cookie",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=200364*1",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "Cucumber Sushi Roll",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101353*3",
             "dietary": ["Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Unagi & Tamago Sushi Roll 3pc",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101513*3",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -3308,10 +3278,12 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Brown Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=102694*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Plantspired Beef Bulgogi",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=102674*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3322,6 +3294,7 @@
           },
           {
             "name": "Tofu with Black Bean Sauce",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=102697*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3334,6 +3307,7 @@
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3349,30 +3323,36 @@
           },
           {
             "name": "NY Style Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101700*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Turkey & Cheese Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100618*1%2f2",
             "dietary": ["Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Broccoli",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=102767*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Classic Pepperoni Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101920*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Pineapple Jalape\u00f1o Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101922*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3382,6 +3362,7 @@
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3395,10 +3376,12 @@
         "-- Global Sizzle --": [
           {
             "name": "Beef Gyros",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100921*1",
             "dietary": ["Contains Milk", "Contains Wheat"]
           },
           {
             "name": "Falafel",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101180*3",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3408,30 +3391,36 @@
           },
           {
             "name": "GYRO TOPPINGS",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100403*1",
             "dietary": ["Vegetarian", "Gluten Free", "Contains Milk"]
           }
         ],
         "-- Urban Kitchen --": [
           {
             "name": "Lemon Pepper Chicken",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100910*1%2f8",
             "dietary": []
           },
           {
             "name": "Mashed Potatoes",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100102*4",
             "dietary": ["Vegetarian", "Gluten Free", "Contains Milk"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "Carne Asada Street Tacos",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100343*2",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Salsa Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100153*1",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Soyrizo Potato Tacos",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100144*2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3441,26 +3430,31 @@
           },
           {
             "name": "Tortilla Chips",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100099*1",
             "dietary": ["Vegan", "Vegetarian"]
           }
         ],
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Roasted Brussels Sprouts",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100000*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Zucchini",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=100041*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -3471,31 +3465,25 @@
             ]
           },
           {
-            "name": "Guava Crumb Bar",
-            "dietary": [
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Eggs",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          },
-          {
             "name": "Panna Cotta",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=200350*1",
             "dietary": ["Gluten Free", "Contains Milk"]
           },
           {
             "name": "Vegan Raspberry Cupcakes",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=200307*1",
             "dietary": ["Contains Wheat"]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "Cucumber Sushi Roll",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101353*3",
             "dietary": ["Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Unagi & Tamago Sushi Roll 3pc",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f30%2f2025&RecNumAndPort=101513*3",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -3514,6 +3502,7 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Jamican Jack Stew",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=102162*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3523,12 +3512,14 @@
           },
           {
             "name": "Jerk Sweet Potatoes",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=102713*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3544,30 +3535,36 @@
           },
           {
             "name": "NY Style Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=101700*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Turkey & Cheese Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100618*1%2f2",
             "dietary": ["Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Mushroom Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=102768*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Chicken Alfredo Spinach Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=101926*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Classic Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=101921*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3577,6 +3574,7 @@
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3590,6 +3588,7 @@
         "-- Global Sizzle --": [
           {
             "name": "Korean BBQ Tempeh Taco",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100857*2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3600,6 +3599,7 @@
           },
           {
             "name": "Korean Tacos with Kogi BBQ Sauce",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100333*2",
             "dietary": [
               "Contains Wheat",
               "Contains Soybeans",
@@ -3610,10 +3610,12 @@
         "-- Urban Kitchen --": [
           {
             "name": "Hawaiian Ginger Barbecue Halal Chicken",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100071*1%2f8",
             "dietary": ["Contains Soybeans"]
           },
           {
             "name": "Macaroni Salad",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100002*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3625,34 +3627,41 @@
         "-- The Grill --": [
           {
             "name": "French Fry",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100031*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Halal Beef Taco Fries",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100439*5",
             "dietary": ["Gluten Free", "Contains Milk"]
           },
           {
             "name": "Vegan Farmer's Vegetable Burger",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100449*1",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           }
         ],
         "-- Comfort Table --": [
           {
             "name": "Fried Plantains",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100160*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Steamed Zucchini",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100041*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Almond Coconut Fudge Brownies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=200296*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -3663,10 +3672,12 @@
           },
           {
             "name": "Chocolate Pudding",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=200027*1",
             "dietary": ["Vegetarian", "Contains Milk"]
           },
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -3678,16 +3689,19 @@
           },
           {
             "name": "Sugar Free Berry Jello",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=200171*1",
             "dietary": []
           },
           {
             "name": "Vegan Chocolate Cupcake",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=200163*1",
             "dietary": ["Contains Wheat"]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "Spicy Crab Sushi Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=102664*1",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -3699,6 +3713,7 @@
           },
           {
             "name": "Spicy Tofu Sushi Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=101504*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3712,6 +3727,7 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Jamican Jack Stew",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=102162*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3721,12 +3737,14 @@
           },
           {
             "name": "Jerk Sweet Potatoes",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=102713*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3742,30 +3760,36 @@
           },
           {
             "name": "NY Style Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=101700*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Turkey & Cheese Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100618*1%2f2",
             "dietary": ["Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Mushroom Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=102768*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Chicken Alfredo Spinach Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=101926*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Classic Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=101921*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3775,6 +3799,7 @@
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3788,34 +3813,41 @@
         "-- Global Sizzle --": [
           {
             "name": "Pad Thai Noodles with Halal Chicken & Peanuts",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100729*5",
             "dietary": ["Gluten Free", "Contains Peanuts"]
           },
           {
             "name": "Pad Thai Tofu Noodles with Peanuts",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100606*5",
             "dietary": ["Vegetarian", "Contains Peanuts", "Contains Soybeans"]
           }
         ],
         "-- Urban Kitchen --": [
           {
             "name": "Filipino Pork Adobo",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100267*1",
             "dietary": ["Gluten Free", "Contains Soybeans"]
           },
           {
             "name": "Jasmine Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100066*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "French Fry",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100031*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Nashville Style Hot Chicken Slider",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100786*1",
             "dietary": ["Contains Milk", "Contains Eggs", "Contains Wheat"]
           },
           {
             "name": "Nashville Style Hot Gardein Chicken Slider",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100830*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -3827,20 +3859,24 @@
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Roasted Corn",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=101489*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Roasted Zucchini",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=100799*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -3852,16 +3888,7 @@
           },
           {
             "name": "Mini Chocolate Tart",
-            "dietary": [
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Eggs",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          },
-          {
-            "name": "Peach Crumb Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=200087*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3872,6 +3899,7 @@
           },
           {
             "name": "Vegan Chocolate Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=200053*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3883,6 +3911,7 @@
         "-- Village Garden --": [
           {
             "name": "Spicy Crab Sushi Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=102664*1",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -3894,6 +3923,7 @@
           },
           {
             "name": "Spicy Tofu Sushi Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f01%2f2025&RecNumAndPort=101504*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3911,14 +3941,17 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Nepalese Red Dahl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100698*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegan Indian Potato Curry",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101146*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegan Naan Bread",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101236*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3931,6 +3964,7 @@
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3946,30 +3980,36 @@
           },
           {
             "name": "NY Style Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101700*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Turkey & Cheese Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100618*1%2f2",
             "dietary": ["Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Mushroom Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=102768*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Canadian Bacon Pineapple Jalape\u00f1o Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101928*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Classic Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101921*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -3979,6 +4019,7 @@
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -3992,38 +4033,46 @@
         "-- Global Sizzle --": [
           {
             "name": "Jasmine Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100066*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Sweet & Sour Meatballs",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100447*4",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Sweet & Sour Tofu",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100925*4",
             "dietary": ["Vegan", "Vegetarian", "Contains Soybeans"]
           }
         ],
         "-- Urban Kitchen --": [
           {
             "name": "Halal Teriyaki Chicken",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100067*4",
             "dietary": ["Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Jasmine Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100066*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "Gochujang Chicken Slider",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101333*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Shoestring Fry Skin On",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100029*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegan Grilled Cheese",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100825*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -4042,20 +4091,24 @@
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Steamed Broccoli",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100622*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Yellow Squash",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100040*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -4067,6 +4120,7 @@
           },
           {
             "name": "Parfait Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=200300*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -4077,20 +4131,24 @@
           },
           {
             "name": "Sugar Free Citrus Jello",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=200172*1",
             "dietary": []
           },
           {
             "name": "Tapioca Pudding",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=200075*1",
             "dietary": ["Contains Milk"]
           },
           {
             "name": "Vegan Pumpkin Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=200052*1",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "California Sushi Roll",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101352*3",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -4102,6 +4160,7 @@
           },
           {
             "name": "Cucumber Sushi Roll",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101353*3",
             "dietary": ["Contains Soybeans", "Contains Sesame"]
           }
         ]
@@ -4110,14 +4169,17 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Nepalese Red Dahl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100698*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegan Indian Potato Curry",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101146*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegan Naan Bread",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101236*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -4130,6 +4192,7 @@
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -4145,30 +4208,36 @@
           },
           {
             "name": "NY Style Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101700*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Turkey & Cheese Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100618*1%2f2",
             "dietary": ["Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Specialty Soups --": [
           {
             "name": "Chicken Noodle Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=102760*6",
             "dietary": ["Contains Wheat"]
           },
           {
             "name": "Cream of Mushroom Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=102768*6",
             "dietary": ["Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Canadian Bacon Pineapple Jalape\u00f1o Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101928*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Classic Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101921*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -4178,6 +4247,7 @@
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -4191,10 +4261,12 @@
         "-- Global Sizzle --": [
           {
             "name": "Jasmine Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100066*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Thai Garlic Beef with Basil",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100992*4",
             "dietary": [
               "Contains Fish",
               "Contains Crustacean Shellfish",
@@ -4205,6 +4277,7 @@
           },
           {
             "name": "Thai Passion Tofu & Eggplant",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101439*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -4216,24 +4289,29 @@
         "-- Urban Kitchen --": [
           {
             "name": "Ginger & Garlic Pork Loin w/ Plum Sauce",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100014*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Roasted Potatoes",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100030*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "Chicken Strips",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100111*6",
             "dietary": ["Contains Milk", "Contains Eggs", "Contains Wheat"]
           },
           {
             "name": "Shoestring Fry Skin On",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100029*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Vegan Chicken",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101336*4",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -4245,30 +4323,24 @@
         "-- Comfort Table --": [
           {
             "name": "Broccoli, Zucchini & Carrots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100192*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Steamed Cauliflower",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=100038*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
-            "name": "Dulce de Leche Bar",
-            "dietary": [
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Eggs",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          },
-          {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -4280,6 +4352,7 @@
           },
           {
             "name": "Red Velvet Cupcakes",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=200065*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -4289,12 +4362,14 @@
           },
           {
             "name": "Vegan Strawberry Cupcakes",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=200306*1",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "California Sushi Roll",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101352*3",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -4306,6 +4381,7 @@
           },
           {
             "name": "Cucumber Sushi Roll",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f02%2f2025&RecNumAndPort=101353*3",
             "dietary": ["Contains Soybeans", "Contains Sesame"]
           }
         ]
@@ -4318,20 +4394,24 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Braised Lentils",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100227*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Cooked Farro",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101084*4",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           },
           {
             "name": "Vegan Mushroom Kofta",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101810*2",
             "dietary": ["Vegan", "Vegetarian", "Contains Soybeans"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -4347,16 +4427,19 @@
           },
           {
             "name": "NY Style Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101700*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Turkey & Cheese Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100618*1%2f2",
             "dietary": ["Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Specialty Soups --": [
           {
             "name": "New England Clam Chowder",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=102764*6",
             "dietary": [
               "Contains Milk",
               "Contains Fish",
@@ -4366,12 +4449,14 @@
           },
           {
             "name": "Tomato Bisque Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=102762*6",
             "dietary": ["Vegetarian", "Gluten Free", "Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Three Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101924*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -4381,10 +4466,12 @@
           },
           {
             "name": "Three Meat Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101923*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -4398,26 +4485,31 @@
         "-- Global Sizzle --": [
           {
             "name": "Basil Pesto Mac",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100458*5",
             "dietary": ["Vegetarian", "Contains Milk", "Contains Wheat"]
           },
           {
             "name": "Garlic Bread Sticks",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100060*1",
             "dietary": ["Vegetarian", "Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Urban Kitchen --": [
           {
             "name": "Confetti Pilaf Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100801*4",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           },
           {
             "name": "Wild Rock Cod with Lemon & Capers",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=102028*3",
             "dietary": ["Contains Fish", "Contains Wheat"]
           }
         ],
         "-- The Grill --": [
           {
             "name": "Breakfast Burritos",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100073*1%2f2",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -4427,34 +4519,41 @@
           },
           {
             "name": "Salsa Fresca",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100252*2",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Sausage Links",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100016*2",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Tater Tots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100093*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Roasted Brussels Sprouts",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100000*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Yellow Squash",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100040*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -4466,10 +4565,12 @@
           },
           {
             "name": "Lime Jello",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=200235*1",
             "dietary": []
           },
           {
             "name": "Peanut Butter Brownie",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=200069*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -4481,16 +4582,19 @@
           },
           {
             "name": "Sugar Free Berry Jello",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=200171*1",
             "dietary": []
           },
           {
             "name": "Vegan Mocha Mousse",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=200362*1",
             "dietary": ["Vegan", "Vegetarian", "Contains Milk"]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "Spam Musubi Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101366*1",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -4501,6 +4605,7 @@
           },
           {
             "name": "Tofu Musubi Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101509*1",
             "dietary": [
               "Contains Wheat",
               "Contains Soybeans",
@@ -4513,20 +4618,24 @@
         "-- BYOB (Build Your Own Bowl) --": [
           {
             "name": "Braised Lentils",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100227*4",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Cooked Farro",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101084*4",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           },
           {
             "name": "Vegan Mushroom Kofta",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101810*2",
             "dietary": ["Vegan", "Vegetarian", "Contains Soybeans"]
           }
         ],
         "-- Deli Bar --": [
           {
             "name": "Fresh Seasonal Fruits & Vegetables",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100778*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -4542,16 +4651,19 @@
           },
           {
             "name": "NY Style Deli Toppings",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101700*1",
             "dietary": ["Contains Milk", "Contains Soybeans", "Contains Sesame"]
           },
           {
             "name": "Turkey & Cheese Wrap",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100618*1%2f2",
             "dietary": ["Contains Milk", "Contains Wheat"]
           }
         ],
         "-- Specialty Soups --": [
           {
             "name": "New England Clam Chowder",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=102764*6",
             "dietary": [
               "Contains Milk",
               "Contains Fish",
@@ -4561,12 +4673,14 @@
           },
           {
             "name": "Tomato Bisque Soup",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=102762*6",
             "dietary": ["Vegetarian", "Gluten Free", "Contains Milk"]
           }
         ],
         "-- Spinellis --": [
           {
             "name": "Three Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101924*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -4576,10 +4690,12 @@
           },
           {
             "name": "Three Meat Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101923*1",
             "dietary": ["Contains Milk", "Contains Wheat", "Contains Soybeans"]
           },
           {
             "name": "Vegan Cheese Pizza",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101805*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -4593,6 +4709,7 @@
         "-- Global Sizzle --": [
           {
             "name": "Halal Plum Chicken Lettuce Wraps",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101592*1",
             "dietary": [
               "Contains Wheat",
               "Contains Soybeans",
@@ -4601,6 +4718,7 @@
           },
           {
             "name": "Sweet Sesame Eggplant",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100411*2",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -4613,10 +4731,12 @@
         "-- Urban Kitchen --": [
           {
             "name": "Cajun Cornmeal Breaded Blue Chesapeak Catfish",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100324*4",
             "dietary": ["Contains Fish", "Contains Wheat"]
           },
           {
             "name": "Vegan Dirty Rice",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101557*3",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -4628,6 +4748,7 @@
         "-- The Grill --": [
           {
             "name": "Classic Grilled Cheese",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100236*1%2f2",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -4637,10 +4758,12 @@
           },
           {
             "name": "Garlic Fries",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100457*4",
             "dietary": ["Vegetarian", "Gluten Free", "Contains Milk"]
           },
           {
             "name": "Vegan Grilled Cheese",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100825*1",
             "dietary": [
               "Vegan",
               "Vegetarian",
@@ -4659,20 +4782,24 @@
         "-- Comfort Table --": [
           {
             "name": "Halal Grilled Chicken Breast",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101256*4",
             "dietary": ["Gluten Free"]
           },
           {
             "name": "Steamed Carrots",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100408*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           },
           {
             "name": "Steamed Yellow Squash",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=100040*3",
             "dietary": ["Vegan", "Vegetarian", "Gluten Free"]
           }
         ],
         "-- Desserts --": [
           {
             "name": "Fresh Baked Assorted Cookies",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=200037*1",
             "dietary": [
               "Contains Milk",
               "Contains Eggs",
@@ -4683,17 +4810,8 @@
             ]
           },
           {
-            "name": "Mini Pumpkin Pie",
-            "dietary": [
-              "Vegetarian",
-              "Contains Milk",
-              "Contains Eggs",
-              "Contains Wheat",
-              "Contains Soybeans"
-            ]
-          },
-          {
             "name": "Red Velvet Bar",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=200355*1",
             "dietary": [
               "Vegetarian",
               "Contains Milk",
@@ -4704,12 +4822,14 @@
           },
           {
             "name": "Vegan Oatmeal Raisin Cookie",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=200298*1",
             "dietary": ["Vegan", "Vegetarian", "Contains Wheat"]
           }
         ],
         "-- Village Garden --": [
           {
             "name": "Spam Musubi Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101366*1",
             "dietary": [
               "Contains Eggs",
               "Contains Fish",
@@ -4720,6 +4840,7 @@
           },
           {
             "name": "Tofu Musubi Bowl",
+            "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f03%2f2025&RecNumAndPort=101509*1",
             "dietary": [
               "Contains Wheat",
               "Contains Soybeans",
@@ -4731,5 +4852,6 @@
     }
   },
   "10/04/2025": {},
-  "10/05/2025": {}
+  "10/05/2025": {},
+  "10/06/2025": {}
 }
