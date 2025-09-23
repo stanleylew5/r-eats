@@ -159,13 +159,13 @@ const Selector = () => {
       </Tabs>
 
       {/* Dietary Switch */}
-      <div className="text-reats-blue-200 mr-12 mb-4 ml-4 flex items-center justify-start space-x-2 md:ml-0 md:justify-end">
+      <div className="text-reats-blue-200 mr-4 mb-4 flex items-center justify-end space-x-2 md:mr-12">
+        <Label htmlFor="dietary-restrictions">Dietary Restrictions</Label>
         <Switch
           id="dietary-restrictions"
           checked={showDietary}
           onCheckedChange={setShowDietary}
         />
-        <Label htmlFor="dietary-restrictions">Dietary Restrictions</Label>
       </div>
 
       {/* Menu */}
