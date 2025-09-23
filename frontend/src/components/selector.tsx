@@ -1,11 +1,11 @@
 "use client";
 import { useEffect, useState } from "react";
 import { format, addDays, subDays, isBefore, isAfter } from "date-fns";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import Glasgow from "./glasgow";
-import Lothian from "./lothian";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import Menu from "./menu";
 
 type MealType = "breakfast" | "lunch" | "dinner";
+type DiningHall = "glasgow" | "lothian";
 
 const Selector = () => {
   const today = new Date();
@@ -17,14 +17,17 @@ const Selector = () => {
   const goPrev = () => {
     const prevDate = subDays(selectedDate, 1);
     if (!isBefore(prevDate, minDate)) setSelectedDate(prevDate);
+    console.log(selectedDate);
   };
 
   const goNext = () => {
     const nextDate = addDays(selectedDate, 1);
     if (!isAfter(nextDate, maxDate)) setSelectedDate(nextDate);
+    console.log(selectedDate);
   };
 
   const [meal, setMeal] = useState<MealType | null>(null);
+  const [diningHall, setDiningHall] = useState<DiningHall>("glasgow");
 
   useEffect(() => {
     const updateMeal = () => {
@@ -33,6 +36,7 @@ const Selector = () => {
       const hours = now.getHours();
       const minutes = now.getMinutes();
       const time = hours * 60 + minutes;
+
       let newMeal: MealType = "breakfast";
 
       if (day >= 1 && day <= 5) {
@@ -45,13 +49,11 @@ const Selector = () => {
         if (time >= 600 && time <= 870) newMeal = "lunch";
         else if (time >= 1020 && time <= 1320) newMeal = "dinner";
       }
-
       setMeal(newMeal);
     };
 
     updateMeal();
     const interval = setInterval(updateMeal, 60 * 1000);
-
     return () => clearInterval(interval);
   }, []);
 
@@ -79,7 +81,11 @@ const Selector = () => {
         </button>
       </div>
 
-      <Tabs defaultValue="glasgow" className="mt-8 px-8">
+      <Tabs
+        value={diningHall}
+        onValueChange={(value) => setDiningHall(value as DiningHall)}
+        className="mt-4 px-8 md:mt-8"
+      >
         <TabsList>
           <TabsTrigger
             value="glasgow"
@@ -94,48 +100,52 @@ const Selector = () => {
             Lothian
           </TabsTrigger>
         </TabsList>
-        <TabsContent value="glasgow">
-          <Glasgow />
+        {/* <TabsContent value="glasgow">
         </TabsContent>
         <TabsContent value="lothian">
-          <Lothian />
-        </TabsContent>
+        </TabsContent> */}
       </Tabs>
 
       {meal === null ? (
+        // Loading spinner
         <div className="flex items-center justify-center py-10">
           <div className="border-reats-blue-100 border-t-reats-blue-200 h-8 w-8 animate-spin rounded-full border-4"></div>
         </div>
       ) : (
-        <Tabs
-          value={meal}
-          onValueChange={(value) => setMeal(value as MealType)}
-          className="mt-8 px-8"
-        >
-          <TabsList>
-            <TabsTrigger
-              value="breakfast"
-              className="relative hover:cursor-pointer"
-            >
-              Breakfast
-            </TabsTrigger>
-            <TabsTrigger
-              value="lunch"
-              className="relative hover:cursor-pointer"
-            >
-              Lunch
-            </TabsTrigger>
-            <TabsTrigger
-              value="dinner"
-              className="relative hover:cursor-pointer"
-            >
-              Dinner
-            </TabsTrigger>
-          </TabsList>
-          <TabsContent value="breakfast"></TabsContent>
-          <TabsContent value="lunch"></TabsContent>
-          <TabsContent value="dinner"></TabsContent>
-        </Tabs>
+        <>
+          <Tabs
+            value={meal}
+            onValueChange={(value) => setMeal(value as MealType)}
+            className="mt-4 px-8"
+          >
+            <TabsList>
+              <TabsTrigger
+                value="breakfast"
+                className="relative hover:cursor-pointer"
+              >
+                Breakfast
+              </TabsTrigger>
+              <TabsTrigger
+                value="lunch"
+                className="relative hover:cursor-pointer"
+              >
+                Lunch
+              </TabsTrigger>
+              <TabsTrigger
+                value="dinner"
+                className="relative hover:cursor-pointer"
+              >
+                Dinner
+              </TabsTrigger>
+            </TabsList>
+          </Tabs>
+
+          <Menu
+            meal={meal}
+            diningHall={diningHall}
+            selectedDate={selectedDate}
+          />
+        </>
       )}
     </div>
   );
