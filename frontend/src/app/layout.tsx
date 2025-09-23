@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "R'Eats",
-  description: "The better UCR dining menu",
+  description: "The Better UCR Dining Menu",
 };
 
 export default function RootLayout({
