@@ -78,7 +78,7 @@ const Selector = () => {
       <Tabs
         value={diningHall}
         onValueChange={(value) => setDiningHall(value as DiningHall)}
-        className="mt-4 px-12 md:mt-8"
+        className="mx-4 mt-4 md:mx-12 md:mt-8"
       >
         <TabsList>
           <TabsTrigger
@@ -109,7 +109,7 @@ const Selector = () => {
           <Tabs
             value={meal}
             onValueChange={(value) => setMeal(value as MealType)}
-            className="mt-4 mb-8 px-12"
+            className="mx-4 mt-4 mb-8 md:mx-12"
           >
             <TabsList>
               <TabsTrigger

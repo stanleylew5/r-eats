@@ -60,9 +60,9 @@ export default function Menu({ diningHall, meal, selectedDate }: Props) {
         return (
           <div
             key={station}
-            className="border-reats-blue-100 mx-12 mb-4 rounded-xl border-1"
+            className="border-reats-blue-100 mx-4 mb-4 rounded-xl border-1 md:mx-12"
           >
-            <p className="bg-reats-blue-50 mb-2 py-2 pl-2 text-lg font-semibold">
+            <p className="bg-reats-blue-50 mb-2 rounded-t-xl py-2 pl-2 text-lg font-semibold">
               {cleanStation}
             </p>
             <div className="grid grid-cols-1 justify-center gap-x-2 px-4 md:grid-cols-4">
