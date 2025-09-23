@@ -65,12 +65,12 @@ const dietary: Record<string, DietaryConfig> = {
   },
   "Contains Peanuts": {
     icon: GiPeanut,
-    color: "bg-orange-600 text-white",
+    color: "bg-yellow-900 text-white",
     label: "PN",
   },
   "Contains Soybeans": {
     icon: Bean,
-    color: "bg-orange-600 text-white",
+    color: "bg-orange-300 text-white",
     label: "SB",
   },
   "Contains Sesame": {

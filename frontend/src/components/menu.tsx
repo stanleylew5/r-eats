@@ -21,6 +21,7 @@ interface Props {
   diningHall: "glasgow" | "lothian";
   meal: "breakfast" | "lunch" | "dinner" | "brunch";
   selectedDate: Date;
+  showDietary: boolean;
 }
 
 const dataMap: Record<Props["diningHall"], MenuData> = {
@@ -52,7 +53,12 @@ function ClosedMessage({
   );
 }
 
-export default function Menu({ diningHall, meal, selectedDate }: Props) {
+export default function Menu({
+  diningHall,
+  meal,
+  selectedDate,
+  showDietary,
+}: Props) {
   const dateKey = format(selectedDate, "MM/dd/yyyy");
 
   const data = dataMap[diningHall];
@@ -79,7 +85,9 @@ export default function Menu({ diningHall, meal, selectedDate }: Props) {
             <p className="bg-reats-blue-50 mb-2 rounded-t-xl py-2 pl-2 text-lg font-semibold">
               {cleanStation}
             </p>
-            <div className="grid grid-cols-1 justify-center gap-x-2 px-4 md:grid-cols-4">
+            <div
+              className={`grid ${showDietary ? "grid-cols-1" : "grid-cols-2"} justify-center gap-x-2 px-4 md:grid-cols-4`}
+            >
               {items.map((item, idx) => (
                 <Link
                   href={item.nutrition ? item.nutrition : "/"}
@@ -87,22 +95,24 @@ export default function Menu({ diningHall, meal, selectedDate }: Props) {
                   className="border-reats-blue-100 hover:border-reats-blue-200 mb-2 rounded-xl border-1 p-2 hover:shadow-md"
                 >
                   <div className="font-medium">{item.name}</div>
-                  <div className="mt-1 flex flex-wrap gap-2">
-                    {item.dietary.map((restriction, i) => {
-                      const config = dietary[restriction];
-                      if (!config) return null;
-                      const Icon = config.icon;
-                      return (
-                        <div
-                          key={i}
-                          className={`flex items-center gap-1 rounded-full px-2 py-0.5 text-xs ${config.color}`}
-                        >
-                          <Icon className="h-3 w-3" />
-                          <span>{config.label}</span>
-                        </div>
-                      );
-                    })}
-                  </div>
+                  {showDietary && (
+                    <div className="mt-1 flex flex-wrap gap-2">
+                      {item.dietary.map((restriction, i) => {
+                        const config = dietary[restriction];
+                        if (!config) return null;
+                        const Icon = config.icon;
+                        return (
+                          <div
+                            key={i}
+                            className={`flex items-center gap-1 rounded-full px-2 py-0.5 text-xs ${config.color}`}
+                          >
+                            <Icon className="h-3 w-3" />
+                            <span>{config.label}</span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
                 </Link>
               ))}
             </div>
