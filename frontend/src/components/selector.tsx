@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { format, addDays, subDays, isBefore, isAfter } from "date-fns";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Menu from "./menu";
@@ -26,36 +26,30 @@ const Selector = () => {
     console.log(selectedDate);
   };
 
-  const [meal, setMeal] = useState<MealType | null>(null);
+  const computeCurrentMeal = (): MealType => {
+    const now = new Date();
+    const day = now.getDay();
+    const hours = now.getHours();
+    const minutes = now.getMinutes();
+    const time = hours * 60 + minutes;
+
+    let newMeal: MealType = "breakfast";
+
+    if (day >= 1 && day <= 5) {
+      // Mon - Fri
+      if (time >= 450 && time <= 629) newMeal = "breakfast";
+      else if (time >= 630 && time <= 870) newMeal = "lunch";
+      else if (time >= 1020 && time <= 1320) newMeal = "dinner";
+    } else {
+      // Sat - Sun
+      if (time >= 600 && time <= 870) newMeal = "lunch";
+      else if (time >= 1020 && time <= 1320) newMeal = "dinner";
+    }
+    return newMeal;
+  };
+
+  const [meal, setMeal] = useState<MealType | null>(computeCurrentMeal());
   const [diningHall, setDiningHall] = useState<DiningHall>("glasgow");
-
-  useEffect(() => {
-    const updateMeal = () => {
-      const now = new Date();
-      const day = now.getDay();
-      const hours = now.getHours();
-      const minutes = now.getMinutes();
-      const time = hours * 60 + minutes;
-
-      let newMeal: MealType = "breakfast";
-
-      if (day >= 1 && day <= 5) {
-        // Mon - Fri
-        if (time >= 450 && time <= 629) newMeal = "breakfast";
-        else if (time >= 630 && time <= 870) newMeal = "lunch";
-        else if (time >= 1020 && time <= 1320) newMeal = "dinner";
-      } else {
-        // Sat - Sun
-        if (time >= 600 && time <= 870) newMeal = "lunch";
-        else if (time >= 1020 && time <= 1320) newMeal = "dinner";
-      }
-      setMeal(newMeal);
-    };
-
-    updateMeal();
-    const interval = setInterval(updateMeal, 60 * 1000);
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <div>
@@ -84,7 +78,7 @@ const Selector = () => {
       <Tabs
         value={diningHall}
         onValueChange={(value) => setDiningHall(value as DiningHall)}
-        className="mt-4 px-8 md:mt-8"
+        className="mt-4 px-12 md:mt-8"
       >
         <TabsList>
           <TabsTrigger
@@ -107,7 +101,6 @@ const Selector = () => {
       </Tabs>
 
       {meal === null ? (
-        // Loading spinner
         <div className="flex items-center justify-center py-10">
           <div className="border-reats-blue-100 border-t-reats-blue-200 h-8 w-8 animate-spin rounded-full border-4"></div>
         </div>
@@ -116,7 +109,7 @@ const Selector = () => {
           <Tabs
             value={meal}
             onValueChange={(value) => setMeal(value as MealType)}
-            className="mt-4 px-8"
+            className="mt-4 mb-8 px-12"
           >
             <TabsList>
               <TabsTrigger

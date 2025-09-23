@@ -54,34 +54,46 @@ export default function Menu({ diningHall, meal, selectedDate }: Props) {
 
   return (
     <div>
-      {Object.entries(mealData).map(([station, items]) => (
-        <div key={station}>
-          <h2>{station}</h2>
-          <ul>
-            {items.map((item, idx) => (
-              <li key={idx} className="mb-2">
-                <div className="font-medium">{item.name}</div>
-                <div className="mt-1 flex flex-wrap gap-2">
-                  {item.dietary.map((restriction, i) => {
-                    const config = dietary[restriction];
-                    if (!config) return null;
-                    const Icon = config.icon;
-                    return (
-                      <div
-                        key={i}
-                        className={`flex items-center gap-1 rounded-full px-2 py-0.5 text-xs ${config.color}`}
-                      >
-                        <Icon className="h-3 w-3" />
-                        <span>{config.label}</span>
-                      </div>
-                    );
-                  })}
+      {Object.entries(mealData).map(([station, items]) => {
+        const cleanStation = station.replace(/^--\s*|\s*--$/g, "").trim();
+
+        return (
+          <div
+            key={station}
+            className="border-reats-blue-100 mx-12 mb-4 rounded-xl border-1"
+          >
+            <p className="bg-reats-blue-50 mb-2 py-2 pl-2 text-lg font-semibold">
+              {cleanStation}
+            </p>
+            <div className="grid grid-cols-1 justify-center gap-x-2 px-4 md:grid-cols-4">
+              {items.map((item, idx) => (
+                <div
+                  key={idx}
+                  className="border-reats-blue-100 mb-2 rounded-xl border-1 p-2"
+                >
+                  <div className="font-medium">{item.name}</div>
+                  <div className="mt-1 flex flex-wrap gap-2">
+                    {item.dietary.map((restriction, i) => {
+                      const config = dietary[restriction];
+                      if (!config) return null;
+                      const Icon = config.icon;
+                      return (
+                        <div
+                          key={i}
+                          className={`flex items-center gap-1 rounded-full px-2 py-0.5 text-xs ${config.color}`}
+                        >
+                          <Icon className="h-3 w-3" />
+                          <span>{config.label}</span>
+                        </div>
+                      );
+                    })}
+                  </div>
                 </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
+              ))}
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }

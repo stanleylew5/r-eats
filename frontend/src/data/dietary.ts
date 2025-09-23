@@ -75,7 +75,7 @@ const dietary: Record<string, DietaryConfig> = {
   },
   "Contains Sesame": {
     icon: GiSesame,
-    color: "bg-black-600 text-white",
+    color: "bg-black text-white",
     label: "S",
   },
 };
