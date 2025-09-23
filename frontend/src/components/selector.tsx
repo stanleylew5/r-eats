@@ -117,13 +117,13 @@ const Selector = () => {
         <TabsList>
           <TabsTrigger
             value="glasgow"
-            className="relative hover:cursor-pointer hover:opacity-50"
+            className="relative hover:cursor-pointer md:hover:opacity-50"
           >
             Glasgow
           </TabsTrigger>
           <TabsTrigger
             value="lothian"
-            className="relative hover:cursor-pointer hover:opacity-50"
+            className="relative hover:cursor-pointer md:hover:opacity-50"
           >
             Lothian
           </TabsTrigger>
@@ -139,19 +139,19 @@ const Selector = () => {
         <TabsList>
           <TabsTrigger
             value="breakfast"
-            className="relative hover:cursor-pointer hover:opacity-50"
+            className="relative hover:cursor-pointer md:hover:opacity-50"
           >
             Breakfast
           </TabsTrigger>
           <TabsTrigger
             value="lunch"
-            className="relative hover:cursor-pointer hover:opacity-50"
+            className="relative hover:cursor-pointer md:hover:opacity-50"
           >
             Lunch
           </TabsTrigger>
           <TabsTrigger
             value="dinner"
-            className="relative hover:cursor-pointer hover:opacity-50"
+            className="relative hover:cursor-pointer md:hover:opacity-50"
           >
             Dinner
           </TabsTrigger>

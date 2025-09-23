@@ -27,7 +27,7 @@ const Header = () => {
       <div className="flex justify-center pb-4 md:hidden">
         <Link
           href="/legend"
-          className="bg-reats-blue-200 hover:text-reats-blue-200 flex items-center justify-center rounded-xl border-2 border-white pt-2 pr-4 pb-2 pl-2 font-medium text-white hover:bg-white"
+          className="bg-reats-blue-200 flex items-center justify-center rounded-xl border-2 border-white pt-2 pr-4 pb-2 pl-2 font-medium text-white"
         >
           <Info className="mr-2 text-lg" />
           Icon Legend
