@@ -92,6 +92,7 @@ export default function Menu({
                 <Link
                   href={item.nutrition ? item.nutrition : "/"}
                   key={idx}
+                  target="_blank"
                   className={`border-reats-blue-100 hover:border-reats-blue-200 mb-2 rounded-lg ${showDietary ? "text-left" : "flex items-center justify-center md:justify-start"} border-1 p-2 hover:shadow-md`}
                 >
                   <div
