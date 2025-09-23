@@ -3,6 +3,8 @@ import { format } from "date-fns";
 import lothianData from "@/data/lothian.json";
 import glasgowData from "@/data/glasgow.json";
 import dietary from "@/data/dietary";
+import Image from "next/image";
+import logo from "@/public/newlogo.webp";
 interface MenuItem {
   name: string;
   dietary: string[];
@@ -24,6 +26,11 @@ const dataMap: Record<Props["diningHall"], MenuData> = {
   lothian: lothianData,
 };
 
+function capitalizeFirst(str: string) {
+  if (!str) return str;
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 function ClosedMessage({
   diningHall,
   meal,
@@ -32,8 +39,13 @@ function ClosedMessage({
   meal: string;
 }) {
   return (
-    <div className="p-4 text-center text-red-600">
-      Sorry! {diningHall} is closed at {meal}.
+    <div className="flex flex-col items-center text-center">
+      <p className="text-reats-blue-200 text-3xl font-semibold">Sorry!</p>
+      <p className="py-4 font-medium">
+        {capitalizeFirst(diningHall)} is closed for {capitalizeFirst(meal)}. Try
+        another day!
+      </p>
+      <Image src={logo} alt="logo" />
     </div>
   );
 }
