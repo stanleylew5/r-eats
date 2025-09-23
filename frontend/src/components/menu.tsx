@@ -2,6 +2,16 @@
 import { format } from "date-fns";
 import lothianData from "@/data/lothian.json";
 import glasgowData from "@/data/glasgow.json";
+import dietary from "@/data/dietary";
+interface MenuItem {
+  name: string;
+  dietary: string[];
+}
+
+type Station = Record<string, MenuItem[]>;
+type Meal = Record<string, Station>;
+type DiningHall = Record<string, Meal>;
+type MenuData = Record<string, DiningHall>;
 
 interface Props {
   diningHall: "glasgow" | "lothian";
@@ -9,15 +19,10 @@ interface Props {
   selectedDate: Date;
 }
 
-const dataMap = {
+const dataMap: Record<Props["diningHall"], MenuData> = {
   glasgow: glasgowData,
   lothian: lothianData,
 };
-
-function normalizeMeal(meal: Props["meal"]) {
-  if (meal === "brunch") return "lunch";
-  return meal;
-}
 
 function ClosedMessage({
   diningHall,
@@ -35,26 +40,44 @@ function ClosedMessage({
 
 export default function Menu({ diningHall, meal, selectedDate }: Props) {
   const dateKey = format(selectedDate, "MM/dd/yyyy");
+
   const data = dataMap[diningHall];
-  const normalizedMeal = normalizeMeal(meal);
-  const mealData = data[dateKey]?.[diningHall]?.[normalizedMeal];
+
+  // match against capitalized keys in the JSON
+  const diningHallData =
+    data[dateKey]?.[diningHall.charAt(0).toUpperCase() + diningHall.slice(1)];
+  const mealData =
+    diningHallData?.[meal.charAt(0).toUpperCase() + meal.slice(1)];
 
   if (!mealData || Object.keys(mealData).length === 0) {
-    return <ClosedMessage diningHall={diningHall} meal={normalizedMeal} />;
+    return <ClosedMessage diningHall={diningHall} meal={meal} />;
   }
 
   return (
     <div>
-      {Object.entries(mealData).map(([section, items]) => (
-        <div key={section}>
-          <h2>{section}</h2>
+      {Object.entries(mealData).map(([station, items]) => (
+        <div key={station}>
+          <h2>{station}</h2>
           <ul>
-            {(items as any[]).map((item, idx) => (
-              <li key={idx}>
-                {item.name}
-                {item.dietary.length > 0 && (
-                  <span> ({item.dietary.join(", ")})</span>
-                )}
+            {items.map((item, idx) => (
+              <li key={idx} className="mb-2">
+                <div className="font-medium">{item.name}</div>
+                <div className="mt-1 flex flex-wrap gap-2">
+                  {item.dietary.map((restriction, i) => {
+                    const config = dietary[restriction];
+                    if (!config) return null;
+                    const Icon = config.icon;
+                    return (
+                      <div
+                        key={i}
+                        className={`flex items-center gap-1 rounded-full px-2 py-0.5 text-xs ${config.color}`}
+                      >
+                        <Icon className="h-3 w-3" />
+                        <span>{config.label}</span>
+                      </div>
+                    );
+                  })}
+                </div>
               </li>
             ))}
           </ul>
