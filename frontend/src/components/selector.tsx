@@ -28,7 +28,7 @@ const Selector = () => {
     const intervals: { start: number; end: number; meal: MealType }[] = [];
 
     if (day >= 1 && day <= 5) {
-      // Mon-Fri
+      // Mon-Fri if these clowns ever start changin the hours
       intervals.push({ start: 450, end: 629, meal: "breakfast" }); // 7:30-10:29
       intervals.push({ start: 630, end: 870, meal: "lunch" }); // 10:30-14:30
       intervals.push({ start: 1020, end: 1320, meal: "dinner" }); // 17:00-22:00
@@ -44,7 +44,6 @@ const Selector = () => {
     const future = intervals.find((i) => time < i.start);
     if (future) return { meal: future.meal, date: today };
 
-    // After dinner → next day's breakfast
     return { meal: "breakfast", date: addDays(today, 1) };
   };
 

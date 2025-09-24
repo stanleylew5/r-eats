@@ -7,7 +7,6 @@ const Header = () => {
   return (
     <header className="bg-reats-blue-200">
       <div className="relative flex items-center justify-center py-6">
-        {/* centered brand */}
         <Link href="/" className="z-10 flex items-center">
           <Image src={logo} alt="logo" className="w-[70px]" />
           <p className="ml-2 text-3xl font-semibold text-white">R&apos;Eats</p>
