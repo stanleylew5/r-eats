@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
 import Menu from "./menu";
 import Cookies from "js-cookie";
+import Link from "next/link";
 
 type MealType = "breakfast" | "lunch" | "dinner";
 type DiningHall = "glasgow" | "lothian";
@@ -13,21 +14,11 @@ type DiningHall = "glasgow" | "lothian";
 const Selector = () => {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
-  const [selectedDate, setSelectedDate] = useState<Date>(today);
+
   const minDate = today;
   const maxDate = addDays(today, 14);
 
-  const goPrev = () => {
-    const prevDate = subDays(selectedDate, 1);
-    if (!isBefore(prevDate, minDate)) setSelectedDate(prevDate);
-  };
-
-  const goNext = () => {
-    const nextDate = addDays(selectedDate, 1);
-    if (!isAfter(nextDate, maxDate)) setSelectedDate(nextDate);
-  };
-
-  const computeCurrentMeal = (): MealType => {
+  const computeCurrentMeal = (): { meal: MealType; date: Date } => {
     const now = new Date();
     const day = now.getDay();
     const hours = now.getHours();
@@ -48,33 +39,43 @@ const Selector = () => {
     }
 
     const current = intervals.find((i) => time >= i.start && time <= i.end);
-    if (current) return current.meal;
+    if (current) return { meal: current.meal, date: today };
 
     const future = intervals.find((i) => time < i.start);
-    if (future) return future.meal;
+    if (future) return { meal: future.meal, date: today };
 
-    return intervals[0].meal;
+    // After dinner → next day's breakfast
+    return { meal: "breakfast", date: addDays(today, 1) };
   };
 
-  const [meal, setMeal] = useState<MealType>(computeCurrentMeal());
+  const { meal: initialMeal, date: initialDate } = computeCurrentMeal();
+  const [selectedDate, setSelectedDate] = useState<Date>(initialDate);
+  const [meal, setMeal] = useState<MealType>(initialMeal);
   const [diningHall, setDiningHall] = useState<DiningHall>("glasgow");
   const [showDietary, setShowDietary] = useState<boolean>(true);
   const [hydrated, setHydrated] = useState(false);
 
-  // Load cookie on client
+  const goPrev = () => {
+    const prevDate = subDays(selectedDate, 1);
+    if (!isBefore(prevDate, minDate)) setSelectedDate(prevDate);
+  };
+
+  const goNext = () => {
+    const nextDate = addDays(selectedDate, 1);
+    if (!isAfter(nextDate, maxDate)) setSelectedDate(nextDate);
+  };
+
   useEffect(() => {
     const cookieValue = Cookies.get("showDietary");
     if (cookieValue !== undefined) setShowDietary(cookieValue === "true");
     setHydrated(true);
   }, []);
 
-  // Save cookie when changed
   useEffect(() => {
     if (hydrated)
       Cookies.set("showDietary", String(showDietary), { expires: 365 });
   }, [showDietary, hydrated]);
 
-  // Show loading spinner until hydrated
   if (!hydrated) {
     return (
       <div className="flex h-64 items-center justify-center">
@@ -85,7 +86,6 @@ const Selector = () => {
 
   return (
     <div>
-      {/* Date Selector */}
       <div className="bg-reats-blue-150 border-reats-gray-100 flex items-center justify-center gap-4 border-b-1 py-4">
         <button
           onClick={goPrev}
@@ -108,7 +108,6 @@ const Selector = () => {
         </button>
       </div>
 
-      {/* Dining Hall Tabs */}
       <Tabs
         value={diningHall}
         onValueChange={(value) => setDiningHall(value as DiningHall)}
@@ -130,7 +129,6 @@ const Selector = () => {
         </TabsList>
       </Tabs>
 
-      {/* Meal Tabs */}
       <Tabs
         value={meal}
         onValueChange={(value) => setMeal(value as MealType)}
@@ -157,18 +155,20 @@ const Selector = () => {
           </TabsTrigger>
         </TabsList>
       </Tabs>
-
-      {/* Dietary Switch */}
-      <div className="text-reats-blue-200 mr-4 mb-4 flex items-center justify-end space-x-2 md:mr-12">
-        <Label htmlFor="dietary-restrictions">Dietary Restrictions</Label>
-        <Switch
-          id="dietary-restrictions"
-          checked={showDietary}
-          onCheckedChange={setShowDietary}
-        />
+      <div className="flex justify-between">
+        <div className="text-reats-blue-200 mb-4 ml-4 flex items-center justify-start text-sm font-medium hover:opacity-70 md:ml-12">
+          <Link href="/hours">Dining Hours</Link>
+        </div>
+        <div className="text-reats-blue-200 mr-4 mb-4 flex items-center justify-end space-x-2 md:mr-12">
+          <Label htmlFor="dietary-restrictions">Dietary Restrictions</Label>
+          <Switch
+            id="dietary-restrictions"
+            checked={showDietary}
+            onCheckedChange={setShowDietary}
+          />
+        </div>
       </div>
 
-      {/* Menu */}
       <Menu
         meal={meal}
         diningHall={diningHall}
