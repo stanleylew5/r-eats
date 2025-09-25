@@ -1,509 +1,4 @@
 {
-    "09/24/2025": {
-        "Lothian": {
-            "Lunch": {
-                "-- BYOB (Build Your Own Bowl) --": [
-                    {
-                        "name": "Alu Chole",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Tomato Chutney",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Vegetable Pakoras",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ],
-                "-- Deli Bar --": [
-                    {
-                        "name": "Antipasto Deli Bar (contains GF Items)",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Fresh Seasonal Fruits & Vegetables",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Fish",
-                            "Contains Crustacean Shellfish",
-                            "Contains Tree Nuts",
-                            "Contains Peanuts",
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Plantbased Chick'n Caesar Wrap",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Tree Nuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Specialty Soups --": [
-                    {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Mushroom Soup",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    }
-                ],
-                "-- Spinellis --": [
-                    {
-                        "name": "BBQ Chicken Pizza",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Classic Cheese Pizza",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Vegan Cheese Pizza",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Tree Nuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Global Sizzle --": [
-                    {
-                        "name": "Shanghai Shrimp Udon",
-                        "dietary": [
-                            "Contains Crustacean Shellfish",
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Shanghai Vegetable Udon",
-                        "dietary": [
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    }
-                ],
-                "-- Urban Kitchen --": [
-                    {
-                        "name": "Greek Pasta Salad",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Tandoori Chicken",
-                        "dietary": [
-                            "Gluten Free",
-                            "Contains Milk"
-                        ]
-                    }
-                ],
-                "-- The Grill --": [
-                    {
-                        "name": "Classic Grilled Cheese",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "House-made BBQ Potato Chips",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Vegan Grilled Cheese",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Tree Nuts",
-                            "Contains Wheat"
-                        ]
-                    }
-                ],
-                "-- Comfort Table --": [
-                    {
-                        "name": "Halal Grilled Chicken Breast",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Roasted Carrots",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Roasted Corn",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ],
-                "-- Desserts --": [
-                    {
-                        "name": "Cocoa Puff Krispy Treats",
-                        "dietary": [
-                            "Gluten Free",
-                            "Contains Milk"
-                        ]
-                    },
-                    {
-                        "name": "Fresh Baked Assorted Cookies",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Tree Nuts",
-                            "Contains Peanuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Orange Jello",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Sugar Free Citrus Jello",
-                        "dietary": []
-                    },
-                    {
-                        "name": "Vegan Fudge Brownie",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    }
-                ],
-                "-- Village Garden --": [
-                    {
-                        "name": "Ahi Poke Bowl",
-                        "dietary": [
-                            "Contains Fish",
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Tofu Poke Bowl",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    }
-                ]
-            },
-            "Dinner": {
-                "-- BYOB (Build Your Own Bowl) --": [
-                    {
-                        "name": "Alu Chole",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Tomato Chutney",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Vegetable Pakoras",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ],
-                "-- Deli Bar --": [
-                    {
-                        "name": "Antipasto Deli Bar (contains GF Items)",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Fresh Seasonal Fruits & Vegetables",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Fish",
-                            "Contains Crustacean Shellfish",
-                            "Contains Tree Nuts",
-                            "Contains Peanuts",
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Plantbased Chick'n Caesar Wrap",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Tree Nuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Specialty Soups --": [
-                    {
-                        "name": "Chicken Noodle Soup",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Cream of Mushroom Soup",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    }
-                ],
-                "-- Spinellis --": [
-                    {
-                        "name": "BBQ Chicken Pizza",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Classic Cheese Pizza",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Vegan Cheese Pizza",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Tree Nuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Global Sizzle --": [
-                    {
-                        "name": "Jasmine Rice",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Spanish Chicken and Sausage Stew",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Spanish Soy Chicken and  Vegetable Stew",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Urban Kitchen --": [
-                    {
-                        "name": "Cuban Style Black Beans",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Kalua Pork",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    }
-                ],
-                "-- The Grill --": [
-                    {
-                        "name": "Chicken Nuggets",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "House-made BBQ Potato Chips",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Vegan Nuggets",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Comfort Table --": [
-                    {
-                        "name": "Halal Grilled Chicken Breast",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Roasted Corn",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Steamed Broccoli",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ],
-                "-- Desserts --": [
-                    {
-                        "name": "Assorted Vegan and Gluten Friendly Cookies",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Coconut Cream Bar",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Tree Nuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Fresh Baked Assorted Cookies",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Tree Nuts",
-                            "Contains Peanuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Village Garden --": [
-                    {
-                        "name": "Ahi Poke Bowl",
-                        "dietary": [
-                            "Contains Fish",
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Tofu Poke Bowl",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    }
-                ]
-            }
-        }
-    },
     "09/25/2025": {
         "Lothian": {
             "Lunch": {
@@ -5834,6 +5329,497 @@
                         "name": "Spicy Cream Cheese Sushi Roll 3pc",
                         "dietary": [
                             "Contains Milk",
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "10/08/2025": {
+        "Lothian": {
+            "Lunch": {
+                "-- BYOB (Build Your Own Bowl) --": [
+                    {
+                        "name": "Alu Chole",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Tomato Chutney",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Vegetable Pakoras",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    }
+                ],
+                "-- Deli Bar --": [
+                    {
+                        "name": "Fresh Seasonal Fruits & Vegetables",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Fish",
+                            "Contains Crustacean Shellfish",
+                            "Contains Tree Nuts",
+                            "Contains Peanuts",
+                            "Contains Wheat",
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    },
+                    {
+                        "name": "Mediterranean Deli Toppings",
+                        "dietary": [
+                            "Gluten Free",
+                            "Contains Milk",
+                            "Contains Sesame"
+                        ]
+                    },
+                    {
+                        "name": "Vegetarian Greek Wrap",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Mushroom Soup",
+                        "dietary": [
+                            "Contains Milk"
+                        ]
+                    }
+                ],
+                "-- Spinellis --": [
+                    {
+                        "name": "Classic Cheese Pizza",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
+                        "name": "Pepperoni Jalapeno Hot Honey Pizza",
+                        "dietary": [
+                            "Contains Milk",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
+                        "name": "Vegan Cheese Pizza",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Tree Nuts",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Global Sizzle --": [
+                    {
+                        "name": "Chicken Dan Dan Noodle",
+                        "dietary": [
+                            "Contains Crustacean Shellfish",
+                            "Contains Wheat",
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    },
+                    {
+                        "name": "Tofu Dan Dan Noodle",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Wheat",
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    }
+                ],
+                "-- Urban Kitchen --": [
+                    {
+                        "name": "Argentinian Halal Beef Top Sirloin with Chimi Churri",
+                        "dietary": [
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Roasted Fingerling Potatoes",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    }
+                ],
+                "-- The Grill --": [
+                    {
+                        "name": "Cheese Quesadilla",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Salsa Bar Condiments",
+                        "dietary": [
+                            "Vegetarian",
+                            "Gluten Free",
+                            "Contains Milk"
+                        ]
+                    },
+                    {
+                        "name": "Tortilla Chips",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian"
+                        ]
+                    }
+                ],
+                "-- Comfort Table --": [
+                    {
+                        "name": "Green Beans",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Halal Grilled Chicken Breast",
+                        "dietary": [
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Roasted Corn",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    }
+                ],
+                "-- Desserts --": [
+                    {
+                        "name": "Fresh Baked Assorted Cookies",
+                        "dietary": [
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Tree Nuts",
+                            "Contains Peanuts",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
+                        "name": "Seven Layer Bar",
+                        "dietary": [
+                            "Contains Milk",
+                            "Contains Tree Nuts",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
+                        "name": "Sugar Free Citrus Jello",
+                        "dietary": []
+                    },
+                    {
+                        "name": "Vanilla Pudding",
+                        "dietary": [
+                            "Contains Milk"
+                        ]
+                    },
+                    {
+                        "name": "Vegan Pumpkin Cookies",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Wheat"
+                        ]
+                    }
+                ],
+                "-- Village Garden --": [
+                    {
+                        "name": "Spicy Tuna Bowl",
+                        "dietary": [
+                            "Contains Fish",
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    },
+                    {
+                        "name": "Vegetable Sushi Bowl",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    }
+                ]
+            },
+            "Dinner": {
+                "-- BYOB (Build Your Own Bowl) --": [
+                    {
+                        "name": "Alu Chole",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Tomato Chutney",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Vegetable Pakoras",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    }
+                ],
+                "-- Deli Bar --": [
+                    {
+                        "name": "Fresh Seasonal Fruits & Vegetables",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Fish",
+                            "Contains Crustacean Shellfish",
+                            "Contains Tree Nuts",
+                            "Contains Peanuts",
+                            "Contains Wheat",
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    },
+                    {
+                        "name": "Mediterranean Deli Toppings",
+                        "dietary": [
+                            "Gluten Free",
+                            "Contains Milk",
+                            "Contains Sesame"
+                        ]
+                    },
+                    {
+                        "name": "Vegetarian Greek Wrap",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Specialty Soups --": [
+                    {
+                        "name": "Chicken Noodle Soup",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Cream of Mushroom Soup",
+                        "dietary": [
+                            "Contains Milk"
+                        ]
+                    }
+                ],
+                "-- Spinellis --": [
+                    {
+                        "name": "Classic Cheese Pizza",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
+                        "name": "Pepperoni Jalapeno Hot Honey Pizza",
+                        "dietary": [
+                            "Contains Milk",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
+                        "name": "Vegan Cheese Pizza",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Tree Nuts",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Global Sizzle --": [
+                    {
+                        "name": "Jasmine Rice",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Lemon Chicken",
+                        "dietary": [
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
+                        "name": "Lemongrass Chili Soy Chicken",
+                        "dietary": [
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    }
+                ],
+                "-- Urban Kitchen --": [
+                    {
+                        "name": "Adobo Barbecue Halal Beef Top Sirloin",
+                        "dietary": [
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Mashed Potatoes",
+                        "dietary": [
+                            "Vegetarian",
+                            "Gluten Free",
+                            "Contains Milk"
+                        ]
+                    }
+                ],
+                "-- The Grill --": [
+                    {
+                        "name": "Halal Beef Nachos Supreme",
+                        "dietary": [
+                            "Gluten Free",
+                            "Contains Milk"
+                        ]
+                    }
+                ],
+                "-- Comfort Table --": [
+                    {
+                        "name": "Halal Grilled Chicken Breast",
+                        "dietary": [
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Roasted Corn",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Steamed Broccoli",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    }
+                ],
+                "-- Desserts --": [
+                    {
+                        "name": "Chocolate Marble Bar",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
+                        "name": "Chocolate Sheet Cake",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
+                        "name": "Fresh Baked Assorted Cookies",
+                        "dietary": [
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Tree Nuts",
+                            "Contains Peanuts",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
+                        "name": "Vegan Fudge Brownie",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
+                    }
+                ],
+                "-- Village Garden --": [
+                    {
+                        "name": "Spicy Tuna Bowl",
+                        "dietary": [
+                            "Contains Fish",
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    },
+                    {
+                        "name": "Vegetable Sushi Bowl",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
                             "Contains Soybeans",
                             "Contains Sesame"
                         ]
