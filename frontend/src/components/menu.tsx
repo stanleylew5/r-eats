@@ -60,14 +60,13 @@ export default function Menu({
   showDietary,
 }: Props) {
   const dateKey = format(selectedDate, "MM/dd/yyyy");
-
+  console.log("dateKey:", dateKey);
   const data = dataMap[diningHall];
 
   const diningHallData =
     data[dateKey]?.[diningHall.charAt(0).toUpperCase() + diningHall.slice(1)];
   const mealData =
     diningHallData?.[meal.charAt(0).toUpperCase() + meal.slice(1)];
-
   if (!mealData || Object.keys(mealData).length === 0) {
     return <ClosedMessage diningHall={diningHall} meal={meal} />;
   }

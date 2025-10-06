@@ -3,10 +3,12 @@ from bs4 import BeautifulSoup
 import json
 from datetime import datetime, timedelta
 from urllib.parse import quote
+import os
 
 food_dietary_map = {}
 
 BASE_URL = "https://foodpro.ucr.edu/foodpro/shortmenu.aspx?sName=University+of+California%2c+Riverside+Dining+Services&locationNum={location_num}&locationName={location_name}&naFlag=1&WeeksMenus=This+Week%27s+Menus&myaction=read&dtdate={date}"
+BASE_NUTRITION_URL = "https://foodpro.ucr.edu/foodpro/"
 
 DINING_HALLS = [
     {"num": "02", "name": "Lothian"},
@@ -56,7 +58,8 @@ def fetch_menu(location_num, location_name, date):
                 if not food_item:
                     continue
                 food_name = food_item.text.strip()
-
+                nutrition_href = food_item.get("href", "").strip()
+                nutrition = BASE_NUTRITION_URL + nutrition_href if nutrition_href else ""
                 # Get dietary icons
                 dietary_options = []
                 dietary_div = wrapper.find("div", class_="menuItemPieceIcons")
@@ -69,6 +72,7 @@ def fetch_menu(location_num, location_name, date):
                 # Add to menu
                 food_items.append({
                     "name": food_name,
+                    "nutrition": nutrition,
                     "dietary": dietary_options
                 })
 
@@ -80,6 +84,11 @@ def fetch_menu(location_num, location_name, date):
             menu_data[mealTime][station] = food_items
 
     return menu_data
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+repo_root = os.path.dirname(script_dir)
+output_dir = os.path.join(repo_root, 'frontend', 'src', 'data')
+os.makedirs(output_dir, exist_ok=True)
 
 lothian = {}
 glasgow = {}
@@ -97,13 +106,13 @@ for i in range(14):
             if hall["num"] == "03":
                 glasgow[date][hall["name"]] = menu
 
-with open("lothian.json", "w") as f:
+with open(os.path.join(output_dir, "lothian.json"), "w") as f:
     json.dump(lothian, f, indent=4)
 
-with open("glasgow.json", "w") as f:
+with open(os.path.join(output_dir, "glasgow.json"), "w") as f:
     json.dump(glasgow, f, indent=4)
 
-with open("foodDietaryMap.json", "w") as f:
+with open(os.path.join(output_dir, "foodDietaryMap.json"), "w") as f:
     json.dump(food_dietary_map, f, indent=4)
 
-print("Menu data for 14 days saved to lothian.json and glasgow.json")
+print(f"Menu data for 14 days saved to {output_dir}")
