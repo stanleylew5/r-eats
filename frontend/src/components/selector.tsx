@@ -16,7 +16,7 @@ const Selector = () => {
   today.setHours(0, 0, 0, 0);
 
   const minDate = today;
-  const maxDate = addDays(today, 14);
+  const maxDate = addDays(today, 13);
 
   const computeCurrentMeal = (): { meal: MealType; date: Date } => {
     const now = new Date();
