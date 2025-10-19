@@ -1,5 +1,4 @@
 {
-    "10/18/2025": {},
     "10/19/2025": {},
     "10/20/2025": {
         "Lothian": {
@@ -490,6 +489,17 @@
                 ],
                 "-- Desserts --": [
                     {
+                        "name": "Chocolate Cupcake",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f20%2f2025&RecNumAndPort=200062*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
                         "name": "Fresh Baked Assorted Cookies",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f20%2f2025&RecNumAndPort=200037*1",
                         "dietary": [
@@ -519,17 +529,6 @@
                             "Vegetarian",
                             "Contains Peanuts",
                             "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "White Buttercream Cake",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=10%2f20%2f2025&RecNumAndPort=200034*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Wheat",
-                            "Contains Soybeans"
                         ]
                     }
                 ],
@@ -5589,5 +5588,6 @@
                 ]
             }
         }
-    }
+    },
+    "11/01/2025": {}
 }
