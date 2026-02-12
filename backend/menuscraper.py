@@ -93,7 +93,7 @@ os.makedirs(output_dir, exist_ok=True)
 lothian = {}
 glasgow = {}
 
-for i in range(14):
+for i in range(15):
     date = (datetime.today() + timedelta(days=i)).strftime("%m/%d/%Y")
     lothian[date] = {}
     glasgow[date] = {}

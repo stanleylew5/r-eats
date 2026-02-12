@@ -264,10 +264,12 @@
     "Assorted Bagels": [
         "Contains Wheat"
     ],
-    "Butter Croissant": [
-        "Vegetarian",
+    "Assorted European Mini Danish": [
         "Contains Milk",
-        "Contains Wheat"
+        "Contains Eggs",
+        "Contains Tree Nuts",
+        "Contains Wheat",
+        "Contains Soybeans"
     ],
     "Double Chocolate Muffin": [
         "Contains Milk",
@@ -307,21 +309,16 @@
         "Contains Soybeans",
         "Contains Sesame"
     ],
-    "Hand Crafted Italian Chicken Bacon Ranch Pizza": [
-        "Contains Milk",
-        "Contains Eggs",
-        "Contains Wheat",
-        "Contains Soybeans"
-    ],
-    "Hand Crafted Italian Veggie Supreme Pizza": [
+    "Philly Soy Steak Pizza": [
         "Vegetarian",
         "Contains Milk",
         "Contains Wheat",
         "Contains Soybeans"
     ],
-    "Cavatappi Pasta with Halal Meat Sauce": [
+    "Philly Steak Pizza": [
         "Contains Milk",
-        "Contains Wheat"
+        "Contains Wheat",
+        "Contains Soybeans"
     ],
     "Garlic Breadsticks": [
         "Vegetarian",
@@ -567,6 +564,12 @@
         "Contains Wheat",
         "Contains Soybeans"
     ],
+    "Hand Crafted Italian Veggie Supreme Pizza": [
+        "Vegetarian",
+        "Contains Milk",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
     "Curly Fries": [
         "Vegan",
         "Vegetarian",
@@ -792,6 +795,11 @@
         "Contains Eggs",
         "Contains Wheat",
         "Contains Soybeans"
+    ],
+    "Butter Croissant": [
+        "Vegetarian",
+        "Contains Milk",
+        "Contains Wheat"
     ],
     "Vegan Overnight Oats": [
         "Vegan",
@@ -1059,7 +1067,6 @@
         "Contains Wheat",
         "Contains Soybeans"
     ],
-    "Chicken Pozole": [],
     "Belgian Waffles": [
         "Vegetarian",
         "Contains Milk",
@@ -1276,13 +1283,6 @@
         "Vegetarian",
         "Contains Milk",
         "Contains Eggs",
-        "Contains Wheat",
-        "Contains Soybeans"
-    ],
-    "Assorted European Mini Danish": [
-        "Contains Milk",
-        "Contains Eggs",
-        "Contains Tree Nuts",
         "Contains Wheat",
         "Contains Soybeans"
     ],
@@ -1843,6 +1843,7 @@
         "Vegetarian",
         "Gluten Free"
     ],
+    "Chicken Pozole": [],
     "Vanilla French Toast": [
         "Vegetarian",
         "Contains Milk",
@@ -2157,6 +2158,10 @@
     "Mango Sushi Roll": [
         "Contains Soybeans"
     ],
+    "Cavatappi Pasta with Halal Meat Sauce": [
+        "Contains Milk",
+        "Contains Wheat"
+    ],
     "Halal Teriyaki Chicken": [
         "Contains Soybeans",
         "Contains Sesame"
@@ -2219,5 +2224,108 @@
     ],
     "Beef Suya Toppings": [],
     "Jamaican Callaloo": [],
-    "Nigerian Beef Suya": []
+    "Nigerian Beef Suya": [],
+    "Guava Turnover": [
+        "Contains Wheat"
+    ],
+    "Mango Flan": [
+        "Contains Milk",
+        "Contains Eggs"
+    ],
+    "Puff Puff Donut": [
+        "Contains Wheat"
+    ],
+    "Bean and Cheese Tostadas": [
+        "Vegetarian",
+        "Gluten Free",
+        "Contains Milk"
+    ],
+    "Chicken Tinga": [
+        "Gluten Free",
+        "Contains Milk",
+        "Contains Soybeans"
+    ],
+    "Thai Yellow Curry Noodles": [
+        "Vegan",
+        "Vegetarian",
+        "Contains Tree Nuts"
+    ],
+    "Orange Jello": [
+        "Gluten Free"
+    ],
+    "Confetti Pilaf Rice": [
+        "Vegan",
+        "Vegetarian",
+        "Contains Wheat"
+    ],
+    "Halal Rosemary Roasted Chicken": [
+        "Gluten Free",
+        "Contains Milk",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "Hot Link with Bun": [
+        "Contains Wheat"
+    ],
+    "Vegetarian Soy Hot Dog": [
+        "Vegetarian",
+        "Contains Eggs",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "Apple Pecan Crumb Bar": [
+        "Vegetarian",
+        "Contains Milk",
+        "Contains Eggs",
+        "Contains Tree Nuts",
+        "Contains Peanuts",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "Banana Cream Pie": [
+        "Vegetarian",
+        "Contains Milk",
+        "Contains Eggs",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "Cinnamon Swirl Loaf Cake": [
+        "Vegetarian",
+        "Contains Milk",
+        "Contains Eggs",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "Beef and Broccoli": [
+        "Contains Crustacean Shellfish",
+        "Contains Wheat",
+        "Contains Soybeans",
+        "Contains Sesame"
+    ],
+    "Tofu and Broccoli": [
+        "Vegetarian",
+        "Contains Soybeans",
+        "Contains Sesame"
+    ],
+    "Greek Flatbread": [
+        "Contains Milk",
+        "Contains Wheat"
+    ],
+    "Jerk Chicken Slider": [
+        "Contains Milk",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "Shoestring Fries": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten Free"
+    ],
+    "Chorizo Rice": [],
+    "Plant Based Teriyaki Chicken": [
+        "Vegan",
+        "Vegetarian",
+        "Contains Soybeans",
+        "Contains Sesame"
+    ]
 }
