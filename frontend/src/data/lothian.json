@@ -1,5 +1,4 @@
 {
-    "02/14/2026": {},
     "02/15/2026": {},
     "02/16/2026": {},
     "02/17/2026": {
@@ -254,15 +253,6 @@
                 ]
             },
             "Dinner": {
-                "-- Miscellaneous --": [
-                    {
-                        "name": "Whole Roasted Cajun Spiced Halal Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=02%2f17%2f2026&RecNumAndPort=101317*1%2f8",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    }
-                ],
                 "-- BYOB (Build Your Own Bowl) --": [
                     {
                         "name": "Black Eyed Peas",
@@ -367,6 +357,13 @@
                             "Vegetarian",
                             "Gluten Free",
                             "Contains Milk"
+                        ]
+                    },
+                    {
+                        "name": "Whole Roasted Cajun Spiced Halal Chicken",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=02%2f17%2f2026&RecNumAndPort=101317*1%2f8",
+                        "dietary": [
+                            "Gluten Free"
                         ]
                     }
                 ],
@@ -4773,5 +4770,6 @@
             }
         }
     },
-    "02/28/2026": {}
+    "02/28/2026": {},
+    "03/01/2026": {}
 }
