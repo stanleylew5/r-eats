@@ -1,17 +1,21 @@
 "use client";
 import { useState, useEffect } from "react";
-import { format, addDays, subDays, isBefore, isAfter } from "date-fns";
+import { format, addDays, subDays, isBefore, isAfter, parse } from "date-fns";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
 import Menu from "./menu";
 import Cookies from "js-cookie";
 import Link from "next/link";
+import { useRouter, useParams } from "next/navigation";
 
 type MealType = "breakfast" | "lunch" | "dinner";
 type DiningHall = "glasgow" | "lothian";
 
 const Selector = () => {
+  const router = useRouter();
+  const params = useParams();
+
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
@@ -47,21 +51,48 @@ const Selector = () => {
     return { meal: "breakfast", date: addDays(today, 1) };
   };
 
-  const { meal: initialMeal, date: initialDate } = computeCurrentMeal();
-  const [selectedDate, setSelectedDate] = useState<Date>(initialDate);
-  const [meal, setMeal] = useState<MealType>(initialMeal);
-  const [diningHall, setDiningHall] = useState<DiningHall>("glasgow");
+  const parseDateFromParams = (
+    dateStr: string | string[] | undefined,
+  ): Date => {
+    if (!dateStr || typeof dateStr !== "string") {
+      return computeCurrentMeal().date;
+    }
+    try {
+      const parsed = parse(dateStr, "yyyy-MM-dd", new Date());
+      if (!isNaN(parsed.getTime())) {
+        return parsed;
+      }
+    } catch (e) {
+      console.log("Error parsing date from params: ", e);
+    }
+    return computeCurrentMeal().date;
+  };
+
+  const { meal: initialMeal } = computeCurrentMeal();
+  const initialDiningHall = (params.diningHall as DiningHall) || "glasgow";
+  const initialMealFromParams = (params.meal as MealType) || initialMeal;
+  const initialDateFromParams = parseDateFromParams(params.date as string);
+
+  const [selectedDate, setSelectedDate] = useState<Date>(initialDateFromParams);
+  const [meal, setMeal] = useState<MealType>(initialMealFromParams);
+  const [diningHall, setDiningHall] = useState<DiningHall>(initialDiningHall);
   const [showDietary, setShowDietary] = useState<boolean>(true);
   const [hydrated, setHydrated] = useState(false);
 
   const goPrev = () => {
     const prevDate = subDays(selectedDate, 1);
-    if (!isBefore(prevDate, minDate)) setSelectedDate(prevDate);
+    if (!isBefore(prevDate, minDate)) {
+      setSelectedDate(prevDate);
+      router.push(`/${diningHall}/${meal}/${format(prevDate, "yyyy-MM-dd")}`);
+    }
   };
 
   const goNext = () => {
     const nextDate = addDays(selectedDate, 1);
-    if (!isAfter(nextDate, maxDate)) setSelectedDate(nextDate);
+    if (!isAfter(nextDate, maxDate)) {
+      setSelectedDate(nextDate);
+      router.push(`/${diningHall}/${meal}/${format(nextDate, "yyyy-MM-dd")}`);
+    }
   };
 
   useEffect(() => {
@@ -74,6 +105,14 @@ const Selector = () => {
     if (hydrated)
       Cookies.set("showDietary", String(showDietary), { expires: 365 });
   }, [showDietary, hydrated]);
+
+  useEffect(() => {
+    if (hydrated) {
+      router.push(
+        `/${diningHall}/${meal}/${format(selectedDate, "yyyy-MM-dd")}`,
+      );
+    }
+  }, [diningHall, meal, selectedDate, hydrated, router]);
 
   if (!hydrated) {
     return (
