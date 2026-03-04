@@ -6,7 +6,7 @@ const Hours = () => {
       <p className="text-reats-blue-200 mb-4 text-center text-2xl font-semibold md:mb-2 md:text-left">
         Dining Hours (Fall, Winter, & Spring Quarters)
       </p>
-      <p className="text-reats-blue-200/80 text-center text-sm md:text-left">
+      <p className="text-center text-sm text-black md:text-left">
         These are the standard dining hours that do not account for special
         events or holidays.
       </p>

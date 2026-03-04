@@ -4,6 +4,9 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Analytics } from "@vercel/analytics/next";
+import { ToastProvider } from "@/context/toast";
+import { ToastDisplay } from "@/components/toast-display";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -35,10 +38,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
-        {children}
-        <Footer />
-        <Analytics />
+        <ToastProvider>
+          <Header />
+          {children}
+          <Footer />
+          <ToastDisplay />
+          <Analytics />
+        </ToastProvider>
       </body>
     </html>
   );
