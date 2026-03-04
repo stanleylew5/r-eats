@@ -128,7 +128,7 @@ const Selector = () => {
         <button
           onClick={goPrev}
           disabled={isBefore(subDays(selectedDate, 1), minDate)}
-          className="hover:bg-reats-blue-200 border-reats-blue-100 text-reats-blue-200 rounded-md border bg-white px-3 py-2 hover:text-white disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-white disabled:hover:text-blue-600"
+          className="hover:bg-reats-blue-200 border-reats-blue-100 text-reats-blue-200 rounded-md border bg-white px-3 py-2 hover:cursor-pointer hover:text-white disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-white disabled:hover:text-blue-600"
         >
           &lt;
         </button>
@@ -140,7 +140,7 @@ const Selector = () => {
         <button
           onClick={goNext}
           disabled={isAfter(addDays(selectedDate, 1), maxDate)}
-          className="hover:bg-reats-blue-200 border-reats-blue-100 text-reats-blue-200 rounded-md border bg-white px-3 py-2 hover:text-white disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-white disabled:hover:text-blue-600"
+          className="hover:bg-reats-blue-200 not-last:border-reats-blue-100 text-reats-blue-200 rounded-md border bg-white px-3 py-2 hover:cursor-pointer hover:text-white disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-white disabled:hover:text-blue-600"
         >
           &gt;
         </button>
