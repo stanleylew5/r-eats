@@ -1,745 +1,4 @@
 {
-    "05/04/2026": {
-        "Glasgow": {
-            "Breakfast": {
-                "-- Parfait Bar --": [
-                    {
-                        "name": "Frozen Blueberry",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102872*1",
-                        "dietary": []
-                    },
-                    {
-                        "name": "Granola Cereal",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102873*1",
-                        "dietary": []
-                    },
-                    {
-                        "name": "Strawberry Yogurt",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102871*1",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
-                        "name": "Vanilla Yogurt",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102870*1",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    }
-                ],
-                "-- Cereal Station --": [
-                    {
-                        "name": "Hot Cereal Breakfast Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100396*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Oatmeal",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100321*5",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat"
-                        ]
-                    }
-                ],
-                "-- Breakfast Offerings --": [
-                    {
-                        "name": "Just Egg Plant Based Scramble",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100347*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Karana Vegan Sausage Patty",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101689*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Sausage Patty",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100621*1",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Scrambled  Eggs w/ Cheese",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100011*4",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Milk",
-                            "Contains Eggs"
-                        ]
-                    },
-                    {
-                        "name": "Scrambled Eggs",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100010*4",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Eggs"
-                        ]
-                    },
-                    {
-                        "name": "Tater Tots",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100093*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Turkey Sausage Patty",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100018*1",
-                        "dietary": [
-                            "Gluten Free",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Daily Special --": [
-                    {
-                        "name": "Belgian Waffles",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100620*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Sweets & Treats --": [
-                    {
-                        "name": "Assorted Bagels",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200222*1",
-                        "dietary": [
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Blueberry Muffin",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200023*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Fruit Strudel",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200295*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Vegan Banana Muffins",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200050*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat"
-                        ]
-                    }
-                ]
-            },
-            "Lunch": {
-                "-- Salad, Deli and More --": [
-                    {
-                        "name": "Cantaloupe Slices",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102643*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Citrus Strawberry Salad",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100494*3",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102750*1",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "NY Style Deli Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101700*1",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Plantbased Chick'n Caesar Wrap",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100653*1%2f2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Tree Nuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Sliced Honeydew",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101727*1",
-                        "dietary": []
-                    }
-                ],
-                "-- Specialty Soups --": [
-                    {
-                        "name": "Chicken Tortilla Soup",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102766*6",
-                        "dietary": []
-                    },
-                    {
-                        "name": "Cream of Broccoli Soup",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102767*6",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    }
-                ],
-                "-- Wok Kitchen --": [
-                    {
-                        "name": "Basmati Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100035*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Brown Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100034*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Chicken Tikka Masala",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102012*4",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
-                        "name": "Vegetarian Tikka Masala",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102016*4",
-                        "dietary": [
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Hot Plate --": [
-                    {
-                        "name": "Hand Crafted Italian Veggie Supreme Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101580*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Vegan Veggie Supreme Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101554*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Tree Nuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Three-Sixty Grill --": [
-                    {
-                        "name": "Curly Fries",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100058*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Gardein Crispy Chik'n Sandwich",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100356*1%2f2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Spicy Crispy Chicken Slider",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101769*1",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Wheat"
-                        ]
-                    }
-                ],
-                "-- The Carvery --": [
-                    {
-                        "name": "Green Beans",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100199*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101256*1",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Kalua Pork",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100422*3",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Macaroni Salad",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100002*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Sweets & Treats --": [
-                    {
-                        "name": "Apple Crisp",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200387*1",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Fresh Baked Assorted Cookies",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200037*1",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Tree Nuts",
-                            "Contains Peanuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Sugar Cookie Bar",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200169*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Sugar Free Citrus Jello",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200172*1",
-                        "dietary": []
-                    },
-                    {
-                        "name": "Vanilla Pudding",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200029*1",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
-                        "name": "Vegan Cookies N' Cream Cupcake",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200091*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Build Your Own Vegan Bowl --": [
-                    {
-                        "name": "Alu Chole",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102692*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Red Quinoa",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102675*3",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Steamed Broccoli",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100622*2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Tamarind Chutney",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102007*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Vegetable Pakoras",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101775*2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ]
-            },
-            "Dinner": {
-                "-- Salad, Deli and More --": [
-                    {
-                        "name": "Cantaloupe Slices",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102643*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Citrus Strawberry Salad",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100494*3",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102750*1",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "NY Style Deli Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101700*1",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Plantbased Chick'n Caesar Wrap",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100653*1%2f2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Tree Nuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Sliced Honeydew",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101727*1",
-                        "dietary": []
-                    }
-                ],
-                "-- Specialty Soups --": [
-                    {
-                        "name": "Chicken Tortilla Soup",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102766*6",
-                        "dietary": []
-                    },
-                    {
-                        "name": "Cream of Broccoli Soup",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102767*6",
-                        "dietary": [
-                            "Contains Milk"
-                        ]
-                    }
-                ],
-                "-- Wok Kitchen --": [
-                    {
-                        "name": "Brown Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100034*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "General Tso Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100565*5",
-                        "dietary": [
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "General Tso Crispy Tofu",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100771*5",
-                        "dietary": [
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Jasmine Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100066*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ],
-                "-- Hot Plate --": [
-                    {
-                        "name": "Hand Crafted Italian Veggie Supreme Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101580*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Vegan Veggie Supreme Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101554*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Tree Nuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Three-Sixty Grill --": [
-                    {
-                        "name": "Garlic French Bread",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100713*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Rasta Pasta",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102041*5",
-                        "dietary": [
-                            "Contains Tree Nuts",
-                            "Contains Wheat"
-                        ]
-                    }
-                ],
-                "-- The Carvery --": [
-                    {
-                        "name": "Coconut Pineapple Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100475*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Tree Nuts"
-                        ]
-                    },
-                    {
-                        "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101256*1",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Polynesian Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100119*1",
-                        "dietary": [
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Steamed Carrots",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100408*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ],
-                "-- Sweets & Treats --": [
-                    {
-                        "name": "Apple Crisp",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200387*1",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Fresh Baked Assorted Cookies",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200037*1",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Tree Nuts",
-                            "Contains Peanuts",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Lemon Cheesecake Bar",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200148*1",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Red Velvet Cupcakes",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200065*1",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Sugar Free Citrus Jello",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200172*1",
-                        "dietary": []
-                    },
-                    {
-                        "name": "Vegan Peanut Butter Cookies",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=200090*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Peanuts",
-                            "Contains Wheat"
-                        ]
-                    }
-                ],
-                "-- Build Your Own Vegan Bowl --": [
-                    {
-                        "name": "Alu Chole",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102692*2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Red Quinoa",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102675*3",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Steamed Broccoli",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=100622*2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Tamarind Chutney",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=102007*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Vegetable Pakoras",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f04%2f2026&RecNumAndPort=101775*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
-                ]
-            }
-        }
-    },
     "05/05/2026": {
         "Glasgow": {
             "Breakfast": {
@@ -7476,6 +6735,16 @@
                         ]
                     },
                     {
+                        "name": "Scrambled  Eggs w/ Cheese",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100011*4",
+                        "dietary": [
+                            "Vegetarian",
+                            "Gluten Free",
+                            "Contains Milk",
+                            "Contains Eggs"
+                        ]
+                    },
+                    {
                         "name": "Scrambled Eggs",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100010*4",
                         "dietary": [
@@ -7485,13 +6754,12 @@
                         ]
                     },
                     {
-                        "name": "Triangle Hasbrown",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100118*1",
+                        "name": "Tater Tots",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100093*4",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
-                            "Gluten Free",
-                            "Contains Soybeans"
+                            "Gluten Free"
                         ]
                     },
                     {
@@ -7505,52 +6773,14 @@
                 ],
                 "-- Daily Special --": [
                     {
-                        "name": "Cinnamon Twirl French Toast",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100896*1",
+                        "name": "Belgian Waffles",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100620*1",
                         "dietary": [
                             "Vegetarian",
                             "Contains Milk",
                             "Contains Eggs",
                             "Contains Wheat",
                             "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Hot Plate --": [
-                    {
-                        "name": "Egg Omelets Made to Order",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100484*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Eggs"
-                        ]
-                    },
-                    {
-                        "name": "Egg White Omelets",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100485*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Eggs"
-                        ]
-                    },
-                    {
-                        "name": "Just Egg Plant Based Omelet Made to Order",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101653*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Omelet Bar Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101667*1",
-                        "dietary": [
-                            "Gluten Free",
-                            "Contains Milk"
                         ]
                     }
                 ],
@@ -7597,16 +6827,6 @@
             "Lunch": {
                 "-- Salad, Deli and More --": [
                     {
-                        "name": "Buffalo Cauliflower Wrap",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100695*1%2f2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
                         "name": "Fresh Grapes",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101730*1",
                         "dietary": []
@@ -7619,11 +6839,14 @@
                         ]
                     },
                     {
-                        "name": "Mediterranean Deli Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101701*1",
+                        "name": "Peanut Thai Tofu Wrap",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100553*1%2f2",
                         "dietary": [
-                            "Gluten Free",
-                            "Contains Milk",
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Peanuts",
+                            "Contains Wheat",
+                            "Contains Soybeans",
                             "Contains Sesame"
                         ]
                     },
@@ -7633,16 +6856,32 @@
                         "dietary": []
                     },
                     {
-                        "name": "Watermelon Cucumber Salad",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102824*3",
-                        "dietary": []
+                        "name": "Spanish Tapas Deli Toppings",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101702*1",
+                        "dietary": [
+                            "Gluten Free",
+                            "Contains Milk",
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    },
+                    {
+                        "name": "Spring Greens with Berries & Feta",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100506*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Tree Nuts"
+                        ]
                     }
                 ],
                 "-- Specialty Soups --": [
                     {
-                        "name": "Chicken Tortilla Soup",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102766*6",
-                        "dietary": []
+                        "name": "Chicken Noodle Soup",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102760*6",
+                        "dietary": [
+                            "Contains Wheat"
+                        ]
                     },
                     {
                         "name": "Cream of Mushroom Soup",
@@ -7654,50 +6893,96 @@
                 ],
                 "-- Wok Kitchen --": [
                     {
-                        "name": "Chicken Banh Mi",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100504*1%2f2",
+                        "name": "Brown Rice",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100034*4",
                         "dietary": [
-                            "Contains Eggs",
-                            "Contains Fish",
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Fire Cracker Chicken",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100547*4",
+                        "dietary": [
                             "Contains Wheat",
                             "Contains Soybeans"
                         ]
                     },
                     {
-                        "name": "Lemongrass Soy Chicken Banh Mi",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101133*1%2f2",
+                        "name": "Fire Cracker Tofu",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100648*4",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
-                            "Contains Wheat",
                             "Contains Soybeans"
+                        ]
+                    },
+                    {
+                        "name": "Jasmine Rice",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100066*4",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
                         ]
                     }
                 ],
                 "-- Hot Plate --": [
                     {
-                        "name": "Hand Crafted Italian Cheese Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101453*1",
+                        "name": "Hand Crafted Italian Ham & Pineapple Pizza",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101456*1",
                         "dietary": [
-                            "Vegetarian",
                             "Contains Milk",
                             "Contains Wheat",
                             "Contains Soybeans"
                         ]
                     },
                     {
-                        "name": "Hand Crafted Italian Chicken Bacon Ranch Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101461*1",
+                        "name": "Hand Crafted Italian Jalape\u00f1o Pineapple Pizza",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101455*1",
                         "dietary": [
+                            "Vegetarian",
                             "Contains Milk",
-                            "Contains Eggs",
                             "Contains Wheat",
                             "Contains Soybeans"
                         ]
                     },
                     {
                         "name": "Vegan Cheese Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101805*1",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101144*1",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Tree Nuts",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    }
+                ],
+                "-- Three-Sixty Grill --": [
+                    {
+                        "name": "Cheese Ravioli with Marinara",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101083*4",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Garlic Breadsticks",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100901*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Vegan Grilled Cheese",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100825*1",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
@@ -7706,50 +6991,22 @@
                         ]
                     }
                 ],
-                "-- Three-Sixty Grill --": [
-                    {
-                        "name": "Carnitas Tacos",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101165*2",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Salsa Bar",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100153*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Vegan Tempeh Tacos",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100213*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ],
                 "-- The Carvery --": [
                     {
-                        "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101256*1",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Nigerian Beef Stew",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101663*6",
+                        "name": "BBQ Pork Baked Beans",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100663*3",
                         "dietary": []
                     },
                     {
-                        "name": "Nigerian Jollof Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101654*4",
+                        "name": "Chipotle Barbecue Chicken",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101047*1",
+                        "dietary": [
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Green Beans",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100199*3",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
@@ -7757,11 +7014,9 @@
                         ]
                     },
                     {
-                        "name": "Steamed Carrots",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100408*3",
+                        "name": "Halal Grilled Chicken",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101256*2",
                         "dietary": [
-                            "Vegan",
-                            "Vegetarian",
                             "Gluten Free"
                         ]
                     }
@@ -7822,27 +7077,8 @@
                 ],
                 "-- Build Your Own Vegan Bowl --": [
                     {
-                        "name": "Baked Tofu",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102682*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Basmati Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102681*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
                         "name": "Braised Lentils",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101724*4",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100227*3",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
@@ -7850,41 +7086,37 @@
                         ]
                     },
                     {
-                        "name": "Coconut Curry Sauce",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102684*1",
+                        "name": "Cooked Farro",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102673*3",
                         "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Creamy Jackfruit Curry w/ Tomato, Coconut & Lime",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101686*3",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
                             "Gluten Free",
                             "Contains Tree Nuts"
                         ]
                     },
                     {
-                        "name": "Maple Sweet Potatoes",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102678*3",
+                        "name": "Green Beans",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100199*3",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
                             "Gluten Free"
                         ]
-                    },
-                    {
-                        "name": "Roasted Carrots",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100664*4",
-                        "dietary": []
                     }
                 ]
             },
             "Dinner": {
                 "-- Salad, Deli and More --": [
-                    {
-                        "name": "Buffalo Cauliflower Wrap",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100695*1%2f2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
                     {
                         "name": "Fresh Grapes",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101730*1",
@@ -7892,17 +7124,20 @@
                     },
                     {
                         "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102750*1",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101256*1",
                         "dietary": [
                             "Gluten Free"
                         ]
                     },
                     {
-                        "name": "Mediterranean Deli Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101701*2",
+                        "name": "Peanut Thai Tofu Wrap",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100553*1%2f2",
                         "dietary": [
-                            "Gluten Free",
-                            "Contains Milk",
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Peanuts",
+                            "Contains Wheat",
+                            "Contains Soybeans",
                             "Contains Sesame"
                         ]
                     },
@@ -7912,9 +7147,23 @@
                         "dietary": []
                     },
                     {
-                        "name": "Watermelon Cucumber Salad",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102824*3",
-                        "dietary": []
+                        "name": "Spanish Tapas Deli Toppings",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101702*1",
+                        "dietary": [
+                            "Gluten Free",
+                            "Contains Milk",
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    },
+                    {
+                        "name": "Spring Greens with Berries & Feta",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100506*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Tree Nuts"
+                        ]
                     }
                 ],
                 "-- Specialty Soups --": [
@@ -7933,111 +7182,122 @@
                 ],
                 "-- Wok Kitchen --": [
                     {
-                        "name": "Halal Chicken Chow Mein",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100617*6",
+                        "name": "Brown Rice",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100034*4",
                         "dietary": [
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
                         ]
                     },
                     {
-                        "name": "Vegetable Chow Mein",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100059*6",
+                        "name": "Jasmine Rice",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100066*4",
                         "dietary": [
+                            "Vegan",
                             "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
+                            "Gluten Free"
                         ]
+                    },
+                    {
+                        "name": "Nigerian Beef Stew",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101663*5",
+                        "dietary": []
                     }
                 ],
                 "-- Hot Plate --": [
                     {
-                        "name": "Hand Crafted Italian Cheese Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101453*1",
+                        "name": "Hand Crafted Italian Ham & Pineapple Pizza",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101456*1",
                         "dietary": [
-                            "Vegetarian",
                             "Contains Milk",
                             "Contains Wheat",
                             "Contains Soybeans"
                         ]
                     },
                     {
-                        "name": "Hand Crafted Italian Chicken Bacon Ranch Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101461*1",
+                        "name": "Hand Crafted Italian Veggie Supreme Pizza",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101580*1",
                         "dietary": [
+                            "Vegetarian",
                             "Contains Milk",
-                            "Contains Eggs",
                             "Contains Wheat",
                             "Contains Soybeans"
                         ]
                     },
                     {
                         "name": "Vegan Cheese Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101805*1",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101144*1",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
                             "Contains Tree Nuts",
-                            "Contains Wheat"
+                            "Contains Wheat",
+                            "Contains Soybeans"
                         ]
                     }
                 ],
                 "-- Three-Sixty Grill --": [
                     {
-                        "name": "Halal Beef Nachos Supreme",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100068*5",
+                        "name": "Buffalo Chicken Nugget",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101500*4",
                         "dietary": [
-                            "Gluten Free",
-                            "Contains Milk"
+                            "Contains Wheat"
                         ]
                     },
                     {
-                        "name": "Vegan Grilled Cheese",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100825*1",
+                        "name": "Shoestring Fry Skin On",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100029*4",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
-                            "Contains Tree Nuts",
-                            "Contains Wheat"
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Vegan Nuggets",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100479*4",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Wheat",
+                            "Contains Soybeans"
                         ]
                     }
                 ],
                 "-- The Carvery --": [
                     {
-                        "name": "Coconut Pineapple Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100475*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Tree Nuts"
-                        ]
-                    },
-                    {
                         "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101256*1",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101256*2",
                         "dietary": [
                             "Gluten Free"
                         ]
                     },
                     {
-                        "name": "Roasted Vegetables",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100425*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Sweet Soy Glazed Pork Ribs",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100931*2",
+                        "name": "Huli Huli Chicken",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100789*1",
                         "dietary": [
                             "Contains Wheat",
                             "Contains Soybeans",
                             "Contains Sesame"
+                        ]
+                    },
+                    {
+                        "name": "Roasted Potatoes",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100030*3+1%2f2",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Steamed Zucchini",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100041*3",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
                         ]
                     }
                 ],
@@ -8100,27 +7360,8 @@
                 ],
                 "-- Build Your Own Vegan Bowl --": [
                     {
-                        "name": "Baked Tofu",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102682*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Basmati Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102681*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
                         "name": "Braised Lentils",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101724*4",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100227*3",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
@@ -8128,26 +7369,32 @@
                         ]
                     },
                     {
-                        "name": "Coconut Curry Sauce",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102684*5",
+                        "name": "Cooked Farro",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102673*3",
                         "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Creamy Jackfruit Curry w/ Tomato, Coconut & Lime",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=101686*3",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
                             "Gluten Free",
                             "Contains Tree Nuts"
                         ]
                     },
                     {
-                        "name": "Maple Sweet Potatoes",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=102678*3",
+                        "name": "Green Beans",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100199*3",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
                             "Gluten Free"
                         ]
-                    },
-                    {
-                        "name": "Roasted Carrots",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f14%2f2026&RecNumAndPort=100664*4",
-                        "dietary": []
                     }
                 ]
             }
@@ -8203,22 +7450,6 @@
                 ],
                 "-- Breakfast Offerings --": [
                     {
-                        "name": "Bacon",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100015*1",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Home Fries",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100028*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
                         "name": "Just Egg Plant Based Scramble",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100347*4",
                         "dietary": [
@@ -8238,13 +7469,10 @@
                         ]
                     },
                     {
-                        "name": "Scrambled  Eggs w/ Cheese",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100011*4",
+                        "name": "Sausage Patty",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100621*1",
                         "dietary": [
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Milk",
-                            "Contains Eggs"
+                            "Gluten Free"
                         ]
                     },
                     {
@@ -8254,6 +7482,16 @@
                             "Vegetarian",
                             "Gluten Free",
                             "Contains Eggs"
+                        ]
+                    },
+                    {
+                        "name": "Triangle Hasbrown",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100118*1",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free",
+                            "Contains Soybeans"
                         ]
                     },
                     {
@@ -8267,23 +7505,12 @@
                 ],
                 "-- Daily Special --": [
                     {
-                        "name": "Buttermilk Pancakes",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100053*1",
+                        "name": "French Toast Sticks",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100135*2",
                         "dietary": [
                             "Vegetarian",
-                            "Contains Milk",
-                            "Contains Eggs",
                             "Contains Wheat",
                             "Contains Soybeans"
-                        ]
-                    }
-                ],
-                "-- Hot Plate --": [
-                    {
-                        "name": "Berry Blast Smoothie",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102864*6",
-                        "dietary": [
-                            "Contains Milk"
                         ]
                     }
                 ],
@@ -8330,16 +7557,6 @@
             "Lunch": {
                 "-- Salad, Deli and More --": [
                     {
-                        "name": "Buffalo Cauliflower Wrap",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100695*1%2f2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
                         "name": "Cantaloupe Slices",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102643*1",
                         "dietary": [
@@ -8350,17 +7567,20 @@
                     },
                     {
                         "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102750*1",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101256*1",
                         "dietary": [
                             "Gluten Free"
                         ]
                     },
                     {
-                        "name": "Mediterranean Deli Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101701*1",
+                        "name": "Peanut Thai Tofu Wrap",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100553*1%2f2",
                         "dietary": [
-                            "Gluten Free",
-                            "Contains Milk",
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Peanuts",
+                            "Contains Wheat",
+                            "Contains Soybeans",
                             "Contains Sesame"
                         ]
                     },
@@ -8374,9 +7594,23 @@
                         ]
                     },
                     {
-                        "name": "Watermelon Cucumber Salad",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102824*3",
-                        "dietary": []
+                        "name": "Spanish Tapas Deli Toppings",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101702*1",
+                        "dietary": [
+                            "Gluten Free",
+                            "Contains Milk",
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    },
+                    {
+                        "name": "Spring Greens with Berries & Feta",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100506*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Tree Nuts"
+                        ]
                     }
                 ],
                 "-- Specialty Soups --": [
@@ -8402,15 +7636,6 @@
                 ],
                 "-- Wok Kitchen --": [
                     {
-                        "name": "Basmati Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100035*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
                         "name": "Brown Rice",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100034*4",
                         "dietary": [
@@ -8420,34 +7645,16 @@
                         ]
                     },
                     {
-                        "name": "Butter Cauliflower & Chickpeas",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101226*4",
+                        "name": "Jasmine Rice",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100066*4",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
-                            "Gluten Free",
-                            "Contains Milk"
-                        ]
-                    },
-                    {
-                        "name": "Butter Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101493*4",
-                        "dietary": [
-                            "Gluten Free",
-                            "Contains Milk"
+                            "Gluten Free"
                         ]
                     }
                 ],
                 "-- Hot Plate --": [
-                    {
-                        "name": "Margherita French Bread Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100658*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Wheat"
-                        ]
-                    },
                     {
                         "name": "Vegan Veggie Supreme Pizza",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101554*1",
@@ -8458,12 +7665,35 @@
                             "Contains Wheat",
                             "Contains Soybeans"
                         ]
+                    },
+                    {
+                        "name": "Vegetarian Supreme Pizza",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100753*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
                     }
                 ],
                 "-- Three-Sixty Grill --": [
                     {
-                        "name": "French Fries",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100031*4",
+                        "name": "Hot Dog - Beef Frank",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100466*1",
+                        "dietary": [
+                            "Contains Wheat",
+                            "Contains Sesame"
+                        ]
+                    },
+                    {
+                        "name": "Hot Dog Bar",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102817*1",
+                        "dietary": []
+                    },
+                    {
+                        "name": "Shoestring Fries",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100057*4",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
@@ -8471,22 +7701,11 @@
                         ]
                     },
                     {
-                        "name": "Rockfish Burger Slider",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102835*1",
+                        "name": "Vegetarian Soy Hot Dog",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100681*1",
                         "dietary": [
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Fish",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
-                    {
-                        "name": "Vegetarian Fish Filet",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100331*1",
-                        "dietary": [
-                            "Vegan",
                             "Vegetarian",
+                            "Contains Eggs",
                             "Contains Wheat",
                             "Contains Soybeans"
                         ]
@@ -8494,17 +7713,23 @@
                 ],
                 "-- The Carvery --": [
                     {
-                        "name": "Ancho Chile Adobo Chicken Burrito",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101770*1",
+                        "name": "Halal Grilled Chicken",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101256*2",
                         "dietary": [
-                            "Contains Milk",
-                            "Contains Wheat",
-                            "Contains Soybeans"
+                            "Gluten Free"
                         ]
                     },
                     {
-                        "name": "Ensenada Beans",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100045*3",
+                        "name": "Panko Breaded Tilapia w/ Mango Pomegranate Salsa",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100478*3",
+                        "dietary": [
+                            "Contains Fish",
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Southwestern Corn Salad",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100168*3",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
@@ -8512,19 +7737,12 @@
                         ]
                     },
                     {
-                        "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101256*1",
+                        "name": "Steamed Broccoli",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100622*3",
                         "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Salsa Bar",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101127*1",
-                        "dietary": [
+                            "Vegan",
                             "Vegetarian",
-                            "Gluten Free",
-                            "Contains Milk"
+                            "Gluten Free"
                         ]
                     }
                 ],
@@ -8588,25 +7806,8 @@
                 ],
                 "-- Build Your Own Vegan Bowl --": [
                     {
-                        "name": "Cooked Farro",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102673*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Red Quinoa",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102675*3",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Roasted Vegetables",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100425*3",
+                        "name": "Fried Plantains",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100160*3",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
@@ -8614,23 +7815,8 @@
                         ]
                     },
                     {
-                        "name": "Smokey Tomato Tofu Bowl",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101715*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Tree Nuts",
-                            "Contains Soybeans"
-                        ]
-                    }
-                ]
-            },
-            "Dinner": {
-                "-- Salad, Deli and More --": [
-                    {
-                        "name": "Buffalo Cauliflower Wrap",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100695*1%2f2",
+                        "name": "Jerk Soy Chicken",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100222*6",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
@@ -8638,6 +7824,19 @@
                             "Contains Soybeans"
                         ]
                     },
+                    {
+                        "name": "Maple Sweet Potatoes",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102678*3",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    }
+                ]
+            },
+            "Dinner": {
+                "-- Salad, Deli and More --": [
                     {
                         "name": "Cantaloupe Slices",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102643*1",
@@ -8649,17 +7848,20 @@
                     },
                     {
                         "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102750*1",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101256*1",
                         "dietary": [
                             "Gluten Free"
                         ]
                     },
                     {
-                        "name": "Mediterranean Deli Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101701*2",
+                        "name": "Peanut Thai Tofu Wrap",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100553*1%2f2",
                         "dietary": [
-                            "Gluten Free",
-                            "Contains Milk",
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Peanuts",
+                            "Contains Wheat",
+                            "Contains Soybeans",
                             "Contains Sesame"
                         ]
                     },
@@ -8673,9 +7875,23 @@
                         ]
                     },
                     {
-                        "name": "Watermelon Cucumber Salad",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102824*3",
-                        "dietary": []
+                        "name": "Spanish Tapas Deli Toppings",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101702*1",
+                        "dietary": [
+                            "Gluten Free",
+                            "Contains Milk",
+                            "Contains Soybeans",
+                            "Contains Sesame"
+                        ]
+                    },
+                    {
+                        "name": "Spring Greens with Berries & Feta",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100506*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Tree Nuts"
+                        ]
                     }
                 ],
                 "-- Specialty Soups --": [
@@ -8691,7 +7907,7 @@
                     },
                     {
                         "name": "Tomato Bisque Soup",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102762*6",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102762*1",
                         "dietary": [
                             "Vegetarian",
                             "Gluten Free",
@@ -8710,21 +7926,28 @@
                         ]
                     },
                     {
-                        "name": "Butter Cauliflower & Chickpeas",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101226*4",
+                        "name": "Honey Walnut Shrimp",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100863*4",
                         "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Milk"
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Crustacean Shellfish",
+                            "Contains Tree Nuts",
+                            "Contains Peanuts",
+                            "Contains Wheat"
                         ]
                     },
                     {
-                        "name": "Butter Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101493*4",
+                        "name": "Honey Walnut Tofu",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100893*4",
                         "dietary": [
-                            "Gluten Free",
-                            "Contains Milk"
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Eggs",
+                            "Contains Tree Nuts",
+                            "Contains Peanuts",
+                            "Contains Wheat",
+                            "Contains Soybeans"
                         ]
                     },
                     {
@@ -8739,12 +7962,13 @@
                 ],
                 "-- Hot Plate --": [
                     {
-                        "name": "Margherita French Bread Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100658*1",
+                        "name": "Hand Crafted Italian Veggie Supreme Pizza",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101580*1",
                         "dietary": [
                             "Vegetarian",
                             "Contains Milk",
-                            "Contains Wheat"
+                            "Contains Wheat",
+                            "Contains Soybeans"
                         ]
                     },
                     {
@@ -8761,12 +7985,26 @@
                 ],
                 "-- Three-Sixty Grill --": [
                     {
-                        "name": "French Fries",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100031*4",
+                        "name": "Cut Corn",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100390*4",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
                             "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Halal Ground Beef Tacos",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101135*2",
+                        "dietary": []
+                    },
+                    {
+                        "name": "Salsa Bar",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101127*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Gluten Free",
+                            "Contains Milk"
                         ]
                     },
                     {
@@ -8778,50 +8016,39 @@
                             "Contains Tree Nuts",
                             "Contains Wheat"
                         ]
-                    },
-                    {
-                        "name": "Wild Planet Tuna Melt",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100350*1%2f2",
-                        "dietary": [
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Fish",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
                     }
                 ],
                 "-- The Carvery --": [
                     {
-                        "name": "Chipotle Barbecue Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101047*1",
+                        "name": "Basmati Rice",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100035*4",
                         "dietary": [
+                            "Vegan",
+                            "Vegetarian",
                             "Gluten Free"
                         ]
                     },
                     {
-                        "name": "Corn Maque Choux",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100329*3",
+                        "name": "Green Beans",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100199*3",
                         "dietary": [
+                            "Vegan",
                             "Vegetarian",
-                            "Gluten Free",
-                            "Contains Milk"
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Halal Chicken Sharwarma",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101257*4",
+                        "dietary": [
+                            "Gluten Free"
                         ]
                     },
                     {
                         "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101256*1",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101256*2",
                         "dietary": [
                             "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Mashed Potatoes",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100102*4",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Milk"
                         ]
                     }
                 ],
@@ -8888,25 +8115,8 @@
                 ],
                 "-- Build Your Own Vegan Bowl --": [
                     {
-                        "name": "Cooked Farro",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102673*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Red Quinoa",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102675*3",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Roasted Vegetables",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100425*3",
+                        "name": "Cuban Style Black Beans",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100069*3",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
@@ -8914,14 +8124,30 @@
                         ]
                     },
                     {
-                        "name": "Smokey Tomato Tofu Bowl",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101715*1",
+                        "name": "Fried Plantains",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=100160*3",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
-                            "Gluten Free",
-                            "Contains Tree Nuts",
-                            "Contains Soybeans"
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Maple Sweet Potatoes",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=102678*3",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Vegan Jackfruit Mojo Cuban Bowl",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f15%2f2026&RecNumAndPort=101688*1",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
                         ]
                     }
                 ]
@@ -8931,17 +8157,26 @@
     "05/16/2026": {
         "Glasgow": {
             "Lunch": {
-                "-- Salad, Deli and More --": [
+                "-- Cereal Station --": [
                     {
-                        "name": "Buffalo Cauliflower Wrap",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100695*1%2f2",
+                        "name": "Hot Cereal Breakfast Toppings",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100396*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Oatmeal",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100321*5",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
+                            "Contains Wheat"
                         ]
-                    },
+                    }
+                ],
+                "-- Salad, Deli and More --": [
                     {
                         "name": "Cantaloupe Slices",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102643*1",
@@ -8952,36 +8187,15 @@
                         ]
                     },
                     {
-                        "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102750*1",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Hot Cereal Breakfast Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100396*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Mediterranean Deli Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101701*1",
-                        "dietary": [
-                            "Gluten Free",
-                            "Contains Milk",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Oatmeal",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100321*5",
+                        "name": "Peanut Thai Tofu Wrap",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100553*1%2f2",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
-                            "Contains Wheat"
+                            "Contains Peanuts",
+                            "Contains Wheat",
+                            "Contains Soybeans",
+                            "Contains Sesame"
                         ]
                     },
                     {
@@ -8994,27 +8208,25 @@
                         ]
                     },
                     {
-                        "name": "Watermelon Cucumber Salad",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102824*1",
+                        "name": "Sliced Honeydew",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101727*1",
                         "dietary": []
+                    },
+                    {
+                        "name": "Spring Greens with Berries & Feta",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100506*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Tree Nuts"
+                        ]
                     }
                 ],
                 "-- Specialty Soups --": [
                     {
-                        "name": "Congee Toppings Bar",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101709*1",
-                        "dietary": [
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Pork Congee",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101708*6",
-                        "dietary": [
-                            "Gluten Free"
-                        ]
+                        "name": "Chicken Tortilla Soup",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102766*6",
+                        "dietary": []
                     },
                     {
                         "name": "Vegetable Minestrone Soup",
@@ -9029,22 +8241,14 @@
                 ],
                 "-- Wok Kitchen --": [
                     {
-                        "name": "Chicken Pozole",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102769*6",
+                        "name": "Menudo",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102770*6",
                         "dietary": []
                     },
                     {
                         "name": "Soup Condiment Bar",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102845*1",
                         "dietary": []
-                    },
-                    {
-                        "name": "Tortilla Chips",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100099*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian"
-                        ]
                     }
                 ],
                 "-- Hot Plate --": [
@@ -9067,6 +8271,16 @@
                         ]
                     },
                     {
+                        "name": "Just Egg Plant Based Omelet Made to Order",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101653*4",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
                         "name": "Omelet Bar Toppings",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101667*1",
                         "dietary": [
@@ -9077,10 +8291,12 @@
                 ],
                 "-- Three-Sixty Grill --": [
                     {
-                        "name": "Breakfast Ham",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101596*2",
+                        "name": "French Toast Sticks",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100135*2",
                         "dietary": [
-                            "Gluten Free"
+                            "Vegetarian",
+                            "Contains Wheat",
+                            "Contains Soybeans"
                         ]
                     },
                     {
@@ -9103,6 +8319,13 @@
                         ]
                     },
                     {
+                        "name": "Sausage Patty",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100621*2",
+                        "dietary": [
+                            "Gluten Free"
+                        ]
+                    },
+                    {
                         "name": "Scrambled Eggs",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100010*4",
                         "dietary": [
@@ -9112,13 +8335,12 @@
                         ]
                     },
                     {
-                        "name": "Triangle Hasbrown",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100118*1",
+                        "name": "Tater Tots",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100093*4",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
-                            "Gluten Free",
-                            "Contains Soybeans"
+                            "Gluten Free"
                         ]
                     },
                     {
@@ -9128,35 +8350,13 @@
                             "Gluten Free",
                             "Contains Soybeans"
                         ]
-                    },
-                    {
-                        "name": "Vanilla French Toast",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100785*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Milk",
-                            "Contains Eggs",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Vegan Grilled Cheese",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100825*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Tree Nuts",
-                            "Contains Wheat"
-                        ]
                     }
                 ],
                 "-- The Carvery --": [
                     {
-                        "name": "Cilantro Lime Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100064*4",
+                        "name": "Carved Honey & Brown Sugar Baked Ham",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100624*4",
                         "dietary": [
-                            "Vegan",
-                            "Vegetarian",
                             "Gluten Free"
                         ]
                     },
@@ -9168,15 +8368,26 @@
                         ]
                     },
                     {
-                        "name": "Santa Maria Halal Beef Top Sirloin",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101725*3",
+                        "name": "Red Skinned Garlic Mash Potatoes",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101414*4",
                         "dietary": [
+                            "Vegetarian",
+                            "Gluten Free",
+                            "Contains Milk"
+                        ]
+                    },
+                    {
+                        "name": "Steamed Carrots",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100408*3",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
                             "Gluten Free"
                         ]
                     },
                     {
-                        "name": "Steamed Broccoli",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100622*3",
+                        "name": "Steamed Yellow Squash",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100040*3",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
@@ -9236,38 +8447,10 @@
                 ],
                 "-- Build Your Own Vegan Bowl --": [
                     {
-                        "name": "Cooked Farro",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102673*3",
+                        "name": "Vegan Nacho Bar",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101464*1",
                         "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Maple Sweet Potatoes",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102678*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Roasted Brussels Sprouts",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101723*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Smoked Soy Chicken Bowl Hickory Barbeque Sauce",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102677*1",
-                        "dietary": [
-                            "Vegan",
-                            "Contains Wheat",
+                            "Gluten Free",
                             "Contains Soybeans"
                         ]
                     }
@@ -9275,16 +8458,6 @@
             },
             "Dinner": {
                 "-- Salad, Deli and More --": [
-                    {
-                        "name": "Buffalo Cauliflower Wrap",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100695*1%2f2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
                     {
                         "name": "Cantaloupe Slices",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102643*1",
@@ -9295,18 +8468,14 @@
                         ]
                     },
                     {
-                        "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102750*1",
+                        "name": "Peanut Thai Tofu Wrap",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100553*1%2f2",
                         "dietary": [
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Mediterranean Deli Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101701*2",
-                        "dietary": [
-                            "Gluten Free",
-                            "Contains Milk",
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Peanuts",
+                            "Contains Wheat",
+                            "Contains Soybeans",
                             "Contains Sesame"
                         ]
                     },
@@ -9320,9 +8489,18 @@
                         ]
                     },
                     {
-                        "name": "Watermelon Cucumber Salad",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102824*3",
+                        "name": "Sliced Honeydew",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101727*1",
                         "dietary": []
+                    },
+                    {
+                        "name": "Spring Greens with Berries & Feta",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100506*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Tree Nuts"
+                        ]
                     }
                 ],
                 "-- Specialty Soups --": [
@@ -9344,15 +8522,6 @@
                 ],
                 "-- Wok Kitchen --": [
                     {
-                        "name": "Basmati Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100035*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
                         "name": "Brown Rice",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100034*4",
                         "dietary": [
@@ -9362,36 +8531,55 @@
                         ]
                     },
                     {
-                        "name": "Tikka Masala Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100110*4",
+                        "name": "Jasmine Rice",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100066*4",
                         "dietary": [
-                            "Gluten Free",
-                            "Contains Milk"
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
                         ]
                     },
                     {
-                        "name": "Vegetable Tikka Masala",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100134*4",
+                        "name": "Sweet & Sour Chicken",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100095*4",
                         "dietary": [
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
+                        "name": "Sweet & Sour Tofu",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100925*4",
+                        "dietary": [
+                            "Vegan",
                             "Vegetarian",
-                            "Gluten Free",
-                            "Contains Milk",
                             "Contains Soybeans"
                         ]
                     }
                 ],
                 "-- Hot Plate --": [
                     {
-                        "name": "Greek Flatbread",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100614*1",
+                        "name": "Classic Cheese Pizza",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100680*1",
                         "dietary": [
+                            "Vegetarian",
                             "Contains Milk",
-                            "Contains Wheat"
+                            "Contains Wheat",
+                            "Contains Soybeans"
                         ]
                     },
                     {
-                        "name": "Vegan Veggie Supreme Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101610*1",
+                        "name": "Classic Pepperoni Pizza",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100668*1",
+                        "dietary": [
+                            "Contains Milk",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
+                        "name": "Vegan Cheese Pizza",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101144*1",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
@@ -9401,62 +8589,26 @@
                         ]
                     }
                 ],
-                "-- Three-Sixty Grill --": [
+                "-- Three-Sixty Pasta --": [
                     {
-                        "name": "Cilantro Lime Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100064*4",
+                        "name": "Cavatappi Pomodoro Primavera",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100585*5",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Fire Grilled Chicken Fajitas",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100448*5",
-                        "dietary": [
                             "Contains Wheat"
                         ]
                     },
                     {
-                        "name": "Salsa Bar Condiments",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101412*1",
+                        "name": "Garlic Bread Sticks",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100060*1",
                         "dietary": [
                             "Vegetarian",
-                            "Gluten Free",
-                            "Contains Milk"
-                        ]
-                    },
-                    {
-                        "name": "Vegetable Fajitas",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100737*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
+                            "Contains Wheat"
                         ]
                     }
                 ],
                 "-- The Carvery --": [
-                    {
-                        "name": "Baked Potato Bar",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101061*1%2f2",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Milk"
-                        ]
-                    },
-                    {
-                        "name": "Barn Smokehouse Vegan Chili",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100966*2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Soybeans"
-                        ]
-                    },
                     {
                         "name": "Halal Grilled Chicken",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101256*1",
@@ -9465,11 +8617,20 @@
                         ]
                     },
                     {
-                        "name": "Texas Beef Chili",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101525*2",
+                        "name": "Pork Chile Verde",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100875*5",
+                        "dietary": []
+                    },
+                    {
+                        "name": "Roasted Carrots",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=100664*3",
+                        "dietary": []
+                    },
+                    {
+                        "name": "Spanish Rice",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101488*3",
                         "dietary": [
-                            "Gluten Free",
-                            "Contains Milk"
+                            "Gluten Free"
                         ]
                     }
                 ],
@@ -9520,38 +8681,10 @@
                 ],
                 "-- Build Your Own Vegan Bowl --": [
                     {
-                        "name": "Cooked Farro",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102673*3",
+                        "name": "Vegan Nacho Bar",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101464*1",
                         "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Maple Sweet Potatoes",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102678*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Roasted Brussels Sprouts",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=101723*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Smoked Soy Chicken Bowl Hickory Barbeque Sauce",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f16%2f2026&RecNumAndPort=102677*1",
-                        "dietary": [
-                            "Vegan",
-                            "Contains Wheat",
+                            "Gluten Free",
                             "Contains Soybeans"
                         ]
                     }
@@ -9562,17 +8695,26 @@
     "05/17/2026": {
         "Glasgow": {
             "Lunch": {
-                "-- Salad, Deli and More --": [
+                "-- Cereal Station --": [
                     {
-                        "name": "Buffalo Cauliflower Wrap",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100695*1%2f2",
+                        "name": "Hot Cereal Breakfast Toppings",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100396*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Wheat"
+                        ]
+                    },
+                    {
+                        "name": "Oatmeal",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100321*5",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
+                            "Contains Wheat"
                         ]
-                    },
+                    }
+                ],
+                "-- Salad, Deli and More --": [
                     {
                         "name": "Cantaloupe Slices",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102643*1",
@@ -9584,35 +8726,21 @@
                     },
                     {
                         "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102750*1",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101256*1",
                         "dietary": [
                             "Gluten Free"
                         ]
                     },
                     {
-                        "name": "Hot Cereal Breakfast Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100396*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Mediterranean Deli Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101701*1",
-                        "dietary": [
-                            "Gluten Free",
-                            "Contains Milk",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Oatmeal",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100321*5",
+                        "name": "Peanut Thai Tofu Wrap",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100553*1%2f2",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
-                            "Contains Wheat"
+                            "Contains Peanuts",
+                            "Contains Wheat",
+                            "Contains Soybeans",
+                            "Contains Sesame"
                         ]
                     },
                     {
@@ -9621,26 +8749,21 @@
                         "dietary": []
                     },
                     {
-                        "name": "Watermelon Cucumber Salad",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102824*3",
-                        "dietary": []
+                        "name": "Spring Greens with Berries & Feta",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100506*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Tree Nuts"
+                        ]
                     }
                 ],
                 "-- Specialty Soups --": [
                     {
-                        "name": "Congee Toppings Bar",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101709*1",
+                        "name": "Chicken Noodle Soup",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102760*6",
                         "dietary": [
-                            "Contains Wheat",
-                            "Contains Soybeans",
-                            "Contains Sesame"
-                        ]
-                    },
-                    {
-                        "name": "Pork Congee",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101708*6",
-                        "dietary": [
-                            "Gluten Free"
+                            "Contains Wheat"
                         ]
                     },
                     {
@@ -9656,22 +8779,14 @@
                 ],
                 "-- Wok Kitchen --": [
                     {
-                        "name": "Chicken Pozole",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102769*6",
+                        "name": "Menudo",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102770*6",
                         "dietary": []
                     },
                     {
                         "name": "Soup Condiment Bar",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102845*1",
                         "dietary": []
-                    },
-                    {
-                        "name": "Tortilla Chips",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100099*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian"
-                        ]
                     }
                 ],
                 "-- Hot Plate --": [
@@ -9694,6 +8809,16 @@
                         ]
                     },
                     {
+                        "name": "Just Egg Plant Based Omelet Made to Order",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101653*4",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
                         "name": "Omelet Bar Toppings",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101667*1",
                         "dietary": [
@@ -9704,12 +8829,10 @@
                 ],
                 "-- Three-Sixty Grill --": [
                     {
-                        "name": "Cinnamon Twirl French Toast",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100896*1",
+                        "name": "French Toast Sticks",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100135*2",
                         "dietary": [
                             "Vegetarian",
-                            "Contains Milk",
-                            "Contains Eggs",
                             "Contains Wheat",
                             "Contains Soybeans"
                         ]
@@ -9766,44 +8889,57 @@
                             "Gluten Free",
                             "Contains Soybeans"
                         ]
+                    },
+                    {
+                        "name": "Vegan Grilled Cheese",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100825*1",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Tree Nuts",
+                            "Contains Wheat"
+                        ]
                     }
                 ],
                 "-- The Carvery --": [
                     {
-                        "name": "Carrots and Corn",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100805*4",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Ensenada Beans",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100045*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
                         "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101256*1",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101256*2",
                         "dietary": [
                             "Gluten Free"
                         ]
                     },
                     {
-                        "name": "Pork Chile Verde",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100875*5",
-                        "dietary": []
-                    },
-                    {
-                        "name": "Spanish Rice",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101488*4",
+                        "name": "Herb Whole Roasted Halal Chicken",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100065*1%2f8",
                         "dietary": [
                             "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Roasted Potatoes",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100030*4",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Steamed Broccoli",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100622*3",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Vegan Nacho Bar",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101464*1",
+                        "dietary": [
+                            "Gluten Free",
+                            "Contains Soybeans"
                         ]
                     }
                 ],
@@ -9856,75 +8992,10 @@
                             "Contains Soybeans"
                         ]
                     }
-                ],
-                "-- Build Your Own Vegan Bowl --": [
-                    {
-                        "name": "Alu Chole",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102692*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Cooked Farro",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102673*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Peas and Carrots",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102001*2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Red Quinoa",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102675*3",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Tomato Chutney",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102005*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Vegetable Pakoras",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101775*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    }
                 ]
             },
             "Dinner": {
                 "-- Salad, Deli and More --": [
-                    {
-                        "name": "Buffalo Cauliflower Wrap",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100695*1%2f2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat",
-                            "Contains Soybeans"
-                        ]
-                    },
                     {
                         "name": "Cantaloupe Slices",
                         "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102643*1",
@@ -9936,17 +9007,20 @@
                     },
                     {
                         "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102750*1",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101256*1",
                         "dietary": [
                             "Gluten Free"
                         ]
                     },
                     {
-                        "name": "Mediterranean Deli Toppings",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101701*2",
+                        "name": "Peanut Thai Tofu Wrap",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100553*1%2f2",
                         "dietary": [
-                            "Gluten Free",
-                            "Contains Milk",
+                            "Vegan",
+                            "Vegetarian",
+                            "Contains Peanuts",
+                            "Contains Wheat",
+                            "Contains Soybeans",
                             "Contains Sesame"
                         ]
                     },
@@ -9956,9 +9030,13 @@
                         "dietary": []
                     },
                     {
-                        "name": "Watermelon Cucumber Salad",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102824*3",
-                        "dietary": []
+                        "name": "Spring Greens with Berries & Feta",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100506*1",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Tree Nuts"
+                        ]
                     }
                 ],
                 "-- Specialty Soups --": [
@@ -9980,25 +9058,47 @@
                 ],
                 "-- Wok Kitchen --": [
                     {
-                        "name": "Singapore Curry Chicken & Shrimp Noodles",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101683*5",
+                        "name": "Brown Rice",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100034*4",
                         "dietary": [
-                            "Contains Crustacean Shellfish",
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Coconut Curried Chicken",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101999*5",
+                        "dietary": [
+                            "Gluten Free",
+                            "Contains Tree Nuts"
+                        ]
+                    },
+                    {
+                        "name": "Coconut Curried Tofu",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101582*5",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free",
+                            "Contains Tree Nuts",
                             "Contains Soybeans"
                         ]
                     },
                     {
-                        "name": "Singapore Curry Tofu Noodles",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102740*5",
+                        "name": "Jasmine Rice",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100066*4",
                         "dietary": [
-                            "Contains Soybeans"
+                            "Vegan",
+                            "Vegetarian",
+                            "Gluten Free"
                         ]
                     }
                 ],
                 "-- Hot Plate --": [
                     {
-                        "name": "Hand Crafted Italian Jalape\u00f1o Pineapple Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101455*1",
+                        "name": "Hand Crafted Italian Cheese Pizza",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101453*1",
                         "dietary": [
                             "Vegetarian",
                             "Contains Milk",
@@ -10007,31 +9107,34 @@
                         ]
                     },
                     {
+                        "name": "Hand Crafted Italian Meat Lovers Pizza",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101457*1",
+                        "dietary": [
+                            "Contains Milk",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
+                    },
+                    {
                         "name": "Vegan Cheese Pizza",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101805*1",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101144*1",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
                             "Contains Tree Nuts",
-                            "Contains Wheat"
+                            "Contains Wheat",
+                            "Contains Soybeans"
                         ]
                     }
                 ],
                 "-- Three-Sixty Grill --": [
                     {
-                        "name": "Grilled Chicken Nachos",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100987*1",
+                        "name": "Meat Lasagna",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100682*5",
                         "dietary": [
-                            "Contains Milk"
-                        ]
-                    },
-                    {
-                        "name": "Salsa Bar Condiments",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101412*1",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free",
-                            "Contains Milk"
+                            "Contains Milk",
+                            "Contains Wheat",
+                            "Contains Soybeans"
                         ]
                     },
                     {
@@ -10043,35 +9146,48 @@
                             "Contains Tree Nuts",
                             "Contains Wheat"
                         ]
+                    },
+                    {
+                        "name": "Vegetable Lasagna",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100665*5",
+                        "dietary": [
+                            "Vegetarian",
+                            "Contains Milk",
+                            "Contains Wheat",
+                            "Contains Soybeans"
+                        ]
                     }
                 ],
                 "-- The Carvery --": [
                     {
-                        "name": "BBQ Pork Baked Beans",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100663*3",
-                        "dietary": []
-                    },
-                    {
-                        "name": "Corn Cobbette",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100975*1",
+                        "name": "Fried Plantains",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100160*4",
                         "dietary": [
                             "Vegan",
                             "Vegetarian",
-                            "Gluten Free",
-                            "Contains Milk"
+                            "Gluten Free"
                         ]
                     },
                     {
                         "name": "Halal Grilled Chicken",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101256*1",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101256*2",
                         "dietary": [
                             "Gluten Free"
                         ]
                     },
                     {
-                        "name": "Kansas City Barbecue Pork",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100518*4",
+                        "name": "Kalua Pork",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101444*4",
                         "dietary": [
+                            "Gluten Free"
+                        ]
+                    },
+                    {
+                        "name": "Roasted Butternut Squash",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=100389*3",
+                        "dietary": [
+                            "Vegan",
+                            "Vegetarian",
                             "Gluten Free"
                         ]
                     }
@@ -10123,61 +9239,17 @@
                 ],
                 "-- Build Your Own Vegan Bowl --": [
                     {
-                        "name": "Alu Chole",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102692*3",
+                        "name": "Vegan Nacho Bar",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101464*1",
                         "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Cooked Farro",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102673*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Contains Wheat"
-                        ]
-                    },
-                    {
-                        "name": "Peas and Carrots",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102001*2",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Red Quinoa",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102675*3",
-                        "dietary": [
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Tomato Chutney",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=102005*1",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
-                        ]
-                    },
-                    {
-                        "name": "Vegetable Pakoras",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=03&locationName=Glasgow&dtdate=05%2f17%2f2026&RecNumAndPort=101775*3",
-                        "dietary": [
-                            "Vegan",
-                            "Vegetarian",
-                            "Gluten Free"
+                            "Gluten Free",
+                            "Contains Soybeans"
                         ]
                     }
                 ]
             }
         }
     },
-    "05/18/2026": {}
+    "05/18/2026": {},
+    "05/19/2026": {}
 }
