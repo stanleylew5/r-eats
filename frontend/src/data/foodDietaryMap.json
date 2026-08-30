@@ -55,15 +55,15 @@
     "Assorted Bagels": [
         "Contains Wheat"
     ],
-    "Old Fashioned Coffee Cake": [
+    "Butter Croissant": [
         "Vegetarian",
         "Contains Milk",
-        "Contains Eggs",
+        "Contains Wheat"
+    ],
+    "Vegan Scone": [
+        "Contains Tree Nuts",
         "Contains Wheat",
         "Contains Soybeans"
-    ],
-    "Palmiers (Orejas)": [
-        "Contains Wheat"
     ],
     "Cantaloupe Slices": [
         "Vegan",
@@ -85,11 +85,7 @@
         "Contains Soybeans",
         "Contains Sesame"
     ],
-    "Watermelon Slices": [
-        "Vegan",
-        "Vegetarian",
-        "Gluten Free"
-    ],
+    "Sliced Honeydew": [],
     "Chicken Tortilla Soup": [],
     "Vegetable Minestrone Soup": [
         "Vegan",
@@ -102,142 +98,6 @@
         "Vegetarian",
         "Gluten Free"
     ],
-    "Tofu with Black Bean Sauce": [
-        "Vegan",
-        "Vegetarian",
-        "Contains Wheat",
-        "Contains Soybeans",
-        "Contains Sesame"
-    ],
-    "Crafted Pepperoni Pizza": [
-        "Contains Milk",
-        "Contains Wheat",
-        "Contains Soybeans"
-    ],
-    "Crafted Veggie Supreme Pizza": [
-        "Vegetarian",
-        "Contains Milk",
-        "Contains Wheat",
-        "Contains Soybeans"
-    ],
-    "Vegan Cheese Pizza": [
-        "Vegan",
-        "Vegetarian",
-        "Contains Tree Nuts",
-        "Contains Wheat",
-        "Contains Soybeans"
-    ],
-    "Chicken Strips": [
-        "Contains Wheat",
-        "Contains Soybeans"
-    ],
-    "French Fries": [
-        "Vegan",
-        "Vegetarian",
-        "Gluten Free"
-    ],
-    "Vegan Breaded Chicken Strip": [
-        "Vegan",
-        "Vegetarian",
-        "Contains Wheat",
-        "Contains Soybeans"
-    ],
-    "Black Beans": [
-        "Vegan",
-        "Vegetarian",
-        "Gluten Free"
-    ],
-    "Coconut Ginger Sticky Rice": [
-        "Vegan",
-        "Vegetarian",
-        "Gluten Free",
-        "Contains Tree Nuts"
-    ],
-    "Jerk Halal Chicken": [
-        "Contains Soybeans"
-    ],
-    "Fresh Baked Assorted Cookies": [
-        "Contains Milk",
-        "Contains Eggs",
-        "Contains Wheat",
-        "Contains Soybeans"
-    ],
-    "Sugar Free Citrus Jello": [],
-    "Vanilla Pudding": [
-        "Contains Milk"
-    ],
-    "Vegan Maple Pecan Cookie": [
-        "Vegan",
-        "Vegetarian",
-        "Contains Tree Nuts",
-        "Contains Wheat"
-    ],
-    "Vegan Nacho Bar": [
-        "Gluten Free",
-        "Contains Tree Nuts",
-        "Contains Soybeans"
-    ],
-    "Chorizo Rice": [],
-    "Spanish Chicken and Sausage Stew": [
-        "Gluten Free"
-    ],
-    "Esquite - Mexican Street Corn": [
-        "Vegetarian",
-        "Gluten Free",
-        "Contains Milk",
-        "Contains Eggs"
-    ],
-    "Korean Barbecue Chicken Wings": [
-        "Contains Wheat",
-        "Contains Soybeans",
-        "Contains Sesame"
-    ],
-    "Korean Pickled Cucumbers": [
-        "Vegan",
-        "Vegetarian",
-        "Contains Wheat",
-        "Contains Soybeans"
-    ],
-    "Shoestring Fries": [
-        "Vegan",
-        "Vegetarian",
-        "Gluten Free"
-    ],
-    "Adobo Barbecue Halal Beef Top Sirloin": [
-        "Gluten Free"
-    ],
-    "Mashed Potatoes": [
-        "Vegetarian",
-        "Gluten Free",
-        "Contains Milk"
-    ],
-    "Roasted Brussels Sprouts": [
-        "Vegan",
-        "Vegetarian",
-        "Gluten Free"
-    ],
-    "Sri Lankan Butter Cake": [
-        "Contains Milk",
-        "Contains Eggs",
-        "Contains Wheat"
-    ],
-    "Vegan Chocolate Chip Cookie": [
-        "Vegan",
-        "Vegetarian",
-        "Contains Milk",
-        "Contains Wheat"
-    ],
-    "Butter Croissant": [
-        "Vegetarian",
-        "Contains Milk",
-        "Contains Wheat"
-    ],
-    "Vegan Scone": [
-        "Contains Tree Nuts",
-        "Contains Wheat",
-        "Contains Soybeans"
-    ],
-    "Sliced Honeydew": [],
     "Jasmine Rice": [
         "Vegan",
         "Vegetarian",
@@ -254,6 +114,12 @@
         "Contains Soybeans"
     ],
     "Crafted Meat Lovers Pizza": [
+        "Contains Milk",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "Crafted Veggie Supreme Pizza": [
+        "Vegetarian",
         "Contains Milk",
         "Contains Wheat",
         "Contains Soybeans"
@@ -285,12 +151,23 @@
         "Gluten Free"
     ],
     "Berry Blue Jello": [],
+    "Fresh Baked Assorted Cookies": [
+        "Contains Milk",
+        "Contains Eggs",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
     "Sugar Free Berry Jello": [],
     "Vegan Walnut Brownie": [
         "Vegan",
         "Vegetarian",
         "Contains Tree Nuts",
         "Contains Wheat"
+    ],
+    "Vegan Nacho Bar": [
+        "Gluten Free",
+        "Contains Tree Nuts",
+        "Contains Soybeans"
     ],
     "Pad Thai Noodles with Halal Chicken & Peanuts": [
         "Gluten Free",
@@ -312,6 +189,11 @@
         "Contains Milk",
         "Contains Wheat",
         "Contains Soybeans"
+    ],
+    "French Fries": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten Free"
     ],
     "Halal Beef Sloppy Joe Slider": [
         "Contains Milk",
@@ -416,6 +298,13 @@
         "Vegetarian",
         "Contains Milk",
         "Contains Wheat"
+    ],
+    "Vegan Cheese Pizza": [
+        "Vegan",
+        "Vegetarian",
+        "Contains Tree Nuts",
+        "Contains Wheat",
+        "Contains Soybeans"
     ],
     "Chicken Cordon Bleu Slider": [
         "Contains Milk",
@@ -541,6 +430,12 @@
         "Contains Wheat",
         "Contains Soybeans"
     ],
+    "Vegan Chocolate Chip Cookie": [
+        "Vegan",
+        "Vegetarian",
+        "Contains Milk",
+        "Contains Wheat"
+    ],
     "French Toast Sticks": [
         "Vegetarian",
         "Contains Wheat",
@@ -575,6 +470,11 @@
         "Contains Wheat",
         "Contains Soybeans"
     ],
+    "Crafted Pepperoni Pizza": [
+        "Contains Milk",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
     "Halal Beef Baked Ziti": [
         "Contains Milk",
         "Contains Wheat"
@@ -602,6 +502,7 @@
         "Contains Wheat",
         "Contains Soybeans"
     ],
+    "Sugar Free Citrus Jello": [],
     "Vegan Oreo Brownie": [
         "Vegan",
         "Vegetarian",
@@ -913,6 +814,13 @@
         "Contains Wheat",
         "Contains Soybeans"
     ],
+    "Old Fashioned Coffee Cake": [
+        "Vegetarian",
+        "Contains Milk",
+        "Contains Eggs",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
     "Vegan Chocolate Chip Muffin": [
         "Vegan",
         "Vegetarian",
@@ -1061,6 +969,11 @@
         "Contains Wheat",
         "Contains Soybeans"
     ],
+    "Watermelon Slices": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten Free"
+    ],
     "New England Clam Chowder": [
         "Contains Milk",
         "Contains Fish",
@@ -1122,6 +1035,9 @@
         "Contains Milk",
         "Contains Eggs",
         "Contains Wheat"
+    ],
+    "Vanilla Pudding": [
+        "Contains Milk"
     ],
     "Vegan Chocolate Cupcake": [
         "Vegan",
@@ -1296,6 +1212,11 @@
         "Gluten Free",
         "Contains Milk"
     ],
+    "Sri Lankan Butter Cake": [
+        "Contains Milk",
+        "Contains Eggs",
+        "Contains Wheat"
+    ],
     "Vegan Vanilla Cupcake": [
         "Vegan",
         "Vegetarian",
@@ -1313,6 +1234,9 @@
         "Contains Eggs",
         "Contains Wheat",
         "Contains Soybeans"
+    ],
+    "Palmiers (Orejas)": [
+        "Contains Wheat"
     ],
     "Apple Cranberry Salad": [
         "Vegetarian",
@@ -1470,6 +1394,12 @@
     "Orange Jello": [
         "Gluten Free"
     ],
+    "Vegan Maple Pecan Cookie": [
+        "Vegan",
+        "Vegetarian",
+        "Contains Tree Nuts",
+        "Contains Wheat"
+    ],
     "Braised Chick Peas": [
         "Vegan",
         "Vegetarian",
@@ -1509,6 +1439,12 @@
         "Contains Wheat",
         "Contains Soybeans",
         "Contains Sesame"
+    ],
+    "Korean Pickled Cucumbers": [
+        "Vegan",
+        "Vegetarian",
+        "Contains Wheat",
+        "Contains Soybeans"
     ],
     "Chocolate Whoopie": [
         "Vegetarian",
@@ -1669,11 +1605,21 @@
         "Contains Soybeans",
         "Contains Sesame"
     ],
+    "Shoestring Fries": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten Free"
+    ],
     "Texas Grilled Cheese": [
         "Vegetarian",
         "Contains Milk",
         "Contains Wheat",
         "Contains Soybeans"
+    ],
+    "Roasted Brussels Sprouts": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten Free"
     ],
     "Tango BBQ Chicken Thighs": [
         "Gluten Free"
@@ -1852,5 +1798,104 @@
     "Matcha Panna Cotta": [
         "Gluten Free",
         "Contains Milk"
+    ],
+    "Marble Loaf Cake": [
+        "Vegetarian",
+        "Contains Milk",
+        "Contains Eggs",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "Vegan Chocolate Peanut Butter Loaf": [
+        "Vegan",
+        "Vegetarian",
+        "Contains Peanuts",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "Mozzarella Flat Bread Pizza": [
+        "Vegetarian",
+        "Contains Milk",
+        "Contains Wheat"
+    ],
+    "Southwestern Cheesesteak Sandwich": [
+        "Contains Milk",
+        "Contains Eggs",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "Vegetarian Philly Sandwich": [
+        "Vegetarian",
+        "Contains Milk",
+        "Contains Eggs",
+        "Contains Tree Nuts",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "Saffron Rice": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten Free"
+    ],
+    "Steamed Zucchini": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten Free"
+    ],
+    "Tandoori Rotisserie Halal Chicken": [
+        "Gluten Free",
+        "Contains Milk"
+    ],
+    "Plantspired Bulgogi Beef Lomo Saltado": [
+        "Vegetarian",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "BBQ Ranch Chicken Flat Bread Pizza": [
+        "Contains Milk",
+        "Contains Eggs",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "BBQ Ranch Soy Chicken Flat Bread Pizza": [
+        "Vegetarian",
+        "Contains Milk",
+        "Contains Eggs",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "Ensenada Beans": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten Free"
+    ],
+    "Green Chilaquiles": [
+        "Vegetarian",
+        "Gluten Free",
+        "Contains Milk"
+    ],
+    "Pork Chile Verde": [],
+    "Vegetarian Soy Chicken Fajita": [
+        "Vegan",
+        "Vegetarian",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "BBQ Pork Baked Beans": [],
+    "Fresh Baked Buttermilk Biscuit": [
+        "Vegetarian",
+        "Contains Milk",
+        "Contains Wheat"
+    ],
+    "Peanut Butter Cake": [
+        "Vegetarian",
+        "Contains Milk",
+        "Contains Eggs",
+        "Contains Peanuts",
+        "Contains Wheat",
+        "Contains Soybeans"
+    ],
+    "Vegan Fudge Brownie": [
+        "Contains Wheat"
     ]
 }
