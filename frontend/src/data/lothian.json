@@ -1,5 +1,4 @@
 {
-    "09/18/2026": {},
     "09/19/2026": {},
     "09/20/2026": {
         "Lothian": {
@@ -1138,20 +1137,23 @@
                 ],
                 "-- Village Garden --": [
                     {
-                        "name": "Spicy Tofu Sushi Bowl",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f22%2f2026&RecNumAndPort=101504*1",
+                        "name": "Spicy Crab Sushi Bowl",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f22%2f2026&RecNumAndPort=102664*1",
                         "dietary": [
-                            "Vegan",
-                            "Vegetarian",
+                            "Contains Eggs",
+                            "Contains Fish",
+                            "Contains Crustacean Shellfish",
+                            "Contains Wheat",
                             "Contains Soybeans",
                             "Contains Sesame"
                         ]
                     },
                     {
-                        "name": "Spicy Tuna Bowl",
-                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f22%2f2026&RecNumAndPort=101508*1",
+                        "name": "Spicy Tofu Sushi Bowl",
+                        "nutrition": "https://foodpro.ucr.edu/foodpro/label.aspx?locationNum=02&locationName=Lothian&dtdate=09%2f22%2f2026&RecNumAndPort=101504*1",
                         "dietary": [
-                            "Contains Fish",
+                            "Vegan",
+                            "Vegetarian",
                             "Contains Soybeans",
                             "Contains Sesame"
                         ]
@@ -7173,5 +7175,6 @@
                 ]
             }
         }
-    }
+    },
+    "10/03/2026": {}
 }
